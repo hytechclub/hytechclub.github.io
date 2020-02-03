@@ -10,3 +10,4 @@ Welcome to Hy-Tech Club!
 
 ## Resources
 - [hylandtechclub.com](http://hylandtechclub.com)
+- [ClassDojo Account Setup](/ClassDojoAccount)
