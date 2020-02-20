@@ -9,5 +9,5 @@ Welcome to Hy-Tech Club!
 - [Web 201](/web-201)
 
 ## Resources
-- [hylandtechclub.com](http://hylandtechclub.com)
+- [ShareBase](https://app.sharebase.com/#/folder/26335/share/3-Q4MGVy-o4pIh6XTgCv-HN8UXY80_)
 - [ClassDojo Account Setup](/ClassDojoAccount)
