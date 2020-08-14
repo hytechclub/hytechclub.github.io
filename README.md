@@ -11,4 +11,3 @@ Welcome to Hy-Tech Club!
 ## Resources
 - [ShareBase](https://app.sharebase.com/#/folder/26335/share/3-Q4MGVy-o4pIh6XTgCv-HN8UXY80_)
 - [ClassDojo Account Setup](/ClassDojoAccount)
-- [Fall 2020 Former Student Information](/Fall2020FormerStudents.md)
