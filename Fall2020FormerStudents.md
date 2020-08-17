@@ -47,6 +47,16 @@ _The above course offerings are subject to change based on enrollment for Fall 2
 
 We may recommend students retake a course to ensure all students fully understand what they’re learning. We do not intend to move students forward just to move them forward. We are truly invested in making sure you have a valuable experience in Hy-Tech Club, and hope you feel we’re setting you up for success. If you have any questions regarding your course placement for this semester, please do not hesitate to send us an e-mail.
 
+### Required Student Resources 
+In order to successfully participate in Virtual Hy-Tech Club, students must have access to the following:
+
+- **Internet**
+- **Laptop, desktop PC or Chromebook**
+  - A Chromebook screen may make it difficult to watch the Zoom meeting and code at the same time. A second device may be recommended in order to do both at the same time. 
+  - **Unfortunately, Chromebooks are not equipped to support content covered in C# 201 and Software Development Capstone due to their limited functionality. Students in those classes should have either a laptop or desktop PC.**
+- **Microphone or other audio equipment**
+  - If students don't have a microphone attached to their computer, they can connect to audio via phone. 
+
 **Applications are due Tuesday, September 22, 2020.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. **Students will receive notifications about our decision within 3-5 business days from submitting their application.** Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on September 29 or 30, depending on your course assignment.**
 
 Applications are open to the public, and we encourage you to tell your friends & family about Virtual Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
