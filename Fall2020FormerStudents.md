@@ -61,6 +61,6 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 
 Applications are open to the public, and we encourage you to tell your friends & family about Virtual Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
-<a style="font-size:28px" href="https://www.surveygizmo.com/s3/5757352/Fall-2020-Virtual-Hy-Tech-Club-Application">APPLY HERE</a>
+<a style="font-size:28px;font-weight:bold" href="https://www.surveygizmo.com/s3/5757352/Fall-2020-Virtual-Hy-Tech-Club-Application">APPLY HERE</a>
 
 Thank you!
