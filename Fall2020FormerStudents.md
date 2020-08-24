@@ -57,7 +57,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Microphone or other audio equipment**
   - If students don't have a microphone attached to their computer, they can connect to audio via phone. 
 
-**Applications are due Tuesday, September 22, 2020.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. **Students will receive notifications about our decision within 3-5 business days from submitting their application.** Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on September 29 or 30, depending on your course assignment.**
+**Applications are due Tuesday, September 22, 2020.** You will receive a confirmation notification via the e-mail address on your application within 3-5 business days after submitting an application. We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on September 29 or 30, depending on your course assignment.**
 
 Applications are open to the public, and we encourage you to tell your friends & family about Virtual Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
