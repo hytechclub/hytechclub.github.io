@@ -6,12 +6,12 @@ We understand that each student’s availability will look different this upcomi
 - The schedule will be finalized based on the majority of student availability.
 
 ## Fall 2020 Virtual Course Offerings 
-- **Web 101:** HTML & CSS
-- **Web 102:** JavaScript
-- **C# 101:** Intro to C#
-- **C# 102:** Continuation of C# 101
-- **C# 201:** Game Development with C#
-- **Software Development Capstone**
+- **Web 101:** HTML & CSS _(Wednesdays)_
+- **Web 102:** JavaScript _(day TBD)_
+- **C# 101:** Intro to C# _(day TBD)_
+- **C# 102:** Continuation of C# 101 _(day TBD)_
+- **C# 201:** Game Development with C# _(Tuesdays)_
+- **Software Development Capstone** _(day TBD)_
 
 _The above course offerings are subject to change based on enrollment for Fall 2020. If there are not enough students to fill a course section, the course may be cancelled and students will be notified._
 
