@@ -41,25 +41,32 @@ Below are the invite links for each course's server. If you attempt to join a se
 ## Setup
 To use Discord, you must first set it up. Start by clicking the invite link for your course (above), and then follow the steps below.
 
-**Enter your _first and last name_ and click the "Continue" button to create an account.**
+**Enter your _first and last name_ and click the "Continue" button to create an account.**  
+
 ![](https://i.imgur.com/XS89vit.png)
 
 >Note that if you already have an account, you can use it, but be sure to [change your nickname](https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames) to your real first and last name.
 
-**On the next screen, enter your birthday.** Note that you will not be able to use Discord if you are under 13 years of age.
+**On the next screen, enter your birthday.** Note that you will not be able to use Discord if you are under 13 years of age.  
+
 ![](https://i.imgur.com/1gbLlDP.png)
 
-If you did not already have an account, there should be an orange bar at the top of the page. **Click on the "Claim Account" button to make sure your new account is not lost.**
+If you did not already have an account, there should be an orange bar at the top of the page. **Click on the "Claim Account" button to make sure your new account is not lost.**  
+
 ![](https://i.imgur.com/HpC9RBz.png)
 
-**In the window that appears, enter your email address and a password, then click the "Claim Account" button to claim your account.**
+**In the window that appears, enter your email address and a password, then click the "Claim Account" button to claim your account.**  
+
 ![](https://i.imgur.com/jYfZkSw.png)
 
-An email verification message should appear.
+An email verification message should appear.  
+
 ![](https://i.imgur.com/3x9nVC9.png)
 
-**Open your email account, and there should be a new message from Discord. Open the message, and click the "Verify Email" button.**
+**Open your email account, and there should be a new message from Discord. Open the message, and click the "Verify Email" button.**  
+
 ![](https://i.imgur.com/QfAuRg5.png)
 
-Clicking the button should open a webpage. There should be an "Email Verified" message. **Click the "Continue to Discord" button to continue.**
+Clicking the button should open a webpage. There should be an "Email Verified" message. **Click the "Continue to Discord" button to continue.**  
+
 ![](https://i.imgur.com/3ecrb4k.png)
