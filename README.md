@@ -17,3 +17,5 @@ The club will hold weekly office hours on Thursdays via **Zoom**, from 4:00 p.m.
 ## Resources
 - [Viewing Points in ClassDojo](/ClassDojoPoints)
 - [Using Discord](/DiscordUse)
+
+Feel free to email [techoutreach@hyland.com](mailto:techoutreach@hyland.com) with any questions or concerns.
