@@ -7,6 +7,7 @@ Welcome to Hy-Tech Club!
 - [C# 101](/cs-101)
 - [C# 102](/cs-102)
 - [C# 201](/cs-201)
+- [Capstone](/capstone)
 
 ## Resources
 - [Viewing Points in ClassDojo](/ClassDojoPoints)
