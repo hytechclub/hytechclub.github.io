@@ -7,11 +7,11 @@ We understand that each student’s availability will look different this upcomi
 
 ## Fall 2020 Virtual Course Offerings 
 - **Web 101:** HTML & CSS _(Wednesdays)_
-- **Web 102:** JavaScript _(day TBD)_
-- **C# 101:** Intro to C# _(day TBD)_
-- **C# 102:** Continuation of C# 101 _(day TBD)_
+- **Web 102:** JavaScript _(Wednesdays)_
+- **C# 101:** Intro to C# _(Wednesdays)_
+- **C# 102:** Continuation of C# 101 _(Tuesdays)_
 - **C# 201:** Game Development with C# _(Tuesdays)_
-- **Software Development Capstone** _(day TBD)_
+- **Software Development Capstone** _(Wednesdays)_
 
 _The above course offerings are subject to change based on enrollment for Fall 2020. If there are not enough students to fill a course section, the course may be cancelled and students will be notified._
 
@@ -61,6 +61,6 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 
 Applications are open to the public, and we encourage you to tell your friends & family about Virtual Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
-<a style="font-size:28px;font-weight:bold" href="https://www.surveygizmo.com/s3/5757352/Fall-2020-Virtual-Hy-Tech-Club-Application">APPLY HERE</a>
+**Applications are now closed.**
 
 Thank you!
