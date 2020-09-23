@@ -9,5 +9,5 @@ Welcome to Hy-Tech Club!
 - [C# 201](/cs-201)
 
 ## Resources
-- [ShareBase](https://app.sharebase.com/#/folder/26335/share/3-Q4MGVy-o4pIh6XTgCv-HN8UXY80_)
-- [ClassDojo Account Setup](/ClassDojoAccount)
+- [Viewing Points in ClassDojo](/ClassDojoPoints)
+- [Using Discord](/DiscordUse)
