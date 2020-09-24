@@ -5,8 +5,8 @@ We encourage you to use whatever device setup works best for you. That said, we 
 We understand that not all students have webcams, but if you do, please keep your webcam **on**. This makes it much easier for your instructors to teach.
 
 We ask that you either:
-    - Turn on your video
-    - Set a profile picture for your Zoom account
+- Turn on your video
+- Set a profile picture for your Zoom account
 
 This will help the instructors get to know you better on an individual basis.
 
