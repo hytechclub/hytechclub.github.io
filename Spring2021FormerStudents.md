@@ -2,7 +2,7 @@
 We are excited to announce that Hyland will be offering Virtual Hy-Tech Club once again for the upcoming Spring semester. We hope you are able to join us in a virtual format this Spring. 
 
 We understand that each student's availability will look different this upcoming Spring semester, and we will try to be as flexible as possible with our schedule. During the application process students are asked to indicate their availability. 
-- The Club will meet on either Tuesdays or Wednesdays, from either 4-6PM ET. 
+- The Club will meet on either Tuesdays or Wednesdays, from 4-6PM ET. 
 - The schedule will be finalized based on the majority of student availability.
 
 ## Spring 2021 Virtual Course Offerings 
@@ -12,7 +12,7 @@ We understand that each student's availability will look different this upcoming
 - **C# 101:** Intro to Programming in C# _(day TBD)_
 - **C# 102:** Continuation of C# 101 _(day TBD)_
 - **Python 201:** Advanced Python Possibilities _(day TBD)_
-  - _Note that there is **not** a "Python 101" pre-requisite for this course_
+  - _**Note:** There is **not** a "Python 101" pre-requisite for this course_
 
 _The above course offerings are subject to change based on enrollment for Spring 2021. If there are not enough students to fill a course section, the course may be cancelled and students will be notified._
 
@@ -58,9 +58,9 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Laptop, desktop PC or Chromebook**
   - A Chromebook screen may make it difficult to watch the Zoom meeting and code at the same time. A second device may be recommended in order to do both at the same time. 
 - **Microphone or other audio equipment**
-  - If students don't have a microphone attached to their computer, they can connect to audio via phone. 
+  - If students don't have a microphone attached to their computer, they are required to connect to audio via phone. 
 
-**Applications are due Wednesday, February 10, 2021.** You will receive a confirmation notification via the e-mail address on your application within 3-5 business days after submitting an application. We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on February 16 or 17, depending on your course assignment.**
+**Applications are due by 11:59PM ET Wednesday, February 10, 2021. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on February 16 or 17, depending on your course assignment.**
 
 Applications are open to the public, and we encourage you to tell your friends & family about Virtual Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
