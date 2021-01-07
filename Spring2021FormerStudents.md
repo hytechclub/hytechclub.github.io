@@ -62,7 +62,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 
 **Applications are due by 11:59PM ET Wednesday, February 10, 2021. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on February 16 or 17, depending on your course assignment.**
 
-[Apply Here!](https://survey.alchemer.com/s3/6067790/Spring-2021-Virtual-Hy-Tech-Club-Application)
+[Former Students Only: Apply Here](https://survey.alchemer.com/s3/6067790/Spring-2021-Virtual-Hy-Tech-Club-Application)
 
 Applications are open to the public, and we encourage you to tell your friends & family about Virtual Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
