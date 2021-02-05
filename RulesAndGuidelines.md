@@ -5,6 +5,18 @@ Be sure to follow all of the rules and guidelines below when participating in Hy
 - Attend meetings every week, and email [techoutreach@hyland.com](mailto:techoutreach@hyland.com) to notify us if you will miss a week
 - Speak up and let instructors know if they are moving too quickly
 - Do not say or do anything you would not do in a school classroom
+- Respond to private messages in the Zoom chat
+- Pay attention and follow-along during the meeting
+
+## Escalation Plan
+Your success is our highest priority. If we find that you are struggling, we will do our best to remedy the issue.
+
+- If you are not responsive to a private message in the Zoom chat, we will try to get your attention out loud
+- If you are not responsive at that point, we will create a Zoom breakout room to meet with you
+- If the issue continues, we will follow up by e-mailing you and your parent/guardian
+- If we have any persistent issues, we will reach out to your parent/guardian directly
+
+This plan is not in place to punish you; we just want to do everything you can to make sure you have a positive learning experience.
 
 ## Screen Sharing
 We expect **ALL** students to share their screens during self-paced work. This will allow the instructors to help each student, and have some visibility into how the class is doing overall. If you would like, you can choose to share only one window of your screen (e.g. a browser window). We do not want to spy on you; we just want to make sure we can track your progress!

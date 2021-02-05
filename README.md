@@ -11,8 +11,7 @@ The club will hold weekly office hours on Thursdays via **Zoom**, from 4:00 p.m.
 - [Web 102](/web-102)
 - [C# 101](/cs-101)
 - [C# 102](/cs-102)
-- [C# 201](/cs-201)
-- [Capstone](/capstone)
+- [Py 201](/py-201)
 
 ## Resources
 - [Virtual Icebreaker](/VirtualIcebreaker)
