@@ -31,12 +31,11 @@ This channel is reserved for general chat. It should mainly be used for conversa
 ## Invite Links
 Below are the invite links for each course's server. If you attempt to join a server for a course you are not taking, you will be kicked out.
 
-- [Web 101](https://discord.gg/GwpFhcX)
-- [Web 102](https://discord.gg/ss7Unvt)
-- [C# 101](https://discord.gg/ZVG3nQj)
-- [C# 102](https://discord.gg/5ef38Fm)
-- [C# 201](https://discord.gg/HUnT8vv)
-- [Capstone](https://discord.gg/98vjgN2)
+- [Web 101](https://discord.gg/g2hTN87EYq)
+- [Web 102](https://discord.gg/UNmv3yxjPp)
+- [C# 101](https://discord.gg/nK2f98kFDM)
+- [C# 102](https://discord.gg/K8WsU3mrrY)
+- [Py 201](https://discord.gg/9TkbUKRxyP)
 
 ## Setup
 To use Discord, you must first set it up. Start by clicking the invite link for your course (above), and then follow the steps below.
