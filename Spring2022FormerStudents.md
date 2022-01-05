@@ -2,8 +2,9 @@
 We are excited to announce that Hyland will be offering Hy-Tech Club once again for the upcoming Spring semester. We hope you are able to join us in-person at Hyland’s Headquarters in Westlake, Ohio!
 
 - Hy-Tech Club will meet on Tuesdays from March 1st - May 17th
-  - _**<ins>Important Note:</ins> Web 101** is the **<ins>only</ins>** course that is being offered **virtually and in-person**. Web 101 will meet from **5:30-7:30pm ET via Zoom**._
-  - **C# 101 and Web 201** are both **in-person only** and will take place from **5:00-7:30pm ET** at **Hyland's Global Headquarters in Westlake, Ohio**
+  - _**<ins>Important Note:</ins> Web 101** is the **<ins>only</ins>** course that is being offered both **virtually and in-person**._
+  - Students who attend in-person at Hyland will meet from 5-7:30PM ET. Students who attend Web 101 virtually will log onto Zoom from 5:30-7:30PM ET.
+  - Dinner will be served for students in-person at Hyland from 5-5:30PM ET.
 - _Note: There will be no 'Spring Break' week off this semester. Students are expected inform instructors prior to their absence and should catch up on any material missed should they miss a session prior to the upcoming meeting_
 
 ## Spring 2022 Course Offerings 
@@ -40,9 +41,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Microphone or other audio equipment**
   - If students don't have a microphone attached to their computer, they are required to connect to audio via phone. 
 
-**Applications are due by 11:59PM ET Monday, February 21, 2022. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on March 1, 2022.**
-
-[Former Students Only: Apply Here](https://survey.alchemer.com/s3/6668619/Spring-2022-Former-Hy-Tech-Club-Student-Application)
+**Applications open on January 17. Applications are due by 11:59PM ET Monday, February 21, 2022.** Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application. We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on March 1, 2022.**
 
 Applications are open to the public, and we encourage you to tell your friends & family about Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
