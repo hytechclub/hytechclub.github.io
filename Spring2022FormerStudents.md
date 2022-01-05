@@ -40,7 +40,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Microphone or other audio equipment**
   - If students don't have a microphone attached to their computer, they are required to connect to audio via phone. 
 
-**Applications are due by 11:59PM ET Monday, February 7, 2022. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on March 1, 2022.**
+**Applications are due by 11:59PM ET Monday, February 21, 2022. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on March 1, 2022.**
 
 [Former Students Only: Apply Here](https://survey.alchemer.com/s3/6668619/Spring-2022-Former-Hy-Tech-Club-Student-Application)
 
