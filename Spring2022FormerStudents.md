@@ -1,8 +1,8 @@
 # Spring 2022 Hy-Tech Club Application: Information for Former Students
 We are excited to announce that Hyland will be offering Hy-Tech Club once again for the upcoming Spring semester. We hope you are able to join us in-person at Hyland’s Headquarters in Westlake, Ohio!
 
-- Hy-Tech Club will meet on Tuesdays from February 15th - May 3rd
-  - _**<ins>Important Note:</ins> Web 101** is the **<ins>only</ins>** course that is being offered **virtually and in-person**. Web 101 will meet from **5:40-7:30pm ET via Zoom**._
+- Hy-Tech Club will meet on Tuesdays from March 1st - May 17th
+  - _**<ins>Important Note:</ins> Web 101** is the **<ins>only</ins>** course that is being offered **virtually and in-person**. Web 101 will meet from **5:30-7:30pm ET via Zoom**._
   - **C# 101 and Web 201** are both **in-person only** and will take place from **5:00-7:30pm ET** at **Hyland's Global Headquarters in Westlake, Ohio**
 - _Note: There will be no 'Spring Break' week off this semester. Students are expected inform instructors prior to their absence and should catch up on any material missed should they miss a session prior to the upcoming meeting_
 
@@ -40,7 +40,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Microphone or other audio equipment**
   - If students don't have a microphone attached to their computer, they are required to connect to audio via phone. 
 
-**Applications are due by 11:59PM ET Monday, February 7, 2022. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on February 15, 2022.**
+**Applications are due by 11:59PM ET Monday, February 7, 2022. Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days from submitting their application.** We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on March 1, 2022.**
 
 [Former Students Only: Apply Here](https://survey.alchemer.com/s3/6668619/Spring-2022-Former-Hy-Tech-Club-Student-Application)
 
