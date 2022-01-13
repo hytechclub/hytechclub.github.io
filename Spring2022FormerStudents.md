@@ -27,7 +27,7 @@ _The above course offerings are subject to change based on enrollment for Spring
 - **C# 101** may be recommended for students who could benefit from reviewing basic C# concepts
 - **Web 201** may be offered depending on assessment results
 
-<ins>**If you most recently took C# 102, C# 201, Software Development Capstone, or Web 201:**</ins>
+<ins>**If you most recently took C# 102, C# 201, Software Development Capstone, Python 201, or Web 201:**</ins>
 - **Web 201** may be recommended for students who have a proven proficiency in programming and would like to learn or practice full-stack web development
 
 We may recommend students retake a course to ensure all students fully understand what they are learning. We do not intend to move students forward just to move them forward. We are truly invested in making sure you have a valuable experience in Hy-Tech Club, and hope you feel we are setting you up for success. If you have any questions regarding your course placement for this semester, please do not hesitate to send us an e-mail.
