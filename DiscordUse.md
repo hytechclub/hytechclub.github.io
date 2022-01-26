@@ -41,7 +41,7 @@ Students should ask questions related to course material in this channel. Instru
 
 ## Invite Link
 
-Join the server via this link: https://discord.gg/pBeXuRekmd
+Join the server by clicking [this link](https://discord.gg/pBeXuRekmd).
 
 ## Setup
 To use Discord, you must first set it up. Start by clicking the invite link, and then follow the steps below.
