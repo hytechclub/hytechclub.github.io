@@ -13,59 +13,65 @@ As noted in the parental consent form that was signed by Parents or Guardians pr
 - Please be respectful of all students and instructors while communicating on Discord.
 - Instructors will check Discord throughout the week during business hours, so feel free to post any time!
 
-## Server Channels
-There are several channels in each server. Please be mindful of each channel's purpose.
+## Server Categories & Channels
+Unlike previous semesters, this semester will only have _one_ Discord Server for the whole of Hy-Tech Club. This means that students will be able to interact across courses.
+
+There are several channels in the server. Please be mindful of each channel's purpose.
+
+### ALL Category
+Channels in the **ALL** category are available to _all_ students in Hy-Tech Club, from any course.
 
 #### announcements
 Instructors will post important messages in this channel. Students will not be able to post.
 
-#### questions
-Students should ask questions related to course material in this channel. Instructors (and other students) will do their best to answer these questions. Note that the answers to the questions should be focused on learning; try to use leading questions or background explanations rather than simply providing a code solution.
+#### chat
+Students can use this channel to connect with each other socially. Conversations should be appropriate and relevant to the club, and can be a good way for students to get to know each other.
 
 #### code-sharing
 Students should use this channel to share what they have built. If there is anything you want to show off, feel free to post it!
 
+### Course-Specific Categories
+There will be one category for each course. Each of these categories will contain channels specific to the students and instructors from the course.
+
 #### general
-This channel is reserved for general chat. It should mainly be used for conversations about Hy-Tech Club, but it can also be a place for students to get to know each other.
+This channel is reserved for general chat. It should mainly be used for conversations about Hy-Tech Club.
 
-## Invite Links
-Below are the invite links for each course's server. If you attempt to join a server for a course you are not taking, you will be kicked out.
+#### questions
+Students should ask questions related to course material in this channel. Instructors (and other students) will do their best to answer these questions. Note that the answers to the questions should be focused on learning; try to use leading questions or background explanations rather than simply providing a code solution.
 
-- [Web 101](https://discord.gg/g2hTN87EYq)
-- [Web 102](https://discord.gg/UNmv3yxjPp)
-- [C# 101](https://discord.gg/nK2f98kFDM)
-- [C# 102](https://discord.gg/K8WsU3mrrY)
-- [Py 201](https://discord.gg/9TkbUKRxyP)
+## Invite Link
+
+Join the server via this link: https://discord.gg/pBeXuRekmd
 
 ## Setup
-To use Discord, you must first set it up. Start by clicking the invite link for your course (above), and then follow the steps below.
+To use Discord, you must first set it up. Start by clicking the invite link, and then follow the steps below.
 
 **Enter your _first and last name_ and click the "Continue" button to create an account.**  
 
-![](https://i.imgur.com/XS89vit.png)
+![](https://i.imgur.com/psOjLuG.png)
 
 >Note that if you already have an account, you can use it, but be sure to [change your nickname](https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames) to your real first and last name.
 
+**Next, complete the Captcha if necessary.**
+
+![](https://i.imgur.com/43L8YHd.png)
+
 **On the next screen, enter your birthday.** Note that you will not be able to use Discord if you are under 13 years of age.  
 
-![](https://i.imgur.com/1gbLlDP.png)
+![](https://i.imgur.com/yXs5XFg.png)
 
-If you did not already have an account, there should be an orange bar at the top of the page. **Click on the "Claim Account" button to make sure your new account is not lost.**  
+**On the next pop-up, enter an e-mail and password.** Be sure to remember your password.
 
-![](https://i.imgur.com/HpC9RBz.png)
-
-**In the window that appears, enter your email address and a password, then click the "Claim Account" button to claim your account.**  
-
-![](https://i.imgur.com/jYfZkSw.png)
+![](https://i.imgur.com/CQvdSTB.png)
 
 An email verification message should appear.  
 
-![](https://i.imgur.com/3x9nVC9.png)
+![](https://i.imgur.com/f908dkS.png)
 
 **Open your email account, and there should be a new message from Discord. Open the message, and click the "Verify Email" button.**  
 
-![](https://i.imgur.com/QfAuRg5.png)
+![](https://i.imgur.com/NjYMHRO.png)
 
 Clicking the button should open a webpage. There should be an "Email Verified" message. **Click the "Continue to Discord" button to continue.**  
 
-![](https://i.imgur.com/3ecrb4k.png)
+![](https://i.imgur.com/BE36s1P.png)
