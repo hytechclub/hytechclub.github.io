@@ -17,5 +17,8 @@ Feel free to email [techoutreach@hyland.com](mailto:techoutreach@hyland.com) wit
 ## Final Project Submission
 Please submit your final project for this semester through this form: [https://forms.gle/UKj962XjEqNfDGdt7](https://forms.gle/UKj962XjEqNfDGdt7)
 
+## End-of-Semester Survey
+We value your feedback! Please complete this survey to help us understand your experience, and see how we might be able to make Hy-Tech Club even better next time around: https://survey.alchemer.com/s3/6867364/Hy-Tech-Club-Spring-2022-Student-Feedback
+
 ## Senior Survey 2022
 If you are a senior and will be done with high school after Spring 2022, please complete this survey for us: [https://forms.gle/PCmviZs3e49XqaWY8](https://forms.gle/PCmviZs3e49XqaWY8)
