@@ -3,9 +3,9 @@ We are excited to announce that Hyland will be offering Hy-Tech Club once again 
 
 - Hy-Tech Club will meet weekly on Tuesdays from September 20th - December 13th
   - _<ins>Important Note:</ins> This semester, **all courses** will be offered both **virtually and in-person**._
-  - Students who attend in-person at Hyland will meet from 5-7:30PM ET. Students who attend Web 101 virtually will log onto Zoom from 5:30-7:30PM ET.
+  - Students who attend in-person at Hyland will meet from 5-7:30PM ET. Students who attend virtually will log onto Zoom from 5:30-7:30PM ET.
   - Dinner will be served for students in-person at Hyland from 5-5:30PM ET.
-- _Note: There will be one week off this semester: the Tuesday before Thanksgiving (November 22nd). Apart from that, students are expected inform instructors prior to any planned absence and should catch up on material they missed._
+- _Note: There will be one week off this semester: the Tuesday before Thanksgiving (November 22nd). Apart from that, students are expected to inform instructors prior to any planned absence(s) and should catch up on material they missed._
 
 ## Spring 2022 Course Offerings 
 - **Web 101:** HTML & CSS
@@ -17,7 +17,7 @@ _The above course offerings are subject to change based on enrollment for Fall 2
 ### Software Development Capstone
 In the capstone course, students will work on one long-term project for the entirety of the semester. There may be some instructor-led lessons scattered throughout the course, but most of the time will be spent working individually or as teams to build software applications.
 
-This semester, the course may be offered to a wider variety of students than it has in the past. Traditionally, this has been a more advanced course. However, we may allow any former student to participate, given that they are self-motivated, well-behaved, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. There may be additional fitness assessments given as well.
+This semester, the course may be offered to a wider variety of students than it has in the past. Traditionally, this has been a more advanced course. However, we may allow any former student to participate, given that they are self-motivated, well-behaved, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. There may be additional skill assessments given as well.
 
 ### Which course are you eligible to take as a former student?
 
@@ -47,7 +47,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Microphone or other audio equipment**
   - If students don't have a microphone attached to their computer, they are required to connect to audio via phone. 
 
-**Applications open on Monday, August 15th. Applications are due by 11:59PM ET Tuesday, September 13th, 2022.** Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days of their submission. We will review all applications and consult with your former instructors to make sure we make the best decision for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on Tuesday, September 20th, 2022.**
+**Applications open on Monday, August 15th. Applications are due by 11:59PM ET Tuesday, September 13th, 2022.** Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days of their submission. We will review all applications and consult with your former instructors _(if applicable)_ to make sure the best decision is made for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on Tuesday, September 20th, 2022.**
 
 Applications are open to the public, and we encourage you to tell your friends & family about Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
