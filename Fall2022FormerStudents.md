@@ -29,11 +29,7 @@ This semester, the course may be offered to a wider variety of students than it 
 - **Web 102** may be recommended for students who could benefit from retaking the course
 - **Software Development Capstone** may be recommended for students who would be able to participate
 
-<ins>**If you most recently took C# 101:**</ins>
-- **C# 101** may be recommended for students who could benefit from reviewing basic C# concepts
-- **Software Development Capstone** may be recommended for students who would be able to participate
-
-<ins>**If you most recently took C# 102, C# 201, Software Development Capstone, Python 201, or Web 201:**</ins>
+<ins>**If you most recently took C# 101, C# 102, C# 201, Software Development Capstone, Python 201, or Web 201:**</ins>
 - **Software Development Capstone** may be recommended for students who have a proficiency in programming and would like to work on a more long-term project
 
 We may recommend students retake a course to ensure all students fully understand what they are learning. We do not intend to move students forward just to move them forward. We are truly invested in making sure you have a valuable experience in Hy-Tech Club, and hope you feel we are setting you up for success. If you have any questions regarding your course placement for this semester, please do not hesitate to send us an e-mail.
