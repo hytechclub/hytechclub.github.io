@@ -3,7 +3,8 @@ We are excited to announce that Hyland will be offering Hy-Tech Club once again 
 
 - Hy-Tech Club will meet weekly on Tuesdays from September 20th - December 13th
   - _<ins>Important Note:</ins> This semester, **all courses** will be offered both **virtually and in-person**._
-  - Students who attend in-person at Hyland will meet from 5-7:30PM ET. Students who attend virtually will log onto Zoom from 5:30-7:30PM ET.
+  - Students who attend in-person at Hyland will meet from 5-7:30PM ET. 
+  - Students who attend virtually will log onto Zoom from 5:30-7:30PM ET.
   - Dinner will be served for students in-person at Hyland from 5-5:30PM ET.
 - _Note: There will be one week off this semester: the Tuesday before Thanksgiving (November 22nd). Apart from that, students are expected to inform instructors prior to any planned absence(s) and should catch up on material they missed._
 
