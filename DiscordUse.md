@@ -8,13 +8,13 @@ As noted in the parental consent form that was signed by Parents or Guardians pr
 
 ## Additional Guidelines
 - The usage of Discord is **not** required. If you do not want to use it, you will still be able to participate in Hy-Tech Club.
-- You must use your _real first and last name_ when communicating on Discord. If we see an account that does not have a real student name, the account will be kicked out.
+- You must use your _real first and last name_ when communicating on Discord. If we see an account that does not have a real student name, the account will be kicked.
 - If you say anything inappropriate, you will be banned from the server and may be removed from Hy-Tech Club.
 - Please be respectful of all students and instructors while communicating on Discord.
 - Instructors will check Discord throughout the week during business hours, so feel free to post any time!
 
 ## Server Categories & Channels
-Unlike previous semesters, this semester will only have _one_ Discord Server for the whole of Hy-Tech Club. This means that students will be able to interact across courses.
+We have one Discord Server for the whole of Hy-Tech Club. This means that students will be able to interact across courses.
 
 There are several channels in the server. Please be mindful of each channel's purpose.
 
@@ -27,8 +27,13 @@ Instructors will post important messages in this channel. Students will not be a
 #### chat
 Students can use this channel to connect with each other socially. Conversations should be appropriate and relevant to the club, and can be a good way for students to get to know each other.
 
-#### code-sharing
-Students should use this channel to share what they have built. If there is anything you want to show off, feel free to post it!
+#### status-updates
+Use this channel for general updates. What's going on? Did you see a great movie recently? Any accomplishments you want to celebrate? Any thoughts you want to share? Any good (appropriate) jokes? It's all welcome here!
+
+#### counting
+Exactly what it sounds like.
+
+Rules: Only enter the next whole number (e.g., if the previous message was "27" you should enter "28"). Do not enter a number if you entered the most recent number.
 
 ### Course-Specific Categories
 There will be one category for each course. Each of these categories will contain channels specific to the students and instructors from the course.
@@ -40,8 +45,10 @@ This channel is reserved for general chat. It should mainly be used for conversa
 Students should ask questions related to course material in this channel. Instructors (and other students) will do their best to answer these questions. Note that the answers to the questions should be focused on learning; try to use leading questions or background explanations rather than simply providing a code solution.
 
 ## Invite Link
+Join the server by clicking [this link](https://discord.gg/Cw4W2rD8kh).
 
-Join the server by clicking [this link](https://discord.gg/pBeXuRekmd).
+## General Link
+Once you have joined, you can access the server [here](https://discord.com/channels/1007371497645543434/).
 
 ## Setup
 To use Discord, you must first set it up. Start by clicking the invite link, and then follow the steps below.
