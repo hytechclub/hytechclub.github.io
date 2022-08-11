@@ -7,7 +7,7 @@ We are excited to announce that Hyland will be offering Hy-Tech Club once again 
   - Dinner will be served for students in-person at Hyland from 5-5:30PM ET.
   - Students who attend virtually will log onto Zoom from 5:30-7:30PM ET.
   
-- _Note: There will be one week off this semester: the Tuesday before Thanksgiving (November 22nd). Apart from that, students are expected to inform instructors prior to any planned absence(s) and should catch up on material they missed._
+- _Note: There will be one week off this semester, the Tuesday before Thanksgiving (November 22nd). Apart from that, students are expected to inform instructors prior to any planned absence(s) and should catch up on material they missed._
 
 ## Spring 2022 Course Offerings 
 - **Web 101:** HTML & CSS
