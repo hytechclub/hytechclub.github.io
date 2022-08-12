@@ -9,7 +9,7 @@ We are excited to announce that Hyland will be offering Hy-Tech Club once again 
   
 - _Note: There will be one week off this semester, the Tuesday before Thanksgiving (November 22nd). Apart from that, students are expected to inform instructors prior to any planned absence(s) and should catch up on material they missed._
 
-## Spring 2022 Course Offerings 
+## Fall 2022 Course Offerings 
 - **Web 101:** HTML & CSS
 - **Web 102:** JavaScript
 - **Software Development Capstone**
@@ -19,7 +19,7 @@ _The above course offerings are subject to change based on enrollment for Fall 2
 ### Software Development Capstone
 In the capstone course, students will work on one long-term project for the entirety of the semester. There may be some instructor-led lessons scattered throughout the course, but most of the time will be spent working individually or as teams to build software applications.
 
-This semester, the course may be offered to a wider variety of students than it has in the past. Traditionally, this has been a more advanced course. However, we may allow any former student to participate, given that they are self-motivated, well-behaved, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. There may be additional skill assessments given as well.
+This semester, the course may be offered to a wider variety of students than it has in the past. Traditionally, this has been a more advanced course. However, we may allow any former student to participate, given that they are self-motivated, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. There may be additional skill assessments given as well.
 
 ### Which course are you eligible to take as a former student?
 
