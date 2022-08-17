@@ -1,3 +1,13 @@
+<style>
+  .markdown-body > h1:first-child:not([id]) {
+    display: none;
+  }
+
+  .markdown-body > h1:nth-child(2) {
+    margin-top: 0 !important;
+  }
+</style>
+
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
