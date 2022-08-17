@@ -20,6 +20,7 @@ Welcome to Hy-Tech Club!
 - [Virtual Icebreaker](/VirtualIcebreaker)
 - [Rules & Guidelines](/RulesAndGuidelines)
 - [Using Discord](/DiscordUse)
+- [Replit Setup](/ReplitSetup)
 
 ## Zoom Information
 If you are joining virtually, please make sure you join the correct room! Here is the room information:
