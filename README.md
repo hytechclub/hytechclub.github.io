@@ -3,7 +3,7 @@
     display: none;
   }
 
-  .markdown-body > h1:nth-child(2) {
+  h1#hy-tech-club {
     margin-top: 0 !important;
   }
 </style>
