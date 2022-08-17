@@ -17,10 +17,13 @@ Your success is our highest priority. If we find that you are struggling, we wil
 
 This plan is not in place to punish you; we just want to do everything you can to make sure you and your fellow students have a positive learning experience.
 
-## Virtual Club: Screen Sharing
-We expect **ALL** students to share their screens during self-paced work. This will allow the instructors to help each student, and have some visibility into how the class is doing overall. If you would like, you can choose to share only one window of your screen (e.g. a browser window). We do not want to spy on you; we just want to make sure we can track your progress!
+## Virtual Club: Screen Sharing OR Multiplayer Replit
+We expect **ALL** students to share their progress during self-paced work. This will allow the instructors to help each student, and have some visibility into how the class is doing overall. If you would like, you can choose to share only one window of your screen (e.g. a browser window). We do not want to spy on you; we just want to make sure we can see how you are doing!
 
 Check out [this guide](https://support.zoom.us/hc/en-us/articles/201362153-Sharing-your-screen) for more information about screen sharing in Zoom.
+
+### Multiplayer Replit
+Another option, if the course uses [Replit](https://replit.com), is to share a [Multiplayer](https://replit.com/site/multiplayer) Repl link.
 
 ## Virtual Club: Device Guidelines for Zoom Meetings
 We encourage you to use whatever device setup works best for you. That said, we also ask that all students follow some basic guidelines when joining the Zoom meetings.
