@@ -2,23 +2,40 @@
 Welcome to Hy-Tech Club!
 
 ## Courses
-- [Web 101](/web-101)
-- [C# 101](/cs-101)
-- [Web 201](/web-201)
+- [Web 101: HTML & CSS](/web-101)
+- [Web 102: JavaScript](/web-102)
+- [Software Development Capstone](/capstone)
 
 ## Resources
 - [Virtual Icebreaker](/VirtualIcebreaker)
 - [Rules & Guidelines](/RulesAndGuidelines)
 - [Using Discord](/DiscordUse)
-- [Viewing Points in ClassDojo](/ClassDojoPoints)
 
+## Zoom Information
+If you are joining virtually, please make sure you join the correct room! Here is the room information:
+
+### Web 101
+[Click here to join the meeting.](https://hyland.zoom.us/j/93707123400?pwd=Wk5vaHFEb2I1Wm9Bb1krc1JKUnkzUT09)
+
+- Meeting ID: 937 0712 3400
+- Passcode: 848981
+
+### Web 102
+[Click here to join the meeting.](https://hyland.zoom.us/j/99744173719?pwd=dGJLRjVLdDJJMUl3VXpralJiSy9Bdz09)
+
+- Meeting ID: 997 4417 3719
+- Passcode: 921737
+
+### Capstone
+[Click here to join the meeting.](https://hyland.zoom.us/j/98138405442?pwd=UUExSEdhSjc1WGRYOFgwWmVHamJrQT09)
+
+- Meeting ID: 981 3840 5442
+- Passcode: 056933
+
+## Parent/Guardian Consent Form
+Before participating in any Hyland Tech Outreach program, it is necessary for a parent/guardian of any student under the age of 18 to complete a Consent Form. All students are required to have an updated form on file.
+
+[Click here to access the form online.](https://unityforms.onbase.com/HSIDB/UnityForm.aspx?d1=AXqj5WtCdyBSP534QS%2bymO7giKPJqgRe0JvlfCPbrVKTSQ5CeLzlqyJqSFofoXf2%2fLm1tziXizPoWedY3oo0Ff8BYz3%2bWSDjX8JsPBVEQ68sFTg%2be%2bztiTe7qXhuFsIP6RVeH4uaoVUZvOwoGP5MJdybqMRrkdlPg7n0HQq%2b03fYaGCHuMTrcgd3xVYRQTtHcGVbF%2f9ge37RyeSM6tW3DNOA6Rk1qQ%2bwqehGr6BqXkDl4Hizr1%2bMzCdHnpVWatT87A%3d%3d&_ga=2.25243006.2103430845.1587136770-78961992.1520540426)
+
+## Contact
 Feel free to email [techoutreach@hyland.com](mailto:techoutreach@hyland.com) with any questions or concerns.
-
-## Final Project Submission
-Please submit your final project for this semester through this form: [https://forms.gle/UKj962XjEqNfDGdt7](https://forms.gle/UKj962XjEqNfDGdt7)
-
-## End-of-Semester Survey
-We value your feedback! Please complete this survey to help us understand your experience, and see how we might be able to make Hy-Tech Club even better next time around: [https://survey.alchemer.com/s3/6867364/Hy-Tech-Club-Spring-2022-Student-Feedback](https://survey.alchemer.com/s3/6867364/Hy-Tech-Club-Spring-2022-Student-Feedback)
-
-## Senior Survey 2022
-If you are a senior and will be done with high school after Spring 2022, please complete this survey for us: [https://forms.gle/PCmviZs3e49XqaWY8](https://forms.gle/PCmviZs3e49XqaWY8)
