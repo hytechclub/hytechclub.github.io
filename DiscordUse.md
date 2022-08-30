@@ -51,34 +51,36 @@ Join the server by clicking [this link](https://discord.gg/Cw4W2rD8kh).
 Once you have joined, you can access the server [here](https://discord.com/channels/1007371497645543434/).
 
 ## Setup
-To use Discord, you must first set it up. Start by clicking the invite link, and then follow the steps below.
+To use Discord, you must first set up an account. Start by clicking the invite link, and then follow the steps below.
 
 **Enter your _first and last name_ and click the "Continue" button to create an account.**  
 
-![](https://i.imgur.com/psOjLuG.png)
+![](Assets/DiscordRealName.png)
 
 >Note that if you already have an account, you can use it, but be sure to [change your nickname](https://support.discord.com/hc/en-us/articles/219070107-Server-Nicknames) to your real first and last name.
 
 **Next, complete the Captcha if necessary.**
 
-![](https://i.imgur.com/43L8YHd.png)
+![](Assets/Human.png)
+
+![](Assets/LivingRoom.png)
 
 **On the next screen, enter your birthday.** Note that you will not be able to use Discord if you are under 13 years of age.  
 
-![](https://i.imgur.com/yXs5XFg.png)
+![](Assets/Birthday.png)
 
 **On the next pop-up, enter an e-mail and password.** Be sure to remember your password.
 
-![](https://i.imgur.com/CQvdSTB.png)
+![](Assets/DiscordEmail.png)
 
 An email verification message should appear.  
 
-![](https://i.imgur.com/f908dkS.png)
+![](Assets/EmailSent.png)
 
 **Open your email account, and there should be a new message from Discord. Open the message, and click the "Verify Email" button.**  
 
-![](https://i.imgur.com/NjYMHRO.png)
+![](Assets/VerifyEmail.jpg)
 
 Clicking the button should open a webpage. There should be an "Email Verified" message. **Click the "Continue to Discord" button to continue.**  
 
-![](https://i.imgur.com/BE36s1P.png)
+![](Assets/ContinueToDiscord.png)
