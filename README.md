@@ -16,6 +16,9 @@ Welcome to Hy-Tech Club!
 - [Web 102: JavaScript](/web-102)
 - [Software Development Capstone](/capstone)
 
+## Project Submissions
+[Click here to access the project submission form.](https://forms.gle/g271fAqL78GLevho6)
+
 ## Resources
 - [Virtual Icebreaker](/VirtualIcebreaker)
 - [Rules & Guidelines](/RulesAndGuidelines)
