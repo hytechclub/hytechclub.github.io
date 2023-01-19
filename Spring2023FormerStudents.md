@@ -1,4 +1,4 @@
-# Spring 2023 Hy-Tech Club Application: Information for Former Students
+# Spring 2023 Hy-Tech Club Application: Former Students
 We are excited to announce that Hyland will be offering Hy-Tech Club once again for the upcoming Spring semester. We hope you are able to join us! The club will be held in a hybrid format: students can attend in-person at Hyland's Headquarters in Westlake, Ohio, or they can attend remotely through Zoom.
 
 - Hy-Tech Club will meet weekly on Tuesdays from February 28th through May 16th.
