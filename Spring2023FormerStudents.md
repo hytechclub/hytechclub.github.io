@@ -13,6 +13,7 @@ View more information about course offerings on [our website](https://www.hyland
 
 - **Web 101:** HTML & CSS
 - **Web 102:** Introduction to JavaScript
+- **Virtual Web 102:** Introduction to JavaScript
 - **Web 103:** Advanced JavaScript
 - **Python 201:** Possibilities of Python
 
@@ -23,9 +24,10 @@ _The above course offerings are subject to change based on enrollment for Spring
 <ins>**If you most recently took Web 101:**</ins>
 - **Web 101** may be recommended for students who could benefit from retaking the course
 - **Web 102** may be recommended for students who are ready to begin learning JavaScript
+- **Virtual Web 102** may be recommended for students who are ready to begin learning JavaScript & choose to attend Club virtually
 
 <ins>**If you most recently took Web 102:**</ins>
-- **Web 102** may be recommended for students who could benefit from retaking the course
+- **Web 102 or Virtual Web 102** may be recommended for students who could benefit from retaking the course
 - **Web 103** may be recommended for students who are ready to learn more advanced JavaScript concepts
 
 <ins>**If you most recently took Software Development Capstone, Web 201, C# 101, C# 102, or C# 201:**</ins>
