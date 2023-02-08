@@ -13,6 +13,7 @@ View more information about course offerings on [our website](https://www.hyland
 
 - **Web 101:** HTML & CSS
 - **Web 102:** Introduction to JavaScript
+- **Virtual Web 102:** Introduction to JavaScript
 - **Web 103:** Advanced JavaScript
 - **Python 201:** Possibilities of Python
 
@@ -23,9 +24,10 @@ _The above course offerings are subject to change based on enrollment for Spring
 <ins>**If you most recently took Web 101:**</ins>
 - **Web 101** may be recommended for students who could benefit from retaking the course
 - **Web 102** may be recommended for students who are ready to begin learning JavaScript
+- **Virtual Web 102** may be recommended for students who are ready to begin learning JavaScript & choose to attend Club virtually
 
 <ins>**If you most recently took Web 102:**</ins>
-- **Web 102** may be recommended for students who could benefit from retaking the course
+- **Web 102 or Virtual Web 102** may be recommended for students who could benefit from retaking the course
 - **Web 103** may be recommended for students who are ready to learn more advanced JavaScript concepts
 
 <ins>**If you most recently took Software Development Capstone, Web 201, C# 101, C# 102, or C# 201:**</ins>
@@ -43,7 +45,7 @@ In order to successfully participate in Virtual Hy-Tech Club, students must have
 - **Microphone or other audio equipment**
   - If students don't have a microphone attached to their computer, they are required to connect to audio via phone. 
 
-**Applications open on Wednesday, January 15th. Applications are due by 11:59PM ET Wednesday, February 22nd.** Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days of their submission. We will review all applications and consult with your former instructors _(if applicable)_ to make sure the best decision is made for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on Tuesday, February 28th, 2023.**
+**Applications open on Wednesday, January 25th. Applications are due by 11:59PM ET Wednesday, February 22nd.** Students will be sent a confirmation that their application has been received (<ins>via the e-mail addresses on their application</ins>) within 5-7 business days of their submission. We will review all applications and consult with your former instructors _(if applicable)_ to make sure the best decision is made for your learning path. Our goal is to make decisions as quickly as possible, so everyone has enough time to plan for the upcoming semester. **The semester will start on Tuesday, February 28th, 2023.**
 
 Applications are open to the public, and we encourage you to tell your friends & family about Hy-Tech Club. Please direct them to [www.hyland.com/techoutreach](https://hyland.com/techoutreach) for more information.
 
