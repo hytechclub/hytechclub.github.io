@@ -1,8 +1,8 @@
 # Discord Use
 Hy-Tech Club will use [Discord](https://discord.com/) as a way for students and instructors to communicate outside of the club meeting time.
 
-## Parental Consent Form Agreement 
-As noted in the parental consent form that was signed by Parents or Guardians prior to participating in Hy-Tech Club, each student has agreed to the following regarding the use of Discord: 
+## Parent/Guardian Consent Form Agreement 
+As noted in the consent form that was signed by parents or guardians prior to participating in Hy-Tech Club, each student has agreed to the following regarding the use of Discord: 
 
 >I agree and understand that Hyland may provide for the use of certain unaffiliated third party websites or applications (“Third Party Sites”) in connection with the Program. I understand that use of these Third Party Sites is optional. If I choose to permit my child(ren) to use such Third Party Sites, I further understand and agree that: (i) the Third Party Site may collect personal information directly from my child(ren) subject to the terms and conditions (including an applicable privacy policy) available on the Third Party Site; and (ii) Hyland does not control these Third Party Sites and is not responsible for their information collection practices. 
 
@@ -45,10 +45,10 @@ This channel is reserved for general chat. It should mainly be used for conversa
 Students should ask questions related to course material in this channel. Instructors (and other students) will do their best to answer these questions. Note that the answers to the questions should be focused on learning; try to use leading questions or background explanations rather than simply providing a code solution.
 
 ## Invite Link
-Join the server by clicking [this link](https://discord.gg/Cw4W2rD8kh).
+Join the server by clicking [this link](https://discord.gg/ZHDZFV6jUM).
 
 ## General Link
-Once you have joined, you can access the server [here](https://discord.com/channels/1007371497645543434/).
+Once you have joined, you can access the server [here](https://discord.com/channels/1072939731521904811/1072939732360773729).
 
 ## Setup
 To use Discord, you must first set up an account. Start by clicking the invite link, and then follow the steps below.
