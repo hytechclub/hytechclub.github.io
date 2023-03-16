@@ -1,6 +1,8 @@
 # Library
 Peruse this vast and diverse library to expand your knowledge and gain new perspectives.
 
+![](Assets/DarkAcademia.jpg)
+
 ## Articles
 Here are some articles to read.
 
