@@ -11,6 +11,9 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
+## Final Project Submission
+[Click here to submit your final project.](https://forms.gle/8T2XcqLsFNFUnqYs6)
+
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
