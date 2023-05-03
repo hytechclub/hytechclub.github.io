@@ -14,6 +14,12 @@ Welcome to Hy-Tech Club!
 ## Final Project Submission
 [Click here to submit your final project.](https://forms.gle/8T2XcqLsFNFUnqYs6)
 
+## End-of-Semester Survey
+[Click here for the form.](https://survey.alchemer.com/s3/7337147/Hy-Tech-Club-Spring-2023-Student-Feedback)
+
+## Senior Survey
+If you are a graduating senior, [click here to complete the form](https://forms.gle/dEtmBQB7oycXgumz9).
+
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
