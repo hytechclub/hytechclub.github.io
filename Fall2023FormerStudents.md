@@ -11,24 +11,24 @@ We are excited to announce that Hyland will be offering Hy-Tech Club once again 
 ## Fall 2023 Course Offerings
 View more information about course offerings on [our website](https://www.hyland.com/en/explore/hy-tech/Tech-outreach-overview/club).
 
-- **Web 101:** HTML & CSS (in-person OR virtual)
-- **Web 102:** Introduction to JavaScript (virtual ONLY)
-- **Software Development Capstone** (in-person OR virtual)
+- **Hybrid Web 101:** HTML & CSS (in-person OR virtual)
+- **Virtual Web 102:** Introduction to JavaScript (virtual ONLY)
+- **Hybrid Software Development Capstone** (in-person OR virtual)
 
 _The above course offerings are subject to change based on enrollment for Fall 2023. If there are not enough students to fill a course section, the course may be cancelled and students will be notified._
 
 ### Which course are you eligible to take as a former student?
 
 <ins>**If you most recently took Web 101:**</ins>
-- **Web 101** may be recommended for students who could benefit from retaking the course
-- **Web 102** may be recommended for students who are ready to begin learning JavaScript
+- **Hybrid Web 101** may be recommended for students who could benefit from retaking the course
+- **Virtual Web 102** may be recommended for students who are ready to begin learning JavaScript
 
 <ins>**If you most recently took Web 102:**</ins>
-- **Web 102** may be recommended for students who could benefit from retaking the course
-- **Software Development Capstone** may be recommended for students with sufficient interest and proven dedication
+- **Virtual Web 102** may be recommended for students who could benefit from retaking the course
+- **Hybrid Software Development Capstone** may be recommended for students with sufficient interest and proven dedication
 
 <ins>**If you most recently took any other course:**</ins>
-- **Software Development Capstone** may be recommended for students who have a proficiency in programming and would like to work on a more long-term project
+- **Hybrid Software Development Capstone** may be recommended for students who have a proficiency in programming and would like to work on a more long-term project
 
 We may recommend students retake a course to ensure all students fully understand what they are learning. It may also be recommended that students take an online assessment to gauge whether or not they are ready to move on to the next class. We are truly invested in making sure you have a valuable experience in Hy-Tech Club, and hope you feel we are setting you up for success. If you have any questions regarding your course placement for this semester, please do not hesitate to send us an e-mail at **[techoutreach@hyland.com](mailto:techoutreach@hyland.com)**.
 
