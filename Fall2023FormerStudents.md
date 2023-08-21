@@ -9,14 +9,13 @@ We are excited to announce that Hyland will be offering Hy-Tech Club once again 
 - _Note: Students are expected to inform instructors prior to any planned absence(s) and should catch up on material they missed._
 
 ## Fall 2023 Course Offerings
-View more information about course offerings on [our website](https://www.hyland.com/en/explore/hy-tech/Tech-outreach-overview/club).
 
 - **Hybrid Web 101:** HTML & CSS (in-person OR virtual)
 - **Virtual Web 102:** Introduction to JavaScript (virtual ONLY)
-  - This course covers the JavaScript programming language in depth, and introduces general programming concepts. By the end of the semester, students will be familiar with basic programming, and will be able to use JavaScript to add interactivity to webpages. Students will attend Virtual Web 102 virtually via Zoom.
+  - This course covers the JavaScript programming language in depth, and introduces general programming concepts. By the end of the semester, students will be familiar with basic programming, and will be able to use JavaScript to add interactivity to webpages. **Students will attend Virtual Web 102 virtually via Zoom.**
 - **Hybrid Software Development Capstone** (in-person OR virtual)
-  - In the capstone course, students will work on one long-term project for the entirety of the semester. There may be some instructor-led lessons scattered throughout the course, but most of the time will be spent working individually or as teams to build software applications. Students can attend Hybrid Software Development Capston in-person or virtually.
-  - This course will be offered to students that are self-motivated, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. If an applicant is not a former Hy-Tech Club student, skill assessments may be given to determine if this is the best option for them.
+  - In the capstone course, students will work on one long-term project for the entirety of the semester. There may be some instructor-led lessons scattered throughout the course, but most of the time will be spent working individually or as teams to build software applications. **Students can attend Hybrid Software Development Capston in-person or virtually.**
+  - This course will be offered to students that are self-motivated, hard-working, and up for the challenge. Should a student wish to apply for Capstone, the Tech Outreach team will consult with the student's former instructors to determine if the student would be a good fit for the course. **If an applicant is not a former Hy-Tech Club student, skill assessments may be given to determine if this is the best option for them.**
 
 _The above course offerings are subject to change based on enrollment for Fall 2023. If there are not enough students to fill a course section, the course may be cancelled and students will be notified._
 
