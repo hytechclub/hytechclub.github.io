@@ -44,12 +44,6 @@ This channel is reserved for general chat. It should mainly be used for conversa
 #### questions
 Students should ask questions related to course material in this channel. Instructors (and other students) will do their best to answer these questions. Note that the answers to the questions should be focused on learning; try to use leading questions or background explanations rather than simply providing a code solution.
 
-## Invite Link
-Join the server by clicking [this link](https://discord.gg/ZHDZFV6jUM).
-
-## General Link
-Once you have joined, you can access the server [here](https://discord.com/channels/1072939731521904811/1072939732360773729).
-
 ## Setup
 To use Discord, you must first set up an account. Start by clicking the invite link, and then follow the steps below.
 
