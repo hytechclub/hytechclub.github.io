@@ -10,6 +10,7 @@ Here are some articles to read.
 - [Wikipedia: History of Nintendo](https://en.wikipedia.org/wiki/History_of_Nintendo)
 - [Wikipedia: Atari video game burial](https://en.wikipedia.org/wiki/Atari_video_game_burial)
 - [Wikipedia: Technological singularity](https://en.wikipedia.org/wiki/Technological_singularity)
+- [Wikipedia: Billion laughs attack](https://en.wikipedia.org/wiki/Billion_laughs_attack)
 
 ## Videos
 Here are some videos to watch.
