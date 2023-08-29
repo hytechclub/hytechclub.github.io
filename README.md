@@ -16,6 +16,9 @@ Welcome to Hy-Tech Club!
 - [Web 102: Introduction to JavaScript](/web-102)
 - [Software Development Capstone](/capstone)
 
+## Submit Your Replit Username
+[Click here for the submission form.](https://forms.gle/rQLP2RohVfyZgN5XA)
+
 ## Resources
 - [Virtual Icebreaker](/VirtualIcebreaker)
 - [Rules & Guidelines](/RulesAndGuidelines)
