@@ -19,6 +19,27 @@ Welcome to Hy-Tech Club!
 ## Submit Your Replit Username
 [Click here for the submission form.](https://forms.gle/rQLP2RohVfyZgN5XA)
 
+## Zoom Information
+If you are joining virtually, please make sure you join the correct room! Here is the room information:
+
+### Web 101
+[Click here to join the meeting.](https://hyland.zoom.us/j/97059469471?pwd=a1RYRzgyL2dnSW4zVE1KT0hEaUVUQT09)
+
+- Meeting ID: 970 5946 9471
+- Passcode: 041982
+
+### Web 102
+[Click here to join the meeting.](https://hyland.zoom.us/j/99977926093?pwd=aWdpdFVFbGUrT0kyYVNsTERIekpOQT09)
+
+- Meeting ID: 999 7792 6093
+- Passcode: 256210
+
+### Capstone
+[Click here to join the meeting.](https://hyland.zoom.us/j/98608550158?pwd=ZHUxWW5KSXlhRG9kdEk2TXpmQzVIQT09)
+
+- Meeting ID: 986 0855 0158
+- Passcode: 847866
+
 ## Resources
 - [Virtual Icebreaker](/VirtualIcebreaker)
 - [Rules & Guidelines](/RulesAndGuidelines)
