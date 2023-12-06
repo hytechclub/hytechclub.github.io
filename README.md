@@ -16,6 +16,9 @@ Welcome to Hy-Tech Club!
 - [Web 102: Introduction to JavaScript](/web-102)
 - [Software Development Capstone](/capstone)
 
+## End-of-Semester Survey
+[Click here to fill out the end-of-semester survey.](https://survey.alchemer.com/s3/7639599/Hy-Tech-Club-Fall-2023-Student-Feedback)
+
 ## Submit Your Replit Username
 [Click here for the submission form.](https://forms.gle/rQLP2RohVfyZgN5XA)
 
