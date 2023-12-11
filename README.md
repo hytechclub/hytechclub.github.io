@@ -19,8 +19,8 @@ Welcome to Hy-Tech Club!
 ## End-of-Semester Survey
 [Click here to fill out the end-of-semester survey.](https://survey.alchemer.com/s3/7639599/Hy-Tech-Club-Fall-2023-Student-Feedback)
 
-## Submit Your Replit Username
-[Click here for the submission form.](https://forms.gle/rQLP2RohVfyZgN5XA)
+## Submit Your Final Project
+[Click here for the submission form.](https://forms.office.com/r/yPTR2GagHM)
 
 ## Zoom Information
 If you are joining virtually, please make sure you join the correct room! Here is the room information:
