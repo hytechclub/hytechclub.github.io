@@ -14,34 +14,28 @@ Welcome to Hy-Tech Club!
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
-- [Software Development Capstone](/capstone)
-
-## End-of-Semester Survey
-[Click here to fill out the end-of-semester survey.](https://survey.alchemer.com/s3/7639599/Hy-Tech-Club-Fall-2023-Student-Feedback)
-
-## Submit Your Final Project
-[Click here for the submission form.](https://forms.office.com/r/yPTR2GagHM)
+- [Web 103: Advanced JavaScript](/web-103)
 
 ## Zoom Information
 If you are joining virtually, please make sure you join the correct room! Here is the room information:
 
 ### Web 101
-[Click here to join the meeting.](https://hyland.zoom.us/j/97059469471?pwd=a1RYRzgyL2dnSW4zVE1KT0hEaUVUQT09)
+[Click here to join the meeting.](https://hyland.zoom.us/j/91909736525?pwd=d0VOWlU5anlDRm5rdVRjMUFUTjRWQT09)
 
-- Meeting ID: 970 5946 9471
-- Passcode: 041982
+- Meeting ID: 919 0973 6525
+- Passcode: 930572
 
 ### Web 102
-[Click here to join the meeting.](https://hyland.zoom.us/j/99977926093?pwd=aWdpdFVFbGUrT0kyYVNsTERIekpOQT09)
+[Click here to join the meeting.](https://hyland.zoom.us/j/91576182859?pwd=L1NwSEFQeUJYMDM4TnVzVEVEbGVNdz09)
 
-- Meeting ID: 999 7792 6093
-- Passcode: 256210
+- Meeting ID: 915 7618 2859
+- Passcode: 160559
 
-### Capstone
-[Click here to join the meeting.](https://hyland.zoom.us/j/98608550158?pwd=ZHUxWW5KSXlhRG9kdEk2TXpmQzVIQT09)
+### Web 103
+[Click here to join the meeting.](https://hyland.zoom.us/j/96554582123?pwd=aHduQ0FydzBuNEN6QnJ2aFZvSU5FUT09)
 
-- Meeting ID: 986 0855 0158
-- Passcode: 847866
+- Meeting ID: 965 5458 2123
+- Passcode: 079621
 
 ## Resources
 - [Virtual Icebreaker](/VirtualIcebreaker)

@@ -1,7 +1,7 @@
 # Discord Use
 Hy-Tech Club will use [Discord](https://discord.com/) as a way for students and instructors to communicate outside of the club meeting time.
 
-[Click here to join the server!](https://discord.gg/KgepPPhzR)
+[Click here to join the server!](https://discord.gg/USjWaATrAn)
 
 ## Parent/Guardian Consent Form Agreement 
 As noted in the consent form that was signed by parents or guardians prior to participating in Hy-Tech Club, each student has agreed to the following regarding the use of Discord: 
@@ -35,7 +35,7 @@ Use this channel for general updates. What's going on? Did you see a great movie
 #### counting
 Exactly what it sounds like.
 
-Rules: Only enter the next whole number (e.g., if the previous message was "27" you should enter "28"). Do not enter a number if you entered the most recent number.
+Rules: Only enter the next whole number (e.g., if the previous message was "27" you should enter "28"). Do not enter a number if you entered the most recent number. **NEW THIS YEAR:** if we mess up, the whole count restarts :)
 
 ### Course-Specific Categories
 There will be one category for each course. Each of these categories will contain channels specific to the students and instructors from the course.
