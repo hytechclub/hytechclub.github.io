@@ -1,7 +1,7 @@
 # Room Setup: First Night
 If possible, try to setup your room _before_ 4:45pm. That way, you can head to the Employee & Training Entrance to help with ushering duties.
 
-If not, you should still arrive to the entrance at 4:45pm. Make sure to grab a nametag and write your name in big letters.
+If not, you should still arrive to the entrance at 4:45pm. Grab your lanyard!
 
 Head to your room around 5:00pm after taking a group or two - as long as there is ushering coverage.
 

@@ -1,5 +1,5 @@
 # First Night Facilitation
-Depending on your assigned duties, you'll want to make sure you know what to do. Everyone should be at the Employee & Training Entrance by 4:45pm, and should grab a nametag and write their name in big letters.
+Depending on your assigned duties, you'll want to make sure you know what to do. Everyone should be at the Employee & Training Entrance by 4:45pm, and should grab your lanyard!
 
 Instructor introductions will take place in the OSU Auditorium at 5:25pm - so make sure to be in there by then!
 

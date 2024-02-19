@@ -1,9 +1,10 @@
 # Usher: First Night
 Yeah!
 
-Arrive at the Employee & Training Entrance by 4:45pm. Grab a nametag and write your name in big letters.
+Arrive at the Employee & Training Entrance by 4:45pm. Grab your lanyard!
 
 - When there is a group of 5-10 students present, tell them to follow you and you'll take them to get drinks/dinner
+- Ask them if they've been to Hyland, if they're excited for their course, where they go to school, anything like that
 - Lead them down the hall, past the auditorium
 - If they don't want a drink, you can drop them off at the auditorium
 - If they do, take them to the break room on the first floor
