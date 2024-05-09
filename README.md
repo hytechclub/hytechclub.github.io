@@ -11,6 +11,12 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
+## Final Project Submissions
+[Click here to submit your final project at the end of the semester.](https://forms.office.com/r/bZ3P7VjGBn)
+
+## Student Feedback Survey
+[Click here to complete the student feedback survey.](https://survey.alchemer.com/s3/7840977/Hy-Tech-Club-Spring-2024-Student-Feedback)
+
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
@@ -50,6 +56,3 @@ Before participating in any Hyland Tech Outreach program, it is necessary for a 
 
 ## Contact
 Feel free to email [techoutreach@hyland.com](mailto:techoutreach@hyland.com) with any questions or concerns.
-
-## Final Project Submissions
-[Click here to submit your final project at the end of the semester.](https://forms.office.com/r/bZ3P7VjGBn)
