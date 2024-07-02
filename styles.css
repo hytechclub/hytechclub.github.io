@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
+body {
+    background: white;
+    color: #000000;
+    font-family: 'Source+Code+Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1500px;
+        margin: 20px auto;
+    }
+    .column {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .column:nth-child(odd) {
+        background-color: #f0f0f0;
+    }
+    .column:nth-child(even) {
+        background-color: #e0e0e0;
+    }
+    .column h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .column p {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+}
+#title {
+  background-color: #0171c7;
+    margin: 0 auto;
+    width: 50%;
+}
+#headers {
+  background-color: #016335;
+   margin-top: -110px;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+#ttext {
+    color: white;
+    
+}
+#htext {
+    font-family: 'Orbitron', sans-serif;
+    color: White;
+    
+}
+
+#main {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+#ez {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+     
+}
+
+#left {
+    width: 80%;
+    margin: 10%;
+    padding: 0;
+   margin-top: -5px;
+    text-align: left;
+    font-size: 30px;
+}
+.mySlides {display:none;
+          }
+
+button {
+    background: #006d8f;
+    color: #ffffff;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+input[type=text] {
+  background-color: #241458;
+  color: white;
+    font-size:18px;
+    width: 2%;
+}
