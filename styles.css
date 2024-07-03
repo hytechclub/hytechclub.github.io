@@ -19,7 +19,8 @@ body {
         flex: 1;
         padding: 20px;
         box-sizing: border-box;
-     margin-left: 5%;
+     margin-left: 7.5%;
+      margin-right: 2.5%
     }
     .column:nth-child(odd) {
         background-color: #ffffff;
