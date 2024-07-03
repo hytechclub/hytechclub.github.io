@@ -12,3 +12,12 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2000); 
 }
+function web101(url) {
+  window.location.href = url;
+}
+function web102(url) {
+  window.location.href = url;
+}
+function web103(url) {
+  window.location.href = url;
+}
