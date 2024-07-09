@@ -11,12 +11,6 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
-## Final Project Submissions
-[Click here to submit your final project at the end of the semester.](https://forms.office.com/r/bZ3P7VjGBn)
-
-## Student Feedback Survey
-[Click here to complete the student feedback survey.](https://survey.alchemer.com/s3/7840977/Hy-Tech-Club-Spring-2024-Student-Feedback)
-
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
@@ -43,8 +37,12 @@ If you are joining virtually, please make sure you join the correct room! Here i
 - Meeting ID: 965 5458 2123
 - Passcode: 079621
 
+## club jams fall 2024
+[add a song to our spotify playlist!](https://open.spotify.com/playlist/5iZ4KCbm0XuhpbtVEeyBuh?si=e244fc8cbe374be8&pt=bda67660ad0361e80a19a92c33f7e7e0)
+
+>_note: inappropriate songs will be removed_
+
 ## Resources
-- [Virtual Icebreaker](/VirtualIcebreaker)
 - [Rules & Guidelines](/RulesAndGuidelines)
 - [Using Discord](/DiscordUse)
 - [Replit Setup](/ReplitSetup)
