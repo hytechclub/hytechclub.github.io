@@ -1,240 +1,1126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hy-Tech Club</title>
-    <link rel="stylesheet" href="styles.css">
-  
-  <link 
-  rel="manifest"
-  href="https://particle.hyland.com/assets/favicon/manifest.webmanifest"
-  >
-  <link
-  rel="icon"
-  href="https://particle.hyland.com/assets/favicon/favicon.ico"
-  sizes="any"
-  >
-  <link
-  rel="icon"
-  href="https://particle.hyland.com/assets/favicon/icon.svg"
-  type="image/svg+xml"
-  >
-  <link
-  rel="apple-touch-icon"
-  href="https://particle.hyland.com/assets/favicon/apple-touch-icon.png"
+
+  <title>Hy-Tech Club - Home</title>
+
+  <link id="wsite-base-style" rel="stylesheet" type="text/css"
+    href="https://cdn2.editmysite.com/css/sites.css?buildTime=1721228173" />
+  <link rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/old/fancybox.css?1721228173" />
+  <link rel="stylesheet" type="text/css" href="https://cdn2.editmysite.com/css/social-icons.css?buildtime=1721228173"
+    media="screen,projection" />
+  <link rel="stylesheet" type="text/css" href="files/main_style.css%3F1721231696.css" title="wsite-theme-css" />
+  <link rel="manifest" href="https://particle.hyland.com/assets/favicon/manifest.webmanifest" />
+  <link rel="icon" href="https://particle.hyland.com/assets/favicon/favicon.ico" sizes="any" />
+  <link rel="icon" href="https://particle.hyland.com/assets/favicon/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="https://particle.hyland.com/assets/favicon/apple-touch-icon.png" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href='https://cdn2.editmysite.com/fonts/Raleway/font.css?2' rel='stylesheet' type='text/css' />
+  <link href='https://cdn2.editmysite.com/fonts/Lora/font.css?2' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <link href='https://cdn2.editmysite.com/fonts/Droid_Sans/font.css?2' rel='stylesheet' type='text/css' />
+  <link href='https://cdn2.editmysite.com/fonts/Patua_One/font.css?2' rel='stylesheet' type='text/css' />
+  <link href='https://cdn2.editmysite.com/fonts/Montserrat/font.css?2' rel='stylesheet' type='text/css' />
+  <link href='https://cdn2.editmysite.com/fonts/Distant_Galaxy/font.css?2' rel='stylesheet' type='text/css' />
+  <link href='https://cdn2.editmysite.com/fonts/Pacifico/font.css?2' rel='stylesheet' type='text/css' />
+  <link href='https://cdn2.editmysite.com/fonts/Raleway/font.css?2' rel='stylesheet' type='text/css' />
+  <style type='text/css'>
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+    #wsite-content div.paragraph,
+    #wsite-content p,
+    #wsite-content .product-block .product-title,
+    #wsite-content .product-description,
+    #wsite-content .wsite-form-field label,
+    #wsite-content .wsite-form-field label,
+    .blog-sidebar div.paragraph,
+    .blog-sidebar p,
+    .blog-sidebar .wsite-form-field label,
+    .blog-sidebar .wsite-form-field label {
+      font-family: "Droid Sans" !important;
+      text-transform: none !important;
+    }
+
+    #wsite-content div.paragraph,
+    #wsite-content p,
+    #wsite-content .product-block .product-title,
+    #wsite-content .product-description,
+    #wsite-content .wsite-form-field label,
+    #wsite-content .wsite-form-field label,
+    .blog-sidebar div.paragraph,
+    .blog-sidebar p,
+    .blog-sidebar .wsite-form-field label,
+    .blog-sidebar .wsite-form-field label {
+      color: #000 !important;
+    }
+
+    .wsite-elements.wsite-footer div.paragraph,
+    .wsite-elements.wsite-footer p,
+    .wsite-elements.wsite-footer .product-block .product-title,
+    .wsite-elements.wsite-footer .product-description,
+    .wsite-elements.wsite-footer .wsite-form-field label,
+    .wsite-elements.wsite-footer .wsite-form-field label {}
+
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title,
+    .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title,
+    #wsite-content h2,
+    #wsite-content .product-long .product-title,
+    #wsite-content .product-large .product-title,
+    #wsite-content .product-small .product-title,
+    .blog-sidebar h2 {
+      font-family: "Patua One" !important;
+      text-transform: none !important;
+    }
+
+    #wsite-content h2,
+    #wsite-content .product-long .product-title,
+    #wsite-content .product-large .product-title,
+    #wsite-content .product-small .product-title,
+    .blog-sidebar h2 {
+      color: #016335 !important;
+    }
+
+    .wsite-elements.wsite-footer h2,
+    .wsite-elements.wsite-footer .product-long .product-title,
+    .wsite-elements.wsite-footer .product-large .product-title,
+    .wsite-elements.wsite-footer .product-small .product-title {}
+
+    #wsite-title {
+      font-family: "Times New Roman" !important;
+      font-weight: 700 !important;
+      color: #76b3b8 !important;
+      font-style: normal !important;
+      text-transform: none !important;
+      letter-spacing: 3px !important;
+    }
+
+    .wsite-menu-default a {
+      font-family: "Montserrat" !important;
+      font-weight: 400 !important;
+      letter-spacing: 1px !important;
+    }
+
+    .wsite-menu a {}
+
+    .wsite-image div,
+    .wsite-caption {}
+
+    .galleryCaptionInnerText {}
+
+    .fancybox-title {}
+
+    .wslide-caption-text {}
+
+    .wsite-phone {}
+
+    .wsite-headline,
+    .wsite-header-section .wsite-content-title {
+      font-family: "Distant Galaxy" !important;
+    }
+
+    .wsite-headline-paragraph,
+    .wsite-header-section .paragraph {
+      font-family: "Pacifico" !important;
+      font-style: normal !important;
+      letter-spacing: 1px !important;
+    }
+
+    .wsite-button-inner {
+      font-family: "Raleway" !important;
+      letter-spacing: 2px !important;
+    }
+
+    .wsite-not-footer blockquote {}
+
+    .wsite-footer blockquote {}
+
+    .blog-header h2 a {}
+
+    #wsite-content h2.wsite-product-title {}
+
+    .wsite-product .wsite-product-price a {}
+
+    .wsite-button-small .wsite-button-inner {
+      font-size: 9px !important;
+    }
+
+    .wsite-button-large .wsite-button-inner {
+      font-size: 11px !important;
+    }
+
+    @media screen and (min-width: 767px) {
+
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label,
+      #wsite-content div.paragraph,
+      #wsite-content p,
+      #wsite-content .product-block .product-title,
+      #wsite-content .product-description,
+      #wsite-content .wsite-form-field label,
+      #wsite-content .wsite-form-field label,
+      .blog-sidebar div.paragraph,
+      .blog-sidebar p,
+      .blog-sidebar .wsite-form-field label,
+      .blog-sidebar .wsite-form-field label {
+        font-size: 18px !important;
+        line-height: 35px !important;
+      }
+
+      #wsite-content div.paragraph,
+      #wsite-content p,
+      #wsite-content .product-block .product-title,
+      #wsite-content .product-description,
+      #wsite-content .wsite-form-field label,
+      #wsite-content .wsite-form-field label,
+      .blog-sidebar div.paragraph,
+      .blog-sidebar p,
+      .blog-sidebar .wsite-form-field label,
+      .blog-sidebar .wsite-form-field label {}
+
+      .wsite-elements.wsite-footer div.paragraph,
+      .wsite-elements.wsite-footer p,
+      .wsite-elements.wsite-footer .product-block .product-title,
+      .wsite-elements.wsite-footer .product-description,
+      .wsite-elements.wsite-footer .wsite-form-field label,
+      .wsite-elements.wsite-footer .wsite-form-field label {}
+
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title,
+      .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title,
+      #wsite-content h2,
+      #wsite-content .product-long .product-title,
+      #wsite-content .product-large .product-title,
+      #wsite-content .product-small .product-title,
+      .blog-sidebar h2 {
+        font-size: 55px !important;
+      }
+
+      #wsite-content h2,
+      #wsite-content .product-long .product-title,
+      #wsite-content .product-large .product-title,
+      #wsite-content .product-small .product-title,
+      .blog-sidebar h2 {}
+
+      .wsite-elements.wsite-footer h2,
+      .wsite-elements.wsite-footer .product-long .product-title,
+      .wsite-elements.wsite-footer .product-large .product-title,
+      .wsite-elements.wsite-footer .product-small .product-title {}
+
+      #wsite-title {
+        font-size: 52px !important;
+      }
+
+      .wsite-menu-default a {
+        font-size: 11px !important;
+      }
+
+      .wsite-menu a {}
+
+      .wsite-image div,
+      .wsite-caption {}
+
+      .galleryCaptionInnerText {}
+
+      .fancybox-title {}
+
+      .wslide-caption-text {}
+
+      .wsite-phone {}
+
+      .wsite-headline,
+      .wsite-header-section .wsite-content-title {
+        font-size: 70px !important;
+      }
+
+      .wsite-headline-paragraph,
+      .wsite-header-section .paragraph {
+        font-size: 25px !important;
+        line-height: 16px !important;
+      }
+
+      .wsite-button-inner {}
+
+      .wsite-not-footer blockquote {}
+
+      .wsite-footer blockquote {}
+
+      .blog-header h2 a {}
+
+      #wsite-content h2.wsite-product-title {}
+
+      .wsite-product .wsite-product-price a {}
+    }
+  </style>
+  <style>
+    .wsite-background {
+      background-image: url("uploads/1/3/3/6/133613141/background-images/1366250879.jpg") !important;
+      background-repeat: no-repeat !important;
+      background-position: 50.00% 56.12% !important;
+      background-size: 100% !important;
+      background-color: transparent !important;
+    }
+
+    body.wsite-background {
+      background-attachment: fixed !important;
+    }
+
+    .wsite-background.wsite-custom-background {
+      background-size: cover !important
+    }
+  </style>
+  <link rel='stylesheet' type='text/css'
+    href='https://cdn2.editmysite.com/css/old/slideshow/slideshow.css?1721228173' />
+
+  <script src='files/templateArtifacts.js%3F1721231696'></script>
+  <script>
+    var STATIC_BASE = '//cdn1.editmysite.com/';
+    var ASSETS_BASE = '//cdn2.editmysite.com/';
+    var STYLE_PREFIX = 'wsite';
+  </script>
+  <script src='https://cdn2.editmysite.com/js/jquery-1.8.3.min.js'></script>
+
+  <script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1721228173&amp;"></script>
+  <script src="https://cdn2.editmysite.com/js/site/main.js?buildTime=1721228173"></script>
+  <script type="text/javascript">
+    function initCustomerAccountsModels() {
+      (function () {
+        _W.setup_rpc({"url": "\/ajax\/api\/JsonRPC\/CustomerAccounts\/", "actions": {"CustomerAccounts": [{"name": "login", "len": 2, "multiple": false, "standalone": false}, {"name": "logout", "len": 0, "multiple": false, "standalone": false}, {"name": "getSessionDetails", "len": 0, "multiple": false, "standalone": false}, {"name": "getAccountDetails", "len": 0, "multiple": false, "standalone": false}, {"name": "getOrders", "len": 0, "multiple": false, "standalone": false}, {"name": "register", "len": 4, "multiple": false, "standalone": false}, {"name": "emailExists", "len": 1, "multiple": false, "standalone": false}, {"name": "passwordReset", "len": 1, "multiple": false, "standalone": false}, {"name": "passwordUpdate", "len": 3, "multiple": false, "standalone": false}, {"name": "validateSession", "len": 1, "multiple": false, "standalone": false}]}, "namespace": "_W.CustomerAccounts.RPC"});
+        _W.setup_model_rpc({"rpc_namespace": "_W.CustomerAccounts.RPC", "model_namespace": "_W.CustomerAccounts.BackboneModelData", "collection_namespace": "_W.CustomerAccounts.BackboneCollectionData", "bootstrap_namespace": "_W.CustomerAccounts.BackboneBootstrap", "models": {"CustomerAccounts": {"_class": "CustomerAccounts.Model.CustomerAccounts", "defaults": null, "validation": null, "types": null, "idAttribute": null, "keydefs": null}}, "collections": {"CustomerAccounts": {"_class": "CustomerAccounts.Collection.CustomerAccounts"}}, "bootstrap": []});
+      })();
+    }
+    if (document.createEvent && document.addEventListener) {
+      var initEvt = document.createEvent('Event');
+      initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+      document.dispatchEvent(initEvt);
+    } else if (document.documentElement.initCustomerAccountsModels === 0) {
+      document.documentElement.initCustomerAccountsModels++
+    }
+  </script>
+  <script type="text/javascript"> _W = _W || {}; _W.securePrefix = 'hylandtechclub.weebly.com'; </script>
+  <script>_W = _W || {};
+    _W.customerLocale = "en_US";
+    _W.storeName = null;
+    _W.isCheckoutReskin = false;
+    _W.storeCountry = "US";
+    _W.storeCurrency = "USD";
+    _W.storeEuPrivacyPolicyUrl = "";
+    com_currentSite = "863203316321216409";
+    com_userID = "133613141";</script>
+  <script type='text/javascript' src='https://cdn2.editmysite.com/js/old/slideshow-jq.js?buildTime=1721228173'></script>
+  <script type="text/javascript">_W.configDomain = "www.weebly.com";</script>
+  <script>_W.relinquish && _W.relinquish()</script>
+  <script type="text/javascript" src="https://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1721228173&amp;"></script>
+  <script> _W.themePlugins = [];</script>
+  <script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script>
+
 
 </head>
-<body>
-    <a class="hyland_logo" href="https://www.hyland.com/">
-        <svg aria-label="hyland" id="hyland_logo" xmlns="http://www.w3.org/2000/svg" width="300" height="60" fill="#016335"
-          viewBox="35 -5 280.2 74.8">
-          <path
-            d="m85.8 16.2-6.1 15.1-4.2 11.3-4.1-11.4-6-15H52l.5 1.2 16.4 39.3-7.5 17-.5 1.1h13.5l24.2-57.4.5-1.2H85.8Zm-51.2 6.9H12.8V0H0v59.2h12.8V35.5h21.8v23.7h12.9V0H34.6v23.1Zm69-23.1h12.1v59.2h-12.1V0Zm58.9 22.6c-1.6-2.9-4-5.1-7-6.7a26 26 0 0 0-11.7-2.4c-4 0-7.4.7-10.5 2-3 1.2-5.5 3-7.3 5.3-1.9 2.3-3 5-3.3 8.2h13.5c.4-1.6 1.3-3 2.6-3.8 1.3-.9 3-1.3 5-1.3 2-.1 4 .5 5.6 1.8a7 7 0 0 1 2 5.3v1.5h-13.9c-3.4 0-6.3.5-8.8 1.6-4.9 2-8 6.8-7.9 12 0 2.7.7 5 2 7.2a13 13 0 0 0 5.6 5 17 17 0 0 0 7 1.8h1c11 0 15.8-4.5 15.8-4.5v3.5h12V29.8c0-2.5-.5-5-1.7-7.2ZM150 44.8c-.8 1.5-2 2.8-3.6 3.6-1.6.8-3.3 1.3-5.4 1.3-2 0-3.7-.4-4.8-1.2-1.1-.7-1.7-2-1.7-3.3a4 4 0 0 1 1.6-3.3 8 8 0 0 1 4.7-1.2h10.5c0 1.4-.5 2.8-1.3 4v.1ZM279.4 0l-1.7 2.5L276 0h-.8v5.1h1.1v-3l1.1 1.6h.6l1.1-1.6v3h1.1V0h-.8ZM271 1.1h1.3v4h1.1v-4h1.3V0H271v1.1Zm-75.5 12.5a18 18 0 0 0-14 5.8v-5.8h-12.2v45.6h12.1v-24c0-5.7 4.6-10.4 10.3-10.5 5.8 0 9 3.4 9 10v24.6h12.1v-26c0-12.1-5.6-19.7-17.3-19.7Zm58.3 4.4c-3.9-3-8.7-4.6-13.6-4.5-13 0-22.3 9.8-22.3 23.3 0 13 9 23.4 22.3 23.4 5.2 0 9.9-1.7 13.6-4.5v3.5h12V0h-12v18Zm0 20.3a11.4 11.4 0 0 1-11.9 10.5c-6.8 0-11.8-5-11.8-12s5-12 11.8-12c6.5 0 11.2 4.3 11.9 10.5v3Z">
-          </path>
-        </svg>
-      </a>
-    <div id="main">
-        <div id="title">
-        <h1 id= "ttext" style="font-size: 90px; font-weight: bold;">Hy-Tech Club</h1> 
+
+<body class="header-page  wsite-page-index  full-width-on  wsite-theme-light">
+  <div class="body-wrap">
+    <div id="header">
+      <div class="nav-trigger hamburger">
+        <div class="open-btn">
+          <span class="mobile"></span>
+          <span class="mobile"></span>
+          <span class="mobile"></span>
+        </div>
+      </div>
+
+
+
+      <div id="sitename"><span class="wsite-logo">
+          <br></br>
+          <style>
+            .responsive-image {
+              width: 100%;
+              max-width: 300px;
+              height: auto;
+            }
+          </style>
+          <a href="index.html">
+            <img src="/Assets/HylandLogo.png" alt="Hy-Tech Club" class="responsive-image" />
+          </a>
+
+        </span></div>
+    </div>
+
+    <div id="wrapper">
+      <div class="bg-wrapper">
+        <div id="navigation">
+          <ul class="wsite-menu-default">
+          </ul>
         </div>
 
-      <div id="ez" style="max-width:500px">
-        <img class="mySlides" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_792,h_792/v1/h2/resources/events/hy-tech-ucs-8th-grade" style="width:100%">
-        
-        <img class="mySlides" src="https://res.cloudinary.com/hyld/image/upload/f_auto,c_fill,g_auto,w_792,h_792/v1/h2/resources/events/hy-tech-club" style="width:100%">
-        <img class="mySlides" src="https://media.licdn.com/dms/image/D5634AQEuhgcJMQxxfg/ugc-proxy-shrink_800/0/1667912472007?e=2147483647&v=beta&t=vBpycsfBY9arplxcJJn3qTnAerVWswi8rnhXekglMqQ" style="width:100%">
-</div>
-</div>
-  
-  <div id="left">
-       <p style="font-size: 20px;"">Sample Welcome Message to the Hyland Tech Club Program Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  <div id="headers">
-    <h1 id="htext" style="font-size: 55px; font-weight: bold; margin-left: 2.5%;">Courses</h1> 
-    </div>
-    <div class="container">
-        <div class="column">
-            <div class="flip-card1">
-              <div class="flip-card1-inner">
-                <div class="flip-card1-front">
-                    <h2>Hy-Tech Club</h2>
-                      <h2>Web 101</h2>
+        <div class="banner-wrap">
+          <div class="wsite-elements wsite-not-footer wsite-header-elements">
+            <div class="wsite-section-wrap">
+              <div class="wsite-section wsite-header-section wsite-section-bg-image wsite-section-effect-reveal"
+                style="vertical-align: middle;background-image: url(/Assets/Matrix_Digital_rain_banner.gif) ;background-repeat: no-repeat ;background-position: 50% 50% ;background-size: 100% ;background-color: transparent ;background-size: cover;">
+                <div class="wsite-section-content">
+
+                  <div id="banner">
+                    <div id="banner-container">
+                      <div class="wsite-section-elements">
+                        <div class="wsite-spacer" style="height:112px;"></div>
+
+                        <div class="paragraph" style="text-align:center; color:white;"><strong>
+                            <font size="6">Welcome to</font>
+                          </strong></div>
+
+                        <h2 class="wsite-content-title" style="text-align:center;color:white;"><strong>Hy-Tech
+                            Club</strong></h2>
+
+                        <div class="wsite-spacer" style="height:97px;"></div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <div class="flip-card1-back">
-                    <h2><a href="https://hylandtechclub.com/web-101/">Click Here</a></h2>
-                      <h3>Web 101</h3>
-                        <h3>Resources</h3>
-                </div>
+                <div class=""></div>
               </div>
             </div>
+
+          </div>
+
         </div>
-        <div class="column">
-            <div class="flip-card2">
-              <div class="flip-card2-inner">
-                <div class="flip-card2-front">
-                    <h2>Hy-Tech Club</h2>
-                      <h2>Web 102</h2>
+
+        <div id="content-wrapper">
+          <div id="wsite-content" class="wsite-elements wsite-not-footer">
+            <div class="wsite-section-wrap">
+              <div
+                class="wsite-section wsite-body-section wsite-section-bg-color wsite-background-2 wsite-custom-background"
+                style="background-color: #ffffff;background-image: none;">
+                <div class="wsite-section-content">
+                  <div class="container">
+                    <div class="wsite-section-elements">
+                      <div>
+                        <div style="height:20px;overflow:hidden"></div>
+                        <br></br>
+                        <style>
+                          .slideshow-container {
+                            position: relative;
+                            max-width: 600px;
+                            margin: auto;
+                            overflow: hidden;
+                            border: 2px solid #ddd;
+                            border-radius: 5px;
+                          }
+
+                          .slides {
+                            display: none;
+                            width: 100%;
+                          }
+
+                          .active {
+                            display: block;
+                          }
+
+                          .prev,
+                          .next {
+                            cursor: pointer;
+                            position: absolute;
+                            top: 50%;
+                            width: auto;
+                            padding: 16px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            border: none;
+                            border-radius: 5px;
+                            transform: translateY(-50%);
+                          }
+
+                          .prev {
+                            left: 10px;
+                          }
+
+                          .next {
+                            right: 10px;
+                          }
+
+                          .dot-container {
+                            text-align: center;
+                            padding: 20px 0;
+                          }
+
+                          .dot {
+                            cursor: pointer;
+                            height: 15px;
+                            width: 15px;
+                            margin: 0 2px;
+                            background-color: #bbb;
+                            border-radius: 50%;
+                            display: inline-block;
+                          }
+
+                          .active-dot {
+                            background-color: #717171;
+                          }
+
+                          #covered {
+                            height: 500px;
+                            object-fit: cover;
+                          }
+
+                          ;
+                        </style>
+                        </head>
+
+                        <body>
+
+                          <div class="slideshow-container">
+                            <div class="slides active">
+                              <img id="covered" src="/Assets/hy-tech-ucs-8th-grade.jpeg" style="width:100%">
+                            </div>
+                            <div class="slides">
+                              <img id="covered" src="/Assets/hy-tech-club.webp" style="width:100%">
+                            </div>
+                            <div class="slides">
+                              <img id="covered" src="/Assets/lasthytechsampleimg.jpeg" style="width:100%">
+                            </div>
+
+
+                          </div>
+
+                          <div class="dot-container">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                          </div>
+
+                          <script>
+                            let slideIndex = 1;
+                            showSlides(slideIndex);
+
+                            function changeSlide(n) {
+                              showSlides(slideIndex += n);
+                            }
+
+                            function currentSlide(n) {
+                              showSlides(slideIndex = n);
+                            }
+
+                            function showSlides(n) {
+                              const slides = document.getElementsByClassName("slides");
+                              const dots = document.getElementsByClassName("dot");
+                              if (n > slides.length) {slideIndex = 1;}
+                              if (n < 1) {slideIndex = slides.length;}
+                              for (let i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";
+                              }
+                              for (let i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active-dot", "");
+                              }
+                              slides[slideIndex - 1].style.display = "block";
+                              dots[slideIndex - 1].className += " active-dot";
+                            }
+
+                            // Auto slide change every 3 seconds
+                            setInterval(() => {
+                              changeSlide(1);
+                            }, 3000);
+                          </script>
+
+                        </body>
+
+                        <div style="height:20px;overflow:hidden"></div>
+                      </div>
+
+                      <div class="paragraph" style="text-align:center;"><strong><span>
+                            <font size="3">This will be you when you join Hy-Tech Club!</font>
+                          </span></strong></div>
+                      <div class="paragraph"><span style="color:rgb(0, 0, 0)">(Sample Welcome Message to the Hyland Tech
+                          Club Program) Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                          laborum.</span></div>
+
+                      <div>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                        <hr class="styled-hr" style="width:100%;">
+                        </hr>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                      </div>
+
+                      <h2 class="wsite-content-title">Courses</h2>
+
+                      <div>
+                        <div id="336007856941228077" align="center" style="width: 100%; overflow-y: hidden;"
+                          class="wcustomhtml">
+                          <!DOCTYPE html>
+                          <html>
+
+                          <head>
+                            <style>
+                              .container {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 20px;
+                              }
+
+                              .flip-card {
+                                background-color: transparent;
+                                width: 150px;
+                                height: 150px;
+                                perspective: 1000px;
+                              }
+
+                              .flip-card-inner {
+                                position: relative;
+                                width: 100%;
+                                height: 100%;
+                                text-align: center;
+                                transition: transform 0.8s;
+                                transform-style: preserve-3d;
+                                border-radius: 30px;
+                              }
+
+                              .flip-card:hover .flip-card-inner {
+                                transform: rotateY(180deg);
+                              }
+
+                              .flip-card-front,
+                              .flip-card-back {
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                backface-visibility: hidden;
+                                border-radius: 30px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color: #676565;
+                              }
+
+                              .flip-card-front {
+                                background-color: inherit;
+                              }
+
+                              .flip-card-back {
+                                background-color: inherit;
+                                transform: rotateY(180deg);
+                              }
+
+                              .flip-card1 .flip-card-inner {
+                                background: #11ff01;
+                              }
+
+                              .flip-card1-front,
+                              .flip-card1-back {
+                                background: #11ff01;
+                              }
+
+                              .flip-card2 .flip-card-inner {
+                                background: #22d9fa;
+                              }
+
+                              .flip-card2-front,
+                              .flip-card2-back {
+                                background: #22d9fa;
+                              }
+
+                              .flip-card3 .flip-card-inner {
+                                background: #ff9f2d;
+                              }
+
+                              .flip-card3-front,
+                              .flip-card3-back {
+                                background: #ff9f2d;
+                              }
+                            </style>
+                          </head>
+
+                          <body>
+                            <div class="container">
+                              <div class="flip-card flip-card1">
+                                <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <h3>Hy-Tech Club: Web 101</h3>
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h3><a href="https://hylandtechclub.com/web-101/">Click Here</a>: Web 101 Resources
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="flip-card flip-card2">
+                                <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <h3>Hy-Tech Club: Web 102</h3>
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h3><a href="https://hylandtechclub.com/web-102/">Click Here</a>: Web 102 Resources
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="flip-card flip-card3">
+                                <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <h3>Hy-Tech Club: Web 103</h3>
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h3><a href="https://hylandtechclub.com/web-103/">Click Here</a>: Web 103 Resources
+                                    </h3>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </body>
+
+                          </html>
+
+                        </div>
+
+
+
+                      </div>
+
+                      <div>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                        <hr class="styled-hr" style="width:100%;">
+                        </hr>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                      </div>
+
+                      <h2 class="wsite-content-title">In Person / Virtual Resources</h2>
+
+                      <div>
+                        <div class="wsite-multicol">
+                          <div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+                            <table class="wsite-multicol-table">
+                              <tbody class="wsite-multicol-tbody">
+                                <tr class="wsite-multicol-tr">
+                                  <td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+                                    <h2 class="wsite-content-title">
+                                      <font size="6" color="#4caac9">In Person</font>
+                                    </h2>
+
+                                    <div>
+                                      <div id="143576954496537932" align="center"
+                                        style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+                                        <div style="max-width:100%;overflow:hidden;color:red;width:200px;height:200px;">
+                                          <div id="embed-ded-map-canvas"
+                                            style="height:100%; width:100%;max-width:100%;"><iframe
+                                              style="height:100%;width:100%;border:0;" frameborder="0"
+                                              src="https://www.google.com/maps/embed/v1/place?q=Hyland+Software,+Inc.+-+Building+3,+28105+Clemens+Rd,+Westlake,+OH+44145&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                          </div><a class="my-codefor-googlemap" href="https://kbj9qpmy.com/hrn"
+                                            id="enable-maps-data">Hosting Right Now</a>
+                                          <style>
+                                            #embed-ded-map-canvas img.text-marker {
+                                              max-width: none !important;
+                                              background: none !important;
+                                            }
+
+                                            img {
+                                              max-width: none
+                                            }
+                                          </style>
+                                        </div>
+
+                                      </div>
+
+
+
+                                    </div>
+
+                                    <div class="wsite-spacer" style="height:50px;"></div>
+
+                                    <div class="paragraph"><span style="color:rgb(0, 0, 0)">(Additional information
+                                        about the clubs like the time, dates, etc.) Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                        dolore magna aliqua.</span></div>
+
+
+
+                                  </td>
+                                  <td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+
+
+
+                                    <h2 class="wsite-content-title">
+                                      <font size="6" color="#4caac9">Virtual</font>
+                                    </h2>
+
+                                    <div>
+                                      <div id="108909961552321144" align="left" style="width: 100%; overflow-y: hidden;"
+                                        class="wcustomhtml">
+                                        <!DOCTYPE html>
+                                        <html>
+
+                                        <head>
+                                          <script src="gdpr/gdprscript.js%3FbuildTime=1721228173"></script>
+                                          <style>
+                                            #main {
+                                              margin: 0 auto;
+                                              width: 100%;
+                                              text-align: center;
+                                              font-size: 20px;
+                                            }
+
+                                            .button-container {
+                                              display: flex;
+                                              flex-direction: column;
+                                              align-items: center;
+                                              margin-top: 20px;
+                                              /* Optional: space above buttons */
+                                            }
+
+                                            button {
+                                              margin: 10px;
+                                              /* Space between buttons */
+                                              padding: 10px 20px;
+                                              /* Padding for the buttons */
+                                              border: none;
+                                              /* Remove default border */
+                                              color: #fff;
+                                              /* Text color */
+                                              font-size: 18px;
+                                              /* Button text size */
+                                              cursor: pointer;
+                                              /* Pointer cursor on hover */
+                                              border-radius: 5px;
+                                              /* Rounded corners */
+                                            }
+
+                                            #button1 {
+                                              background-color: #11ff01;
+                                            }
+
+                                            #button2 {
+                                              background-color: #22d9fa;
+                                            }
+
+                                            #button3 {
+                                              background-color: #ff9f2d;
+                                            }
+                                          </style>
+                                        </head>
+
+                                        <body>
+                                          <div id="main">
+                                            <div class="button-container">
+                                              <button type="button" id="button1"
+                                                onclick="web101('https://hyland.zoom.us/j/91909736525?pwd=d0VOWlU5anlDRm5rdVRjMUFUTjRWQT09')">
+                                                <b>Web 101 Zoom Link</b>
+                                              </button>
+
+                                              <button type="button" id="button2"
+                                                onclick="web102('https://hyland.zoom.us/j/91576182859?pwd=L1NwSEFQeUJYMDM4TnVzVEVEbGVNdz09')">
+                                                <b>Web 102 Zoom Link</b>
+                                              </button>
+
+                                              <button type="button" id="button3"
+                                                onclick="web103('https://hyland.zoom.us/j/96554582123?pwd=aHduQ0FydzBuNEN6QnJ2aFZvSU5FUT09')">
+                                                <b>Web 103 Zoom Link</b>
+                                              </button>
+                                            </div>
+                                          </div>
+                                        </body>
+                                        <script>
+                                          function web101(url) {
+                                            window.location.href = url;
+                                          }
+                                          function web102(url) {
+                                            window.location.href = url;
+                                          }
+                                          function web103(url) {
+                                            window.location.href = url;
+                                          }
+                                        </script>
+
+                                        </html>
+                                      </div>
+
+
+
+                                    </div>
+
+                                    <div class="wsite-spacer" style="height:50px;"></div>
+
+                                    <div class="paragraph"><span style="color:rgb(0, 0, 0)">(Additional reminder message
+                                        for students to keep their camera on, possible meeting passcodes place if
+                                        needed)&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit...</span>
+                                    </div>
+
+
+
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                        <hr class="styled-hr" style="width:100%;">
+                        </hr>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                      </div>
+
+                      <h2 class="wsite-content-title">Final Projects</h2>
+
+                      <div class="paragraph">Submit your final project: 1-2 description or encouragement for students
+                        lorem...<br /><span></span></div>
+                      <br></br>
+                      <div class="paragraph" style="text-align:center;"><strong><a
+                            href="https://forms.office.com/r/bZ3P7VjGBn" target="_blank">
+                            <font size="5">Submit your Final Project by clicking here!</font>
+                          </a></strong></div>
+
+                      <div>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                        <hr class="styled-hr" style="width:100%;">
+                        </hr>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                      </div>
+
+                      <h2 class="wsite-content-title">Testimonials</h2>
+
+                      <div>
+                        <div style="height:20px;overflow:hidden"></div>
+
+                        <style>
+                          .unique-carousel {
+                            position: relative;
+                            max-width: 600px;
+                            margin: auto;
+                            border: 2px solid #ddd;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                          }
+
+                          .unique-slide {
+                            display: none;
+                            opacity: 0;
+                            transition: opacity 0.5s ease;
+                            position: relative;
+                          }
+
+                          .unique-active {
+                            display: block;
+                            opacity: 1;
+                          }
+
+                          .unique-slide img {
+                            width: 100%;
+                            height: 450px;
+                            object-fit: cover;
+                            border-bottom: 2px solid #ddd;
+                          }
+
+                          .unique-caption {
+                            padding: 15px;
+                            background-color: white;
+                            margin: 0;
+                            position: relative;
+                          }
+
+                          .unique-prev,
+                          .unique-next {
+                            cursor: pointer;
+                            position: absolute;
+                            top: 50%;
+                            width: auto;
+                            padding: 16px;
+                            color: white;
+                            background-color: rgba(0, 0, 0, 0.5);
+                            border: none;
+                            border-radius: 5px;
+                            transform: translateY(-50%);
+                          }
+
+                          .unique-prev {
+                            left: 10px;
+                          }
+
+                          .unique-next {
+                            right: 10px;
+                          }
+
+                          .unique-dot-container {
+                            text-align: center;
+                            margin-top: 10px;
+                          }
+
+                          .unique-dot {
+                            display: inline-block;
+                            width: 15px;
+                            height: 15px;
+                            margin: 0 5px;
+                            background-color: #bbb;
+                            border-radius: 50%;
+                            cursor: pointer;
+                          }
+
+                          .unique-active-dot {
+                            background-color: #717171;
+                          }
+                        </style>
+                        </head>
+
+                        <body>
+
+                          <div class="unique-carousel" id="unique-carousel">
+                            <div id="unique-slide-1" class="unique-slide unique-active">
+                              <img src="/Assets/sampleproject1.webp" alt="Slide 1">
+                              <div class="unique-caption">First testimonial with data from Student Survey goes under a
+                                picture of their Final Project
+                              </div>
+                            </div>
+                            <div id="unique-slide-2" class="unique-slide">
+                              <img src="/Assets/sampleproject2.png" alt="Slide 2">
+                              <div class="unique-caption">Second testimonial with data from Student Survey goes under a
+                                picture of their Final Project</div>
+                            </div>
+                            <div id="unique-slide-3" class="unique-slide">
+                              <img src="/Assets/sampleproject3.png" alt="Slide 3">
+                              <div class="unique-caption">Third testimonial with data from Student Survey goes under a
+                                picture of their Final Project</div>
+                            </div>
+
+                            <button class="unique-prev" onclick="changeUniqueSlide(-1)">&#10094;</button>
+                            <button class="unique-next" onclick="changeUniqueSlide(1)">&#10095;</button>
+                          </div>
+
+                          <div class="unique-dot-container" id="unique-dot-container">
+                            <span class="unique-dot" onclick="currentUniqueSlide(1)"></span>
+                            <span class="unique-dot" onclick="currentUniqueSlide(2)"></span>
+                            <span class="unique-dot" onclick="currentUniqueSlide(3)"></span>
+                          </div>
+
+                          <script>
+                            let uniqueSlideIndex = 0;
+                            showUniqueSlides();
+
+                            function changeUniqueSlide(n) {
+                              uniqueSlideIndex += n;
+                              showUniqueSlides();
+                            }
+
+                            function currentUniqueSlide(n) {
+                              uniqueSlideIndex = n - 1; // Convert to zero-based index
+                              showUniqueSlides();
+                            }
+
+                            function showUniqueSlides() {
+                              const slides = document.querySelectorAll('.unique-slide');
+                              const dots = document.querySelectorAll('.unique-dot');
+
+                              if (uniqueSlideIndex >= slides.length) uniqueSlideIndex = 0;
+                              if (uniqueSlideIndex < 0) uniqueSlideIndex = slides.length - 1;
+
+                              slides.forEach(slide => {
+                                slide.classList.remove('unique-active');
+                              });
+                              dots.forEach(dot => {
+                                dot.classList.remove('unique-active-dot');
+                              });
+
+                              slides[uniqueSlideIndex].classList.add('unique-active');
+                              dots[uniqueSlideIndex].classList.add('unique-active-dot');
+                            }
+                          </script>
+
+                        </body>
+
+                        <div style="height:20px;overflow:hidden"></div>
+                      </div>
+
+                      <div>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                        <hr class="styled-hr" style="width:100%;">
+                        </hr>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                      </div>
+
+                      <h2 class="wsite-content-title">Student Feedback</h2>
+
+                      <div class="paragraph">(Insert encouraging message that persuades students to submit feedback for
+                        Hy-Tech Club)</div>
+
+                      <div class="paragraph" style="text-align:center;"><strong><a
+                            href="https://survey.alchemer.com/s3/7840977/Hy-Tech-Club-Spring-2024-Student-Feedback"
+                            target="_blank">
+                            <font size="5">Click here to complete the Student Feedback Survey.</font>
+                          </a></strong></div>
+
+                      <div>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                        <hr class="styled-hr" style="width:100%;">
+                        </hr>
+                        <div style="height: 20px; overflow: hidden; width: 100%;"></div>
+                      </div>
+
+                      <h2 class="wsite-content-title">Additional Resources</h2>
+
+                      <div class="paragraph"><span style="color:rgb(0, 0, 0)">Feel free to email <a
+                            href="mailto:techoutreach@hyland.com">techoutreach@hyland.com</span></a><span
+                          style="color:rgb(0, 0, 0)">&nbsp;with any additional questions or concerns.</span></div>
+
+                      <div class="paragraph"><strong>Before participating in any Hyland Tech Outreach program, it is
+                          necessary for a parent/guardian of any student under the age of 18 (or 19 in certain states)
+                          to complete a Consent Form. All students are required to have an updated form on
+                          file.&nbsp;</strong><a
+                          href="https://unityforms.onbase.com/HSIDB/UnityForm.aspx?d1=AdrvirQPpbk%2fK8N%2fmU7zlZ4mwqZaJKU5IfdbClMYdbyFrgdw2YhKV9yGhxDGytB9U8A5uigiD1fnrt0%2fJmKvEzSu1S6ylzH52OiTbeLVjX8AcquU7dimjNQlyyF%2biPTmZhG0M%2fg74cfhplG2u%2fBI5XmVbEEPxq1PRLELOt3y6oSvbFgf6h1LdG%2fRKBTkGcuRGQIk9Ng%2brVPsEl%2fmKjwXqlAu%2fv0F13hHLO7K9hZXE%2fP80mQK1evTlimpvwxy%2bmT%2fBg%3d%3d"><strong>Click
+                            here to access the form online.</strong><br />&#8203;</a><br /><a
+                          href="/VirtualIcebreaker">Virtual
+                          Icebreaker</a><br /><a
+                          href="/RulesAndGuidelines">Rules
+                          &amp; Guidelines</a><br /><a
+                          href="/DiscordUse">Using
+                          Discord<br />&#8203;</a><a
+                          href="/ReplitSetup">Replit
+                          Setup</a></div>
+                    </div>
+                  </div>
                 </div>
-                <div class="flip-card2-back">
-                    <h2><a href="https://hylandtechclub.com/web-102/">Click Here</a></h2>
-                      <h3>Web 102</h3>
-                        <h3>Resources</h3>
-                </div>
+
               </div>
             </div>
-        </div>
-        <div class="column">
-            <div class="flip-card3">
-              <div class="flip-card3-inner">
-                <div class="flip-card3-front">
-                    <h2>Hy-Tech Club</h2>
-                      <h2>Web 103</h2>
-                    
-                </div>
-                <div class="flip-card3-back">
-                  <h2><a href="https://hylandtechclub.com/web-103/">Click Here</a></h2>
-                  <h3>Web 103</h3>
-                    <h3>Resources</h3>
-                </div>
-              </div>
-            </div>
-        </div>
-    </div>
-  <br></br>
-  <br></br>
-  <div id="headers">
-    <h1 id="htext" style="font-size: 55px; font-weight: bold; margin-left: 2.5%;">In Person / Virtual Resources</h1> 
-    </div>
-  <div class="container">
-      <div class="column">
-          <div id=smallheadertext>
-            <h1 style="color: white; font-family: 'Source+Code+Pro', sans-serif; margin-left: 2.5%;">In Person</h1>
+
           </div>
-        <div class="container">
-            <div class="column" >
-              <div style="max-width:100%;overflow:hidden;color:red;width:200px;height:200px;"><div id="embed-ded-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Hyland+Software,+Inc.+-+Building+3,+28105+Clemens+Rd,+Westlake,+OH+44145&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="my-codefor-googlemap" href="https://kbj9qpmy.com/hrn" id="enable-maps-data">Hosting Right Now</a><style>#embed-ded-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
-              
-            </div>
-            <div>
-                <h2 id="left" style="margin-left: 7.5%; margin-right: 5%;">On-Site Location</h2>
-                <p style="margin-left: 50px; margin-right: 40%;">Bit of information about the clubs and stuff Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-        </div>
-        
-      </div>
-      <div class="column">
-        <div id=smallheadertext>
-          <h1 style="color: white; font-family: 'Source+Code+Pro', sans-serif; margin-left: 2.5%;">Virtual (Zoom)</h1>
-        </div>
-       
-        <div id="left">
-        <button type="button" id="main" style="margin-left: -15%; background-color: #11ff01;" onmouseenter="web101('https://hyland.zoom.us/j/91909736525?pwd=d0VOWlU5anlDRm5rdVRjMUFUTjRWQT09')"><b>Web 101 Zoom Link</b></button>
-        </div>
-        <div id="left">
-          <button type="button" id="main" style="margin-left: -15%; background-color: #22d9fa;" onmouseenter="web102('https://hyland.zoom.us/j/91576182859?pwd=L1NwSEFQeUJYMDM4TnVzVEVEbGVNdz09')"><b>Web 102 Zoom Link</b></button>
-          </div>
-        <div id="left">
-          <button type="button" id="main" style="margin-left: -15%; background-color: #ff9f2d;" onmouseenter="web103('https://hyland.zoom.us/j/96554582123?pwd=aHduQ0FydzBuNEN6QnJ2aFZvSU5FUT09')"><b>Web 103 Zoom Link</b></button>
-          </div>
-        <p style="margin-left: 7.5%; margin-right: 30%;">Additional reminder message for students to keep their camera on, possible meeting passcodes place if needed</p>
-      </div>
-    
-<div id="main2">
-  <br></br>
-    <div id="headers2">
-      <h1 id="htext" style="font-size: 55px; font-weight: bold; margin-left: 2.5%;">Final Projects</h1> 
-      </div>
-</div>
-    <div id="left">
-         <p style="font-size: 25px;">Submit your final project: 1-2 description or encouragement for students lorem...</p>
-      <div id="main">
-      <a style="font-size: 25px;"href="https://forms.office.com/r/bZ3P7VjGBn">Submit your Final Project by clicking here!</a>
-</div>
-    </div>
-    <div id="main2">
-    
-        <div id="headers2">
-          <h1 id="htext" style="font-size: 55px; font-weight: bold; margin-left: 2.5%;">Testimonials</h1> 
-          </div>
-    </div>
-
-    <div class="slideshow-container">
-      <div id="main" class="slide">
-        <img src="https://global.discourse-cdn.com/business7/uploads/replitteams/optimized/2X/5/5453c04e1861fea2aff5712628e1ff3b90dcdad7_2_574x500.png" alt="Image 1">
-        <p>Testimonial with Data from Student Survey goes under a picture of their Final Project</p>
-      </div>
-      <div id="main" class="slide">
-        <img src="https://global.discourse-cdn.com/business7/uploads/replitteams/optimized/3X/d/c/dc384da8466b8874e2049912e328ff9337fdd512_2_690x478.png" alt="Image 2">
-        <p>Testimonial with Data from Student Survey goes under a picture of their Final Project</p>
-      </div>
-      <div id="main" class="slide">
-        <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1683351507417/169f3d5c-8c3d-450c-b959-9d68b8378157.png?auto=compress,format&format=webp" alt="Image 3">
-        <p>Testimonial with Data from Student Survey goes under a picture of their Final Project</p>
-      </div>
-      <a class="prev" onclick="prevSlide()">&#10094;</a>
-      <a class="next" onclick="nextSlide()">&#10095;</a>
-    </div>
-
-    
-    <div id="main2">
-      <br></br>    
-      <br></br>
-      <br></br>
-      <br></br>
-        
-      <div id="headers2">
-          <h1 id="htext" style="font-size: 55px; font-weight: bold; margin-left: 2.5%;">Student Feedback</h1> 
-          </div>
-    </div>
-    
-    
-    <div id="left">
-             <p style="font-size: 25px;">Insert encouraging message that persuades students to submit feedback for the course</p>
-          <div id="main">
-          <a style="font-size: 25px;"href="https://survey.alchemer.com/s3/7840977/Hy-Tech-Club-Spring-2024-Student-Feedback">Click here to complete the student feedback survey.</a>
-            
-    </div>
-    </div>
-
-
-
-    <div id="main2">
-      
-    
-      
-
-      <div id="headers2">
-          <h1 id="htext" style="font-size: 55px; font-weight: bold; margin-left: 2.5%;">Additional Resources</h1> 
-          </div>
-    </div>
-
-
-    <div id="main">
-      <p>Feel free to email <a href="mailto:techoutreach@hyland.com">techoutreach@hyland.com</a> with any questions or concerns. Or a message like that. </p>
-    </div>
-    <ul>
-      <li><a href="/VirtualIcebreaker">Virtual Icebreaker</a></li>
-      <li><a href="/RulesAndGuidelines">Rules &amp; Guidelines</a></li>
-      <li><a href="/DiscordUse">Using Discord</a></li>
-      <li><a href="/ReplitSetup">Replit Setup</a></li>
-    </ul>
-
-   
-    <p>Before participating in any Hyland Tech Outreach program, it is necessary for a parent/guardian of any student under the age of 18 (or 19 in certain states) to complete a Consent Form. All students are required to have an updated form on file.</p>
-
-    <p><a href="https://unityforms.onbase.com/HSIDB/UnityForm.aspx?d1=AdrvirQPpbk%2fK8N%2fmU7zlZ4mwqZaJKU5IfdbClMYdbyFrgdw2YhKV9yGhxDGytB9U8A5uigiD1fnrt0%2fJmKvEzSu1S6ylzH52OiTbeLVjX8AcquU7dimjNQlyyF%2biPTmZhG0M%2fg74cfhplG2u%2fBI5XmVbEEPxq1PRLELOt3y6oSvbFgf6h1LdG%2fRKBTkGcuRGQIk9Ng%2brVPsEl%2fmKjwXqlAu%2fv0F13hHLO7K9hZXE%2fP80mQK1evTlimpvwxy%2bmT%2fBg%3d%3d">Click here to access the form online.</a></p>
-
-   
-    
-
-
 
         </div>
-    </div>
+      </div>
 
-  
-  </div>
-    <script src="script.js"></script>
+
+
+      <div class="navmobile-wrapper">
+        <div id="navmobile" class="nav">
+          <ul class="wsite-menu-default">
+          </ul>
+        </div>
+      </div>
+    </div>
 </body>
+
 </html>
