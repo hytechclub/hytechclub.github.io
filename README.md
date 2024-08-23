@@ -37,6 +37,9 @@ If you are joining virtually, please make sure you join the correct room! Here i
 - Meeting ID: 965 5458 2123
 - Passcode: 079621
 
+## Multiplayer Repl Links
+[Click here to submit Multiplayer Links to your Repl projects.](MultiplayerLink.md)
+
 ## club jams fall 2024
 [add a song to our spotify playlist!](https://open.spotify.com/playlist/5iZ4KCbm0XuhpbtVEeyBuh?si=e244fc8cbe374be8&pt=bda67660ad0361e80a19a92c33f7e7e0)
 
