@@ -19,26 +19,20 @@ Welcome to Hy-Tech Club!
 ## Zoom Information
 If you are joining virtually, please make sure you join the correct room! Here is the room information:
 
-### Web 101
-[Click here to join the meeting.](https://hyland.zoom.us/j/91909736525?pwd=d0VOWlU5anlDRm5rdVRjMUFUTjRWQT09)
+### Virtual Web 101
+[Click here to join the meeting.](https://hyland.zoom.us/j/93280600583?pwd=a1PRnubRe3G5HLo1nqbeUT4LQNrkBb.1)
 
-- Meeting ID: 919 0973 6525
-- Passcode: 930572
-
-### Web 102
-[Click here to join the meeting.](https://hyland.zoom.us/j/91576182859?pwd=L1NwSEFQeUJYMDM4TnVzVEVEbGVNdz09)
-
-- Meeting ID: 915 7618 2859
-- Passcode: 160559
+- Meeting ID: 932 8060 0583
+- Passcode: 036373
 
 ### Web 103
-[Click here to join the meeting.](https://hyland.zoom.us/j/96554582123?pwd=aHduQ0FydzBuNEN6QnJ2aFZvSU5FUT09)
+[Click here to join the meeting.](https://hyland.zoom.us/j/93219766148?pwd=OvBbRlxRTPOOBkYsMbaOXOSmOWBMMs.1)
 
-- Meeting ID: 965 5458 2123
-- Passcode: 079621
+- Meeting ID: 932 1976 6148
+- Passcode: 624075
 
-## Multiplayer Repl Links
-[Click here to submit Multiplayer Links to your Repl projects.](MultiplayerLink.md)
+## Link Submissions
+[Click here to submit links to your projects.](GlitchLink.md)
 
 ## club jams fall 2024
 [add a song to our spotify playlist!](https://open.spotify.com/playlist/5iZ4KCbm0XuhpbtVEeyBuh?si=e244fc8cbe374be8&pt=bda67660ad0361e80a19a92c33f7e7e0)
