@@ -42,7 +42,7 @@ If you are joining virtually, please make sure you join the correct room! Here i
 ## Resources
 - [Rules & Guidelines](/RulesAndGuidelines)
 - [Using Discord](/DiscordUse)
-- [Replit Setup](/ReplitSetup)
+- [Glitch Setup](/GlitchSetup.md)
 
 ## Parent/Guardian Consent Form
 Before participating in any Hyland Tech Outreach program, it is necessary for a parent/guardian of any student under the age of 18 (or 19 in certain states) to complete a Consent Form. All students are required to have an updated form on file.
