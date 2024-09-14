@@ -31,12 +31,6 @@ If you are joining virtually, please make sure you join the correct room! Here i
 - Meeting ID: 932 8060 0583
 - Passcode: 036373
 
-### Web 103
-[Click here to join the meeting.](https://hyland.zoom.us/j/93219766148?pwd=OvBbRlxRTPOOBkYsMbaOXOSmOWBMMs.1)
-
-- Meeting ID: 932 1976 6148
-- Passcode: 624075
-
 ## Link Submissions
 [Click here to submit links to your projects.](GlitchLink.md)
 
