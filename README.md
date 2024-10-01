@@ -31,13 +31,13 @@ If you are joining virtually, please make sure you join the correct room! Here i
 - Meeting ID: 932 8060 0583
 - Passcode: 036373
 
-## Link Submissions
-[Click here to submit links to your projects.](GlitchLink.md)
-
 ## club jams fall 2024
-[add a song to our spotify playlist!](https://open.spotify.com/playlist/5iZ4KCbm0XuhpbtVEeyBuh?si=e244fc8cbe374be8&pt=bda67660ad0361e80a19a92c33f7e7e0)
+[add a song to our spotify playlist!](https://open.spotify.com/playlist/0nNZqMyoA5qUA8LJiwP28i?si=37997083b47b4c3d&pt=97d5b3cd8bd65b5a61df899e6c534846)
 
 >_note: inappropriate songs will be removed_
+
+## Link Submissions
+[Click here to submit links to your projects.](GlitchLink.md)
 
 ## Resources
 - [Rules & Guidelines](/RulesAndGuidelines)
