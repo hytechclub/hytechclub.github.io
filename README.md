@@ -16,6 +16,12 @@ Welcome to Hy-Tech Club!
 - [Web 102: Introduction to JavaScript](/web-102)
 - [Web 103: Advanced JavaScript](/web-103)
 
+## Final Project Submissions
+[Click here to submit your final project.](https://forms.office.com/r/UkKhCNwXWU)
+
+## Final Survey
+[Click here to fill out the final survey.](https://forms.office.com/r/anvQQFddVq)
+
 ## Zoom Information
 If you are joining virtually, please make sure you join the correct room! Here is the room information:
 
