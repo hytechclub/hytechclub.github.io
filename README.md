@@ -50,10 +50,14 @@ If you are joining virtually, please make sure you join the correct room! Here i
 - [Using Discord](/DiscordUse)
 - [Glitch Setup](/GlitchSetup.md)
 
-## Parent/Guardian Consent Form
-Before participating in any Hyland Tech Outreach program, it is necessary for a parent/guardian of any student under the age of 18 (or 19 in certain states) to complete a Consent Form. All students are required to have an updated form on file.
+## Consent Forms
+Before participating in any Hyland Tech Outreach program, it is necessary for each student to have a consent form on file.
 
-[Click here to access the form online.](https://unityforms.onbase.com/HSIDB/UnityForm.aspx?d1=AdrvirQPpbk%2fK8N%2fmU7zlZ4mwqZaJKU5IfdbClMYdbyFrgdw2YhKV9yGhxDGytB9U8A5uigiD1fnrt0%2fJmKvEzSu1S6ylzH52OiTbeLVjX8AcquU7dimjNQlyyF%2biPTmZhG0M%2fg74cfhplG2u%2fBI5XmVbEEPxq1PRLELOt3y6oSvbFgf6h1LdG%2fRKBTkGcuRGQIk9Ng%2brVPsEl%2fmKjwXqlAu%2fv0F13hHLO7K9hZXE%2fP80mQK1evTlimpvwxy%2bmT%2fBg%3d%3d)
+### Students Under 18
+A parent or guardian must fill out this form: [Parent/Guardian Consent Form](https://unityforms.onbase.com/HSIDB/UnityForm.aspx?d1=AdrvirQPpbk%2fK8N%2fmU7zlZ4mwqZaJKU5IfdbClMYdbyFrgdw2YhKV9yGhxDGytB9U8A5uigiD1fnrt0%2fJmKvEzSu1S6ylzH52OiTbeLVjX8AcquU7dimjNQlyyF%2biPTmZhG0M%2fg74cfhplG2u%2fBI5XmVbEEPxq1PRLELOt3y6oSvbFgf6h1LdG%2fRKBTkGcuRGQIk9Ng%2brVPsEl%2fmKjwXqlAu%2fv0F13hHLO7K9hZXE%2fP80mQK1evTlimpvwxy%2bmT%2fBg%3d%3d)
+
+### Students 18 and Older
+The student must fill out this form: [Participant Consent Form](https://unityforms.onbase.com/HSIDB/UnityForm.aspx?d1=AX%2fXTSKezMF%2fAfCTU5ndoRfIa%2fMR0nq%2blzEwZiP4BG3D%2ba6NQdopbNBm7MYS7%2baruklLRBO8ZmUN4R3m%2b%2bRguyNmnU%2fpgcTHEeTCUdgn2xag8qp6OhnDkrNF79qJmFeb2tfnHtVPETu1X972LtZ9ZDf2oWTewqraA5ct4d6kR9g8E0ToEQi%2fyv7Ya0ue9qtiRI1BUAK08114jAtBBD%2b0XSTwecavP1PBioTpDwLYymgMnaVATn8fH%2fK6t2qG4Pf0vw%3d%3d)
 
 ## Contact
 Feel free to email [techoutreach@hyland.com](mailto:techoutreach@hyland.com) with any questions or concerns.
