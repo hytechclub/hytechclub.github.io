@@ -14,36 +14,12 @@ Welcome to Hy-Tech Club!
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
-- [Web 103: Advanced JavaScript](/web-103)
+- [Software Development Capstone](/capstone)
 
-## Final Project Submissions
-[Click here to submit your final project.](https://forms.office.com/r/UkKhCNwXWU)
-
-## Final Survey
-[Click here to fill out the final survey.](https://forms.office.com/r/anvQQFddVq)
-
-## Zoom Information
-If you are joining virtually, please make sure you join the correct room! Here is the room information:
-
-### Dinner Room
-[Click here to join the meeting.](https://hyland.zoom.us/j/91003245055?pwd=iNRzY3fZz1diwn1SHs90MIekOD77n8.1)
-
-- Meeting ID: 910 0324 5055
-- Passcode: 856383
-
-### Virtual Web 101
-[Click here to join the meeting.](https://hyland.zoom.us/j/93280600583?pwd=a1PRnubRe3G5HLo1nqbeUT4LQNrkBb.1)
-
-- Meeting ID: 932 8060 0583
-- Passcode: 036373
-
-## club jams fall 2024
-[add a song to our spotify playlist!](https://open.spotify.com/playlist/0nNZqMyoA5qUA8LJiwP28i?si=37997083b47b4c3d&pt=97d5b3cd8bd65b5a61df899e6c534846)
+## club jams spring 2025
+[add a song to our spotify playlist!](https://open.spotify.com/playlist/1RHG4jiyfHnAqKI5fTSqTf?si=05b3b6673d5f4771&pt=d7424f0b98afa3b5116b064bb9d53eef)
 
 >_note: inappropriate songs will be removed_
-
-## Link Submissions
-[Click here to submit links to your projects.](GlitchLink.md)
 
 ## Resources
 - [Rules & Guidelines](/RulesAndGuidelines)
