@@ -1,0 +1,234 @@
+<html>
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+      @font-face {
+        font-family: "Director";
+        src: url("Director-Regular.otf")
+          format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      h1 {
+        font-family: "Director";
+        text-align: center;
+      }
+
+      .container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      #bingo-board {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        border: 2px solid black;
+        background: #f8f1de;
+      }
+
+      .bingo-row {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .bingo-letter, .bingo-cell {
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+      }
+
+      .bingo-letter {
+        color: red;
+        font-family: "Director";
+        background: white;
+        font-weight: bold;
+      }
+
+      .bingo-cell {
+        background: black;
+        color: #555;
+        font-family: "Inter";
+        padding-left: 2px;
+        padding-right: 2px;
+      }
+
+      .bingo-cell.on {
+        color: #faf9e9;
+        text-shadow: 0px 0px 7px white;
+      }
+
+      .current {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .current p {
+        font-size: 150px;
+        line-height: 0px;
+        font-family: "Inter";
+      }
+    </style>
+    <script>
+      async function speak(message, callback) {
+        let ttsUrl = `https://tiktok-tts.weilnet.workers.dev/api/generation`;
+        let body = {
+          text: message,
+          voice: 'en_us_001'
+        }
+
+        try {
+          let response = await fetch(ttsUrl, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+          });
+
+          let responseJson = await response.json();
+          let audioUrl = `data:audio/wav;base64,${responseJson.data}`;
+          let audio = new Audio(audioUrl);
+          audio.onended = callback;
+          setTimeout(() => audio.play(), 1000);
+
+        } catch (e) {
+          alert(e);
+          return;
+        }
+      }
+
+      const possibleCalls = [];
+      const timePerNum = 60;
+      let countdownTime = timePerNum;
+
+      function setCalledNumbers(calledNums) {
+        localStorage.setItem("called-numbers", JSON.stringify(calledNums));
+      }
+
+      function getCalledNumbers() {
+        const calledNumbersFromStorage = localStorage.getItem("called-numbers");
+        if (calledNumbersFromStorage) {
+          return JSON.parse(calledNumbersFromStorage);
+        } else {
+          localStorage.setItem("called-numbers", "[]");
+          return [];
+        }
+      }
+
+      function storeCalledNumber(num) {
+        const currentCalledNumbers = getCalledNumbers();
+        setCalledNumbers([...currentCalledNumbers, num]);
+      }
+
+      function callRandomNumber() {
+        const impossibleCalls = getCalledNumbers();
+        const currentPossibleCalls = possibleCalls.filter(c => impossibleCalls.indexOf(c) === -1);
+        const randomIndex = Math.floor(Math.random() * currentPossibleCalls.length);
+        return currentPossibleCalls[randomIndex];
+      }
+
+      function showCalledNumbers() {
+        const calledNums = getCalledNumbers();
+        const allNumElements = document.querySelectorAll(".bingo-cell");
+        for (let i = 0; i < allNumElements.length; i++) {
+          const numElement = allNumElements[i];
+          const numWithLetter = `${"BINGO"[Math.floor(i / 15)]}${numElement.textContent}`;
+          if (calledNums.indexOf(numWithLetter) !== -1) {
+            numElement.classList.add("on");
+          } else {
+            numElement.classList.remove("on");
+          }
+        }
+      }
+
+      const load = () => {
+        const bingoBoard = document.querySelector("#bingo-board");
+        const countdownElement = document.querySelector("#countdown");
+        const loadBtn = document.querySelector("#loadBtn");
+        let drumRollAudio = new Audio('drumroll.mp3');
+
+        loadBtn.style.display = "none";
+
+        for (let i = 0; i < 5; i++) {
+          const rowLetter = "BINGO"[i];
+          const row = document.createElement("div");
+          row.classList.add("bingo-row");
+          const letterCell = document.createElement("div");
+          letterCell.classList.add("bingo-letter");
+          letterCell.textContent = rowLetter;
+          row.appendChild(letterCell);
+
+          for (let j = 0; j < 15; j++) {
+            const cell = document.createElement("div");
+            cell.classList.add("bingo-cell");
+            cellNum = i * 15 + j + 1;
+            cell.textContent = cellNum;
+            row.appendChild(cell);
+            possibleCalls.push(`${rowLetter}${cellNum}`);
+          }
+          
+          bingoBoard.appendChild(row);
+        }
+        
+        showCalledNumbers();
+        let paused = false;
+      
+        let currentInterval = setInterval(async () => {
+          if (paused) return;
+
+          countdownTime--;
+          countdownElement.textContent = `Next number will be called in... ${countdownTime} seconds`;
+          if (countdownTime === 0) {
+            drumRollAudio.play();
+            countdownElement.textContent = "";
+            paused = true;
+            await callNumber(() => {
+              paused = false;
+              countdownTime = timePerNum;
+            });
+          }
+        }, 1000);
+      };
+
+      async function callNumber(callback) {
+        const calledNumber = callRandomNumber();
+        speak(`The next number is ${calledNumber.substring(0, 1)} ${calledNumber.substring(1)}`, () => {
+          document.querySelector("#currentCall").textContent = calledNumber;
+          storeCalledNumber(calledNumber);
+          showCalledNumbers();
+          callback && callback();
+        });
+      }
+
+      function clearBoard() {
+        if (!confirm("are you sure?")) return;
+
+        setCalledNumbers([]);
+        showCalledNumbers();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>AUTOMATIC BINGO CALLER</h1>
+    <div class="container">
+      <div id="bingo-board"></div>
+      <div class="current">
+        <h1>Current</h1>
+        <p id="currentCall"></p>
+        <button onclick="clearBoard()">Clear Board</button>
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="countdown"></h1>
+    </div>
+    <button id="loadBtn" onclick="load()">Load</button>
+  </body>
+</html>
