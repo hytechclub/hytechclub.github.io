@@ -106,7 +106,7 @@
       }
 
       const possibleCalls = [];
-      const timePerNum = 60;
+      const timePerNum = 30;
       let countdownTime = timePerNum;
 
       function setCalledNumbers(calledNums) {
@@ -224,6 +224,7 @@
         <h1>Current</h1>
         <p id="currentCall"></p>
         <button onclick="clearBoard()">Clear Board</button>
+        <button onclick="callNumber()">Force Call</button>
       </div>
     </div>
     <div class="container">
