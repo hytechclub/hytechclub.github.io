@@ -100,9 +100,18 @@
           setTimeout(() => audio.play(), 1000);
 
         } catch (e) {
-          alert(e);
+          callback();
           return;
         }
+      }
+
+      function speak2(message, callback) {
+        let utterance = new SpeechSynthesisUtterance(message);
+        utterance.onend = () => {
+          callback && callback();
+        };
+
+        setTimeout(() => window.speechSynthesis.speak(utterance), 2300);
       }
 
       const possibleCalls = [];
@@ -200,7 +209,7 @@
 
       async function callNumber(callback) {
         const calledNumber = callRandomNumber();
-        speak(`The next number is ${calledNumber.substring(0, 1)} ${calledNumber.substring(1)}`, () => {
+        speak2(`The next number is ${calledNumber.substring(0, 1)} ${calledNumber.substring(1)}`, () => {
           document.querySelector("#currentCall").textContent = calledNumber;
           storeCalledNumber(calledNumber);
           showCalledNumbers();
