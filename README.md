@@ -18,6 +18,8 @@ Welcome to Hy-Tech Club!
 
 ## Important Forms
 - [Submit your Final Project](https://forms.office.com/r/D0VT2LmU3P)
+- [Complete the End-of-Semester Survey](https://forms.office.com/r/icvK9FvV9k)
+- [Departing Seniors: Complete the Senior Survey](https://forms.office.com/r/0BevA4HdKa)
 
 ## club jams spring 2025
 [add a song to our spotify playlist!](https://open.spotify.com/playlist/1RHG4jiyfHnAqKI5fTSqTf?si=05b3b6673d5f4771&pt=d7424f0b98afa3b5116b064bb9d53eef)
