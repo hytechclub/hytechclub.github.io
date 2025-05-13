@@ -1,0 +1,7 @@
+let JUMP_SPEED = 400;
+let SPEED = 200;
+let RUN_FPS = 8;
+let SPIDER_SPEED = 100;
+let COIN_FPS = 5;
+let GRAVITY = 1200;
+let BOUNCE_SPEED = 200;

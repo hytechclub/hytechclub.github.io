@@ -1,0 +1,78 @@
+<!doctype html>
+<head>
+    <title>Platformer Game</title>
+    <meta charset="utf-8">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/2.6.2/phaser.js"></script>
+    <script src="variables.js"></script>
+    <script src="main.js"></script>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+      }
+      
+      #vars-container {
+        flex-grow: 1;
+        text-align: center;
+      }
+      
+      #vars {
+        height: 50%;
+        width: 90%;
+        font-size: 20px;
+      }
+      
+      button {
+        font-size: 16px;
+      }
+      
+      #hs-box {
+        text-align: center;
+      }
+      
+      #hs-table {
+        width: 100%;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: monospace;
+      }
+      
+      tr:first-child {
+        background: #fff2c5;
+      }
+      
+      tr:nth-child(2) {
+        background: #ddd;
+      }
+      
+      tr:nth-child(3) {
+        background: #cdb699;
+      }
+    </style>
+</head>
+<body>
+    <div id="vars-container">
+      <textarea id="vars"></textarea>
+      <button onclick="resetVars()" id="reset-button">
+        Reset Variables
+      </button>
+      <button onclick="sendVars()" id="send-button">
+        Send Variables
+      </button>
+      <br>
+      <input type="checkbox" id="nat-mode" onchange="updateNat()"> Natural Mode
+      <div id="hs-box">
+        <h1 id="hs-label">
+          High Scores
+        </h1>
+        <table id="hs-table">
+          
+        </table>
+      </div>
+    </div>
+    <script src="varcontroller.js"></script>
+    <script src="highscorecontroller.js"></script>
+</body>
