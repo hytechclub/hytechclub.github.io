@@ -115,7 +115,7 @@
       }
 
       const possibleCalls = [];
-      const timePerNum = 30;
+      let timePerNum = 30;
       let countdownTime = timePerNum;
 
       function setCalledNumbers(calledNums) {
@@ -217,6 +217,14 @@
         });
       }
 
+      function faster() {
+        countdownTime = 1;
+        timePerNum = timePerNum - 5;
+        if (timePerNum < 5) {
+          timePerNum = 5;
+        }
+      }
+
       function clearBoard() {
         if (!confirm("are you sure?")) return;
 
@@ -233,7 +241,7 @@
         <h1>Current</h1>
         <p id="currentCall"></p>
         <button onclick="clearBoard()">Clear Board</button>
-        <button onclick="callNumber()">Force Call</button>
+        <button onclick="faster()">Faster</button>
       </div>
     </div>
     <div class="container">
