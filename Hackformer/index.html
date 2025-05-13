@@ -51,6 +51,11 @@
       tr:nth-child(3) {
         background: #cdb699;
       }
+
+      #hs-sub {
+        display: block;
+        margin-top: -20px;
+      }
     </style>
 </head>
 <body>
@@ -65,9 +70,10 @@
       <br>
       <input type="checkbox" id="nat-mode" onchange="updateNat()"> Natural Mode
       <div id="hs-box">
-        <h1 id="hs-label">
+        <h1>
           High Scores
         </h1>
+        <span id="hs-sub">(hack mode)</span>
         <table id="hs-table">
           
         </table>

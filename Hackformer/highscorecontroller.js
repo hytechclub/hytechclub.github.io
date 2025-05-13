@@ -51,8 +51,8 @@ function getTopScores() {
 }
 
 function displayHighScores() {
-  const hsLabel = document.querySelector("#hs-label");
-  hsLabel.textContent = window.natMode ? "High Scores (natural mode)" : "High Scores";
+  const hsSub = document.querySelector("#hs-sub");
+  hsSub.textContent = window.natMode ? "(natural mode)" : "(hack mode)";
 
   const hsTable = document.querySelector("#hs-table");
   hsTable.innerHTML = "";
