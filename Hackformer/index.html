@@ -56,24 +56,28 @@
         display: block;
         margin-top: -20px;
       }
+
+      button, h1, span, table, label {
+        user-select: none;
+      }
     </style>
 </head>
 <body>
     <div id="vars-container">
-      <textarea id="vars"></textarea>
-      <button onclick="resetVars()" id="reset-button">
+      <textarea id="vars" disabled></textarea>
+      <button onclick="resetVars()" id="reset-button" disabled>
         Reset Variables
       </button>
-      <button onclick="sendVars()" id="send-button">
+      <button onclick="sendVars()" id="send-button" disabled>
         Send Variables
       </button>
       <br>
-      <input type="checkbox" id="nat-mode" onchange="updateNat()"> Natural Mode
+      <input type="checkbox" id="hack-mode" onchange="updateMode()"> <label for="hack-mode">Hack Mode</label>
       <div id="hs-box">
         <h1>
           High Scores
         </h1>
-        <span id="hs-sub">(hack mode)</span>
+        <span id="hs-sub"></span>
         <table id="hs-table">
           
         </table>

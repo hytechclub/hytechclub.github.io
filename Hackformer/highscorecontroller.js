@@ -1,5 +1,5 @@
 function getHighScores() {
-  const hsKey = window.natMode ? "high-scores-nat" : "high-scores";
+  const hsKey = window.hackMode ? "high-scores-hack" : "high-scores";
   const hsFromStorage = localStorage.getItem(hsKey);
   if (hsFromStorage) {
     return JSON.parse(hsFromStorage);
@@ -9,7 +9,7 @@ function getHighScores() {
 }
 
 function sendHighScore(newScore) {
-  const hsKey = window.natMode ? "high-scores-nat" : "high-scores";
+  const hsKey = window.hackMode ? "high-scores-hack" : "high-scores";
   const currentHighScores = getHighScores();
   currentHighScores.push(newScore);
   localStorage.setItem(hsKey, JSON.stringify(currentHighScores));
@@ -52,7 +52,7 @@ function getTopScores() {
 
 function displayHighScores() {
   const hsSub = document.querySelector("#hs-sub");
-  hsSub.textContent = window.natMode ? "(natural mode)" : "(hack mode)";
+  hsSub.textContent = `(${window.hackMode ? "hack" : "natural"} mode)`
 
   const hsTable = document.querySelector("#hs-table");
   hsTable.innerHTML = "";

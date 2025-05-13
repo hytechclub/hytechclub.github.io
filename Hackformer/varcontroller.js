@@ -39,20 +39,20 @@ function sendVars(firstTime) {
   }
 }
 
-function updateNat() {
-  const natMode = document.querySelector("#nat-mode");
-  if (natMode.checked) {
-    window.natMode = true;
+function updateMode() {
+  const hackMode = document.querySelector("#hack-mode");
+  if (hackMode.checked) {
+    window.hackMode = true;
+    varsText.disabled = false;
+    resetButton.disabled = false;
+    sendButton.disabled = false;
+  } else {
+    window.hackMode = false;
     resetVars();
     varsText.disabled = true;
     resetButton.disabled = true;
     sendButton.disabled = true;
     restartGame();
-  } else {
-    window.natMode = false;
-    varsText.disabled = false;
-    resetButton.disabled = false;
-    sendButton.disabled = false;
   }
 
   displayHighScores();
