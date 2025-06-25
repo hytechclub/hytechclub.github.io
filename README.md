@@ -14,22 +14,12 @@ Welcome to Hy-Tech Club!
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
-- [Software Development Capstone](/capstone)
-
-## Important Forms
-- [Submit your Final Project](https://forms.office.com/r/D0VT2LmU3P)
-- [Complete the End-of-Semester Survey](https://forms.office.com/r/icvK9FvV9k)
-- [Departing Seniors: Complete the Senior Survey](https://forms.office.com/r/0BevA4HdKa)
-
-## club jams spring 2025
-[add a song to our spotify playlist!](https://open.spotify.com/playlist/1RHG4jiyfHnAqKI5fTSqTf?si=05b3b6673d5f4771&pt=d7424f0b98afa3b5116b064bb9d53eef)
-
->_note: inappropriate songs will be removed_
+- [Web 103: Advanced JavaScript](/web-103)
 
 ## Resources
 - [Rules & Guidelines](/RulesAndGuidelines)
 - [Using Discord](/DiscordUse)
-- [Glitch Setup](/GlitchSetup.md)
+- [HyTOP Setup](/HyTopSetup.md)
 
 ## Consent Forms
 Before participating in any Hyland Tech Outreach program, it is necessary for each student to have a consent form on file.
