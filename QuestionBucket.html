@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Question Bucket</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+    @font-face {
+      font-family: "Director";
+      src: url(https://cdn.glitch.global/23f1db32-983a-489f-907b-ffcb91116341/Director-Regular.otf?v=1726580366561)
+        format("woff2");
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    body {
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      padding-top: 60px;
+      background: black;
+    }
+
+    h1 {
+      font-family: "Director", sans-serif;
+      font-size: 3em;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+    #question {
+      font-size: 2.5em;
+      margin: 40px 0;
+      min-height: 80px;
+      color: white;
+    }
+
+    #drawBtn {
+      font-size: 1.2em;
+      font-family: "Inter", sans-serif;
+      padding: 15px 40px;
+      background: white;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    #drawBtn:disabled {
+      background: #aaa;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+  <h1>Question Bucket</h1>
+  <button id="drawBtn"></button>
+  <div id="question"></div>
+
+  <script>
+    const questions = [
+      "What is your favorite hobby and why?",
+      "If you could travel anywhere, where would you go?",
+      "What is a skill you'd like to learn?",
+      "Who inspires you the most?",
+      "What was your first ever experience with Hyland?",
+      "What were you doing in the year 2014 (when Tech Outreach began)?",
+      "What were you doing in the year 1991 (when Hyland began)?",
+      "Do you have any experience working with kids? What has that been like?",
+      "Have you seen any good movies lately?",
+      "Where do you live?",
+      "What is the best neighborhood in Cleveland?",
+      "What is the best suburb of Cleveland?",
+      "Have you spent any time in the Midtown district?",
+      "What is your experience with computer science?",
+      "What is your experience with the tech industry?",
+      "What made you want to join the session today?"
+    ];
+
+    let remainingQuestions = [...questions];
+
+    const questionDiv = document.getElementById('question');
+    const drawBtn = document.getElementById('drawBtn');
+    drawBtn.textContent = `Get a Question (${remainingQuestions.length} remaining)`;
+
+    drawBtn.addEventListener('click', () => {
+      if (remainingQuestions.length === 0) {
+        questionDiv.textContent = "No more questions in the bucket!";
+        drawBtn.disabled = true;
+        return;
+      }
+      const idx = Math.floor(Math.random() * remainingQuestions.length);
+      const selected = remainingQuestions.splice(idx, 1)[0];
+      questionDiv.textContent = selected;
+      drawBtn.textContent = `Get a Question (${remainingQuestions.length} remaining)`;
+      if (remainingQuestions.length === 0) {
+        drawBtn.textContent = "No More Questions";
+        drawBtn.disabled = true;
+      }
+    });
+  </script>
+</body>
+</html>
