@@ -21,6 +21,13 @@ Welcome to Hy-Tech Club!
 - [Using Discord](/DiscordUse)
 - [HyTOP Setup](/HyTopSetup.md)
 
+## Hyland HQ Wi-Fi
+**Network**: Hyland-Guest
+**Password**: Learning!
+
+## Hy-Tech Club Playlist
+[click here for the playlist](https://open.spotify.com/playlist/0UyXnjzr7L73ePY9SxlLyu?si=a95c20ef47794914&pt=43ee1de90d69981d12a84cb37e9fe5fd) _note: inappropriate songs will be removed_
+
 ## Consent Forms
 Before participating in any Hyland Tech Outreach program, it is necessary for each student to have a consent form on file.
 
