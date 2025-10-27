@@ -12,7 +12,8 @@
 Welcome to Hy-Tech Club!
 
 ## FORMS
-[Click here to submit your final project.](https://forms.office.com/r/wyRZtD0FJ7)
+- [Click here to submit your final project.](https://forms.office.com/r/wyRZtD0FJ7)
+- [Click here to fill out the end-of-semester survey.](https://forms.office.com/r/x8EEuuFrcv)
 
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
