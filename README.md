@@ -11,14 +11,12 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
-## FORMS
-- [Click here to submit your final project.](https://forms.office.com/r/wyRZtD0FJ7)
-- [Click here to fill out the end-of-semester survey.](https://forms.office.com/r/x8EEuuFrcv)
-
 ## Courses
+_Content currently under development_
+
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
-- [Web 103: Advanced JavaScript](/web-103)
+- [Software Development Capstone](/capstone)
 
 ## Resources
 - [Rules & Guidelines](/RulesAndGuidelines)
@@ -28,9 +26,6 @@ Welcome to Hy-Tech Club!
 ## Hyland HQ Wi-Fi
 **Network**: Hyland-Guest
 **Password**: Learning!
-
-## Hy-Tech Club Playlist
-[click here for the playlist](https://open.spotify.com/playlist/0UyXnjzr7L73ePY9SxlLyu?si=a95c20ef47794914&pt=43ee1de90d69981d12a84cb37e9fe5fd) _note: inappropriate songs will be removed_
 
 ## Consent Forms
 Before participating in any Hyland Tech Outreach program, it is necessary for each student to have a consent form on file.
