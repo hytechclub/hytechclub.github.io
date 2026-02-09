@@ -46,7 +46,7 @@
                 border-collapse: collapse;
                 border-spacing: 0;
                 width: 100%;
-                height: 100%;
+                height: 500px;
             }
             
             td {
@@ -74,10 +74,29 @@
                 color: red;
                 transition-delay: .5s;
             }
+
+            
+            .container { break-after: page; }
+            
         </style>
     </head>
     <body>
-        <div class="container">
+        <script>
+            const possibleNumbers = [];
+            for (let i = 1; i <= 75; i++) {
+                possibleNumbers.push(i);
+            }
+
+            const possibleB = possibleNumbers.slice(0, 15);
+            const possibleI = possibleNumbers.slice(15, 30);
+            const possibleN = possibleNumbers.slice(30, 45);
+            const possibleG = possibleNumbers.slice(45, 60);
+            const possibleO = possibleNumbers.slice(60, 75);
+
+            function addPage() {
+                const page = document.createElement("div");
+                page.innerHTML = `
+<div class="container">
             <div class="table-container">
                 <table>
                   <thead>
@@ -132,35 +151,33 @@
             
       <p style="font-family: Inter">Listen for the numbers to be called, and mark them on your bingo board. If you get five in a row, you win!</p>
         </div>
+`;
 
-        <script>
-            let oldTdNumbers = JSON.parse(window.localStorage.getItem("tdNumbers"));
-            let newTdNumbers = [];
+                const possibleBCurrent = [...possibleB];
+                const possibleICurrent = [...possibleI];
+                const possibleNCurrent = [...possibleN];
+                const possibleGCurrent = [...possibleG];
+                const possibleOCurrent = [...possibleO];
 
-            let possibleNumbers = [];
-            for (let i = 1; i <= 75; i++) {
-                possibleNumbers.push(i);
+                let bTd = page.querySelectorAll("td:nth-child(1)");
+                let iTd = page.querySelectorAll("td:nth-child(2)");
+                let nTd = page.querySelectorAll("td:nth-child(3)");
+                let gTd = page.querySelectorAll("td:nth-child(4)");
+                let oTd = page.querySelectorAll("td:nth-child(5)");
+
+                for (let i = 0; i < 5; i++) {
+                    bTd[i].innerText = possibleBCurrent.splice(Math.floor(Math.random() * possibleBCurrent.length), 1);
+                    iTd[i].innerText = possibleICurrent.splice(Math.floor(Math.random() * possibleICurrent.length), 1);
+                    if (i !== 2) nTd[i].innerText = possibleNCurrent.splice(Math.floor(Math.random() * possibleNCurrent.length), 1);
+                    gTd[i].innerText = possibleGCurrent.splice(Math.floor(Math.random() * possibleGCurrent.length), 1);
+                    oTd[i].innerText = possibleOCurrent.splice(Math.floor(Math.random() * possibleOCurrent.length), 1);
+                }
+
+                document.body.appendChild(page);
             }
 
-            // fix this so it's actually a subarray
-            let possibleB = possibleNumbers.slice(0, 15);
-            let possibleI = possibleNumbers.slice(15, 30);
-            let possibleN = possibleNumbers.slice(30, 45);
-            let possibleG = possibleNumbers.slice(45, 60);
-            let possibleO = possibleNumbers.slice(60, 75);
-
-            let bTd = document.querySelectorAll("td:nth-child(1)");
-            let iTd = document.querySelectorAll("td:nth-child(2)");
-            let nTd = document.querySelectorAll("td:nth-child(3)");
-            let gTd = document.querySelectorAll("td:nth-child(4)");
-            let oTd = document.querySelectorAll("td:nth-child(5)");
-
-            for (let i = 0; i < 5; i++) {
-                bTd[i].innerText = possibleB.splice(Math.floor(Math.random() * possibleB.length), 1);
-                iTd[i].innerText = possibleI.splice(Math.floor(Math.random() * possibleI.length), 1);
-                if (i !== 2) nTd[i].innerText = possibleN.splice(Math.floor(Math.random() * possibleN.length), 1);
-                gTd[i].innerText = possibleG.splice(Math.floor(Math.random() * possibleG.length), 1);
-                oTd[i].innerText = possibleO.splice(Math.floor(Math.random() * possibleO.length), 1);
+            for (let i = 0; i < 50; i++) {
+                addPage();
             }
         </script>
     </body>
