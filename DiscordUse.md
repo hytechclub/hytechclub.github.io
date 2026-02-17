@@ -1,6 +1,8 @@
 # Discord Use
 Hy-Tech Club will use [Discord](https://discord.com/) as a way for students and instructors to communicate outside of the club meeting time.
 
+[Click here to join the Spring 2026 server!](https://discord.gg/nKcZVRR2jr)
+
 ## Parent/Guardian Consent Form Agreement 
 As noted in the consent form that was signed by parents or guardians prior to participating in Hy-Tech Club, each student has agreed to the following regarding the use of Discord: 
 
