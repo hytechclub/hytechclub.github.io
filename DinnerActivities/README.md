@@ -9,3 +9,9 @@ There are a number of activities that can be done during the dinner portion of c
 - [Origami](Origami.md)
 - [People Bingo](PeopleBingo.md)
 - [Quiz Games](QuizGames.md)
+- []
+
+## Other Ideas
+Rock Paper Scissors contest
+Paper Airplane contest
+Trivia (question presentation + worksheet)
