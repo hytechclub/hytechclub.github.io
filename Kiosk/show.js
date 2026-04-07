@@ -19,7 +19,7 @@ const show = {
       backgroundSize: "contain !important",
     },
     {
-      title: "😔 NO WI-FI 😔",
+      title: "😔 STILL NO WI-FI 😔",
       subtitle: "sorry guys",
       content: ``,
       backgroundImage: "./Assets/BackgroundImages/headdown.gif",
@@ -50,6 +50,16 @@ const show = {
       backgroundOpacity: ".5",
       backgroundColor: "purple",
       content: `<img src="Assets/ForegroundImages/Mission.jpg">`
+    },   
+    {
+      title: "⭐ STUDENT OF THE MONTH ⭐",
+      subtitle: "postponed until <b>next week</b>",
+      content: ``,
+      backgroundImage: "Assets/BackgroundImages/animeoldpc.gif",
+      backgroundSize: "contain !important",
+      backgroundOpacity: ".5",
+      backgroundColor: "#000044",
+      textColor: "white"
     },
   ]
 };
