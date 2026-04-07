@@ -1,0 +1,288 @@
+<html>
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+      @font-face {
+        font-family: "Director";
+        src: url(Assets/Fonts/Director-Regular.otf) format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background: black;
+        font-family: "Inter", sans-serif;
+      }
+
+      #slides > div::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+      }
+
+      #slides > div * {
+        position: relative;
+        z-index: auto;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Director", serif;
+      }
+
+      #all {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+      }
+
+      .marquee {
+        --gap: 4rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        user-select: none;
+        gap: var(--gap);
+        background: black;
+        color: white;
+        font-size: 3em;
+        height: 11vh;
+        align-items: center;
+      }
+
+      .marquee-content {
+        flex-shrink: 0;
+        gap: var(--gap);
+        min-width: 100%;
+        letter-spacing: -1px;
+        font-family: "Director", serif;
+        white-space: pre;
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-100% - var(--gap)));
+        }
+      }
+
+      .marquee-content {
+        animation: scroll 60s linear infinite;
+      }
+
+      #slides {
+        height: 89vh;
+        font-size: 2.5em;
+      }
+
+      #slides > div {
+        width: 100vw;
+        height: 0px;
+        overflow: hidden;
+        transition: height 1s;
+        position: relative;
+      }
+
+      #slides > div {
+        text-align: center;
+      }
+
+      p {
+        margin-top: 0;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      ul {
+        text-align: left;
+        margin: 0;
+        max-width: 1200px;
+        background: #062850;
+        color: white;
+        padding: 20px 100px;
+      }
+
+      li {
+        padding-bottom: 20px;
+      }
+
+      b {
+        font-family: "courier new";
+        font-size: 1.2em;
+      }
+
+      .love-hate {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: row;
+      }
+
+      .love-hate p {
+        display: block;
+        color: white;
+        font-size: 0.8em;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+        width: 100%;
+      }
+
+      .love-hate div:first-child {
+        width: 100%;
+      }
+
+      .love-hate div:nth-child(2) {
+        /* height: 100%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .project-list li {
+        list-style-type: number;
+        color: black;
+      }
+
+      .project-list p {
+        background: black;
+        color: white;
+        margin: 20px;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="all">
+      <div class="marquee">
+        <div class="marquee-content"></div>
+        <div class="marquee-content"></div>
+      </div>
+      <div id="slides">
+        </div>
+    </div>
+    <script src="show.js"></script>
+    <script defer>
+      function setSlideShow() {
+        const data = show; // imported from show.js
+        const marqueeElements = document.querySelectorAll(".marquee-content");
+        marqueeElements.forEach((el) => {
+          el.textContent = data.marqueeText;
+        });
+
+        for (let i = 0; i < data.slides.length; i++) {
+          const currentSlideData = data.slides[i];
+          const slideElement = document.createElement("div");
+          slideElement.id = `slide-${i}`;
+          slideElement.innerHTML = `
+            <h1>${currentSlideData.title || ""}</h1>
+            <p style="font-style: italic; letter-spacing: 10px">${currentSlideData.subtitle || ""}</p>
+            ${currentSlideData.content}
+          `;
+
+          slideElement.style.color = currentSlideData.textColor;
+          slideElement.style.background = currentSlideData.backgroundColor;
+
+          document.styleSheets[0].addRule(
+            `#slide-${i}::before`,
+            `background-image: url(${currentSlideData.backgroundImage});
+             background-size: ${currentSlideData.backgroundSize};
+             opacity: ${currentSlideData.backgroundOpacity};`
+          );
+          
+          document.getElementById("slides").appendChild(slideElement);
+        }
+      }
+
+      setSlideShow();
+
+      const timePerSlide = 15000;
+      const allSlides = document.querySelectorAll("#slides > div");
+      const numberOfSlides = allSlides.length;
+      let playing = true;
+
+      currentIndex = -1;
+
+      function incIndex() {
+        if (currentIndex >= allSlides.length - 1) {
+          currentIndex = 0;
+        } else {
+          currentIndex = currentIndex + 1;
+        }
+      }
+
+      function setSlide(index) {
+        for (let i = 0; i < allSlides.length; i++) {
+          allSlides[i].style.height = "0%";
+        }
+
+        const nextSlideEl = document.querySelector(`#slide-${index}`);
+        nextSlideEl.style.height = "100%";
+      }
+
+      function nextSlide() {
+        if (!playing) return;
+        incIndex();
+        setSlide(currentIndex);
+      }
+
+      function prevSlide() {
+        currentIndex = currentIndex - 1;
+        if (currentIndex < 0) {
+          currentIndex = numberOfSlides - 1;
+        }
+
+        setSlide(currentIndex);
+      }
+
+      nextSlide();
+      setInterval(nextSlide, timePerSlide);
+
+      document.addEventListener("keydown", (e) => {
+        if (e.keyCode === 39) {
+          nextSlide();
+
+          console.log("🌖");
+        }
+
+        if (e.keyCode === 37) {
+          prevSlide();
+        }
+
+        if (e.keyCode === 32) {
+          playing = !playing;
+          nextSlide();
+        }
+      });
+    </script>
+  </body>
+</html>

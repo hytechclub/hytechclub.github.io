@@ -1,0 +1,514 @@
+<html>
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+      @font-face {
+        font-family: "Director";
+        src: url(Assets/Fonts/Director-Regular.otf) format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background: black;
+        font-family: "Inter", sans-serif;
+      }
+
+      #slides > div::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+      }
+
+      #slides > div * {
+        position: relative;
+        z-index: auto;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Director", serif;
+      }
+
+      #all {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+      }
+
+      .marquee {
+        --gap: 4rem;
+        width: 100%;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        user-select: none;
+        gap: var(--gap);
+        background: black;
+        color: white;
+        font-size: 3em;
+        height: 11vh;
+        align-items: center;
+      }
+
+      .marquee-content {
+        flex-shrink: 0;
+        gap: var(--gap);
+        min-width: 100%;
+        letter-spacing: -1px;
+        font-family: "Director", serif;
+        white-space: pre;
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-100% - var(--gap)));
+        }
+      }
+
+      .marquee-content {
+        animation: scroll 60s linear infinite;
+      }
+
+      #slides {
+        height: 89vh;
+        font-size: 2.5em;
+      }
+
+      #slides > div {
+        width: 100vw;
+        height: 0px;
+        overflow: hidden;
+        transition: height 1s;
+        position: relative;
+      }
+
+      #slides > div {
+        text-align: center;
+      }
+
+      p {
+        margin-top: 0;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      ul {
+        text-align: left;
+        margin: 0;
+        max-width: 1200px;
+        background: #062850;
+        color: white;
+        padding: 20px 100px;
+      }
+
+      li {
+        padding-bottom: 20px;
+      }
+
+      #slide-0 {
+        background: black;
+      }
+
+      #slide-0::before {
+        background-image: url(https://media.giphy.com/media/13HBDT4QSTpveU/giphy.gif);
+        background-image: url(https://media.tenor.com/gnXL1vdsASQAAAAM/hackers-jonny.gif);
+        background-image: url(https://i.pinimg.com/originals/c5/9a/d2/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+        /* background-image: url(https://www.gifcen.com/wp-content/uploads/2022/07/discord-banner-gif-5.gif); purple sky */
+        /* background-image: url(https://img.wattpad.com/3d9a992daa09378242950fcfbe50a5132e6a3ba8/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5f4e5366473067546234635651773d3d2d313231363332393239352e313665373035626263363733353838643637353533323833383235322e676966); blue sky */
+        /* background-image: url(https://64.media.tumblr.com/b286f96d167372fdb7619586976b7dbe/tumblr_inline_o0lttq477W1to8h2v_500.gif); raindrops */
+        /* background-image: url(https://i.gifer.com/SUV4.gif); 0s 1s */
+        /* background-image: url(https://www.simslifecycle.com/wp-content/uploads/sites/2/2022/01/Electronic-Numerical-Integrator-And-Computer.png);  old computer*/
+        /* background-image: url(https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0660dd6a-54f9-41f8-bf54-beaf3f47c532_698x580.jpeg); */
+        /* background-image: url(https://media4.giphy.com/media/3oz8xBgi2syJQiMJAQ/giphy.gif?cid=6c09b9520mhu16sr55v97vejivec5hebdew2muofprfgtenc&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g); */
+        background-image: url(https://media.tenor.com/MJXGLa4EbNIAAAAM/nosterafu-lights.gif);
+        background-image: url(https://media4.giphy.com/media/3oz8xBgi2syJQiMJAQ/giphy.gif?cid=6c09b9520mhu16sr55v97vejivec5hebdew2muofprfgtenc&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+      }
+
+      #slide-1 {
+        background: white;
+      }
+
+      #slide-1::before {
+        background-image: url(https://media4.giphy.com/media/26hiu3mZVquuykwhy/200w.gif?cid=6c09b952pa6pjkz6j2y6p2m75c2oleh37pqjvwpgb2d32big&ep=v1_gifs_search&rid=200w.gif&ct=g);
+        /*         background-image: url(https://i.pinimg.com/originals/0b/aa/bd/0baabd60a870970ff7cdda4d489075a1.gif);
+        background-image: url(https://i.pinimg.com/originals/1f/1d/b2/1f1db2ae0cd6c73e59fdc7433f6d540c.gif); */
+        background-image: url(https://lh5.googleusercontent.com/proxy/Xc4fMz1E80v70nJ4yPQBxmdPeBezAeq5xhAOTbJw5pimdNrp3L0dlnGh1crOi7QS0A);
+        /* background-image: url(https://64.media.tumblr.com/8ed14486f4aff063da2a6379feef1b45/a0541f1ce5615a23-49/s540x810/472894a8713cd4c5ce2a7c12e1e8f286bbbd8a17.gif) */
+        background-image: url(Assets/eye.gif);
+        /* background-image: url(https://lh5.googleusercontent.com/proxy/Xc4fMz1E80v70nJ4yPQBxmdPeBezAeq5xhAOTbJw5pimdNrp3L0dlnGh1crOi7QS0A); */
+        opacity: .3;
+      }
+
+      #slide-2 {
+        background: white;
+      }
+
+      #slide-2::before {
+        /*         background-image: url(https://media1.giphy.com/media/zypUKI1QUtCPVNVPZZ/200w.gif?cid=6c09b9529snv08yrnpylgamislbb0kb6zb7k1w81wt01cule&ep=v1_gifs_search&rid=200w.gif&ct=g); */
+
+        background-image: url(Assets/computers.gif);
+        background-image: url(https://media.tenor.com/GBjEvUkbbwoAAAAM/internet-internet-down.gif);
+        /*background-image: url(https://media1.tenor.com/m/Nj4pALcNSCQAAAAC/ouija.gif);
+        background-image: url(https://j.gifs.com/KroY7p.gif); */
+        opacity: .3;
+      }
+
+      #slide-3 {
+        background: #ffddff;
+        /*         background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%); */
+        color: white;
+      }
+
+      #slide-3::before {
+        background-image: url(https://i.pinimg.com/originals/02/87/d3/0287d3ba8b3330fca99f69e2001d3168.gif);
+        background-image: url(https://media3.giphy.com/media/c2MkVQDEsUXGLYKVxi/giphy.gif?cid=6c09b9528afpc54vooffhm3nzqgmuum57jrjvx3oz4m93vld&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+        background-image: url(https://i.makeagif.com/media/8-13-2014/7Jtod_.gif);
+        /* background-image: url(https://i.pinimg.com/originals/f2/17/85/f217850f6c61b9e7a3381a42b2ccda3c.gif); */
+        /* background-image: url(https://otakudonblog.wordpress.com/wp-content/uploads/2017/04/b3698659-859e-442d-b820-688a30f2c862.gif); */
+        /* background-image: url(https://www.icegif.com/wp-content/uploads/2023/01/icegif-58.gif); */
+        /*         background-image: url(https://media.tenor.com/T_zkKeoZYMsAAAAM/over-the-garden-wall-over-the-garden-wall-pumpkin.gif); */
+                /* background-image: url(https://i.makeagif.com/media/11-04-2015/9e3Olr.gif); */
+                /* background-image: url(https://i.pinimg.com/originals/ca/36/02/ca36026f0964442a8513e35caed1b820.gif); */
+        /* background-image: url(https://media.tenor.com/oUmZD-X4it0AAAAM/ice-age-eisbrecher.gif); */
+        /* background-image: url(https://gifdb.com/images/high/bingo-balls-floating-on-air-m2kp4kp2k939pqra.webp); */
+        background-image: url("Assets/puzzling.gif");
+        background-size: contain !important;
+        opacity: .3;
+      }
+
+      #slide-4 {
+        background: #ffffdd;
+        color: black;
+      }
+
+      #slide-4::before {
+        background-image: url(https://i.pinimg.com/originals/3a/1e/8a/3a1e8a3618f7168d3222973782f9ee72.gif);
+        background-image: url(https://bajoeleary.wordpress.com/wp-content/uploads/2018/11/music-gif.gif);
+        background-image: url(https://steamuserimages-a.akamaihd.net/ugc/842590314215035475/461EA53D9D9780F26DF516AD069AFCFC26DAB058/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+        background-image: url(https://64.media.tumblr.com/0e96916f16d4eb58663de979fe08ef44/tumblr_inline_nzazjyuuLK1t91gva_500.gifv);
+        /*         background-image: url(https://media.tenor.com/lJ2OMbfVD24AAAAM/spooky-spooktober.gif); */
+                background-image: url(https://media3.giphy.com/media/BzYCX3fU2GRoOogtkw/giphy-downsized.gif);
+        opacity: .3;
+      }
+
+      #slide-5 {
+        background: purple;
+        color: rgb(255, 255, 255);
+      }
+
+      #slide-5::before {
+                background-image: url(https://i.pinimg.com/originals/02/87/d3/0287d3ba8b3330fca99f69e2001d3168.gif);
+                background-image: url("Assets/chatpea.gif");
+        opacity: .3;
+      }
+
+      #slide-6::before {
+        /* background-image: url(Assets/pixelnightdesk.webp); */
+        background-color: #92d0ac;
+        color: #062850;
+        /* background-size: contain !important; */
+      }
+
+      #slide-7::before {
+        background-image: url(Assets/pixelrobot.gif);
+      }
+
+      #slide-8::before {
+        background-image: url(Assets/oldpc.gif);
+        background-size: contain !important;
+      }
+
+      #kickoff-countdown h3 {
+        margin: 0;
+      }
+
+      #timer {
+        font-size: 1.7em;
+      }
+
+      #kickoff-countdown {
+        font-size: 1.5em;
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+        background: white;
+        color: black;
+        padding: 20px;
+        text-align: right;
+        border: 5px dotted black;
+        transition: 10s;
+        transition-delay: 2s;
+      }
+
+      b {
+        font-family: "courier new";
+        font-size: 1.2em;
+      }
+
+      #kickoff-countdown.time-up {
+        font-size: 8em;
+        background: red;
+        color: white;
+        border: 5px dotted white;
+        bottom: 0px;
+        right: 0px;
+      }
+
+      #slide-4 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .love-hate {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: row;
+      }
+
+      .love-hate p {
+        display: block;
+        color: white;
+        font-size: 0.8em;
+        font-size: 1.2em;
+        margin-bottom: 50px;
+        width: 100%;
+      }
+
+      .love-hate div:first-child {
+        width: 100%;
+      }
+
+      .love-hate div:nth-child(2) {
+        /* height: 100%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .project-list li {
+        list-style-type: number;
+        color: black;
+      }
+
+      .project-list p {
+        background: black;
+        color: white;
+        margin: 20px;
+        padding: 10px 20px;
+        border: 2px solid white;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="all">
+      <div class="marquee">
+        <div class="marquee-content">welcome to hy-tech club week 2  🖥️  hylandtechclub.com  🖥️  take a seat + grab some pizza  🍕  solve puzzles  🟢  hylandtechclub.com  🖥️</div>
+        <div class="marquee-content">welcome to hy-tech club  week 2 🖥️  hylandtechclub.com  🖥️  take a seat + grab some pizza  🍕  solve puzzles  🟢  hylandtechclub.com  🖥️</div>
+      </div>
+      <div id="slides">
+        <div id="slide-0">
+          <div
+            style="
+              background: #5e0046d2;
+              color: white;
+              padding: 20px 50px;
+              width: 80%;
+              margin: 80px auto;
+            "
+          >
+            <img src="Assets/time.jpg">
+          </div>
+        </div>
+        <div id="slide-1">
+          <h1>💻 HYLANDTECHCLUB.COM 💻</h1>
+          <br />
+          <h2 style="width: 1000px; margin: 0 auto; font-weight: normal">
+            Your one stop shop for all Hy-Tech Club things!
+          </h2>
+        </div>
+        <div id="slide-2">
+          <h1>📶 WI-FI INFORMATION 📶</h1>
+          <p style="font-style: italic; letter-spacing: 10px">get connected</p>
+          <br />
+          <p>
+            <b>network:</b> <code style="font-size: 2em">Hyland-Guest</code>
+          </p>
+          <p><b>password:</b> <code style="font-size: 2em">Learning!</code></p>
+        </div>
+        <div id="slide-3">
+          <h1 style="color: black">🧩 REBUS PUZZLES 🧩</h1>
+          <br />
+          <div
+            class="project-list"
+            style="
+              background: black;
+              color: white;
+              width: 1000px;
+              font-size: 1.5em;
+              margin: 0 auto;
+              padding: 20px;
+            "
+          >
+            Try to figure out all the phrases on the rebus puzzle sheets! Answers will be revealed after dinner :)
+          </div>
+        </div>
+        <div id="slide-4">
+          <h1>🎶 CLUB JAMS 🎶</h1>
+          <p style="font-style: italic; letter-spacing: 10px">
+            tune in and chill out
+          </p>
+          <br />
+
+        </div>
+        <div id="slide-5">
+          <h1>🗣️ DISCORD 🗣️</h1>
+          <p style="font-style: italic; letter-spacing: 10px">talk talk talk talk talk</p>
+          <div style="display: inline-block">
+            <span>Join at hylandtechclub.com</span>
+            <img src="Assets/discoqr.png" style="float:right;margin-left: 300px;"></div>
+        </div>
+        <div id="slide-6">
+          <h1>↗️ SUMMER INTERNSHIP ↗️</h1>
+          <p style="font-style: italic; letter-spacing: 10px">apply by <b>april 1</b></p>
+                    <div
+            style="
+              background: #062850;
+              color: white;
+              margin: 0 auto;
+              padding: 20px;
+            "
+          >
+          <div style="display:flex">
+            <ul>
+              <li><b>WHO:</b> Current 10-12th graders</li>
+              <li><b>WHERE:</b> Hyland HQ</li>
+              <li><b>WHAT:</b> Code 120 hours this summer with us</li>
+              <li><b>HOW:</b> Apply at <b><a style="color:#92d0ac" href="https://youcle.org/internships" target="_blank">youcle.org/internships</a></b> by April 1!</li>
+              <li><b>WHY:</b> Get paid to work on a real coding project with us</li>
+            </ul>
+            <img src="Assets/youinternshipsqr.png">
+          </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!--       <div id="kickoff-countdown">
+        <h3>KICKOFF COUNTDOWN</h3>
+        <div id="timer">
+        <button onclick="startCountdown()">
+          Start Countdown
+          </button></div>
+      </div> -->
+    </div>
+    <script defer>
+      const timePerSlide = 15000;
+      const allSlides = document.querySelectorAll("#slides > div");
+      const numberOfSlides = allSlides.length;
+      let playing = false;
+
+      currentIndex = -1;
+
+      function incIndex() {
+        if (currentIndex >= allSlides.length - 1) {
+          currentIndex = 0;
+        } else {
+          currentIndex = currentIndex + 1;
+        }
+      }
+
+      function nextSlide() {
+        for (let i = 0; i < allSlides.length; i++) {
+          allSlides[i].style.height = "0%";
+        }
+
+        incIndex();
+
+        const nextSlideEl = document.querySelector(`#slide-${currentIndex}`);
+        nextSlideEl.style.height = "100%";
+      }
+
+      nextSlide();
+      setInterval(nextSlide, timePerSlide);
+
+      function startCountdown() {
+        // Set the date we're counting down to
+        var countDownDate = new Date("Sep 17, 2024 17:20:00").getTime();
+
+        // Update the count down every 1 second
+        setInterval(function () {
+          // Get today's date and time
+          var now = new Date().getTime();
+
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          // Output the result in an element with id="demo"
+          document.getElementById("timer").innerHTML =
+            days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+          if (!playing && distance < 11000) {
+            var audio = new Audio(
+              "https://cdn.glitch.global/23f1db32-983a-489f-907b-ffcb91116341/countdown.mp3?v=1726260637234"
+            );
+            audio.play();
+            playing = true;
+            document
+              .getElementById("kickoff-countdown")
+              .classList.add("time-up");
+          }
+
+          // If the count down is over, write some text
+          if (distance < 0) {
+            document.getElementById("timer").innerHTML = "TIME IS UP!";
+          }
+        }, 1000);
+      }
+
+      document.addEventListener("keydown", (e) => {
+        if (e.keyCode === 39) {
+          nextSlide();
+        }
+      });
+    </script>
+  </body>
+</html>
