@@ -1,5 +1,5 @@
 const show = {
-  marqueeText: "🖥️  welcome to mcccc  🍕  pizza & chicken @ 5pm  💺  take a seat anywhere  ⚙️  emerging tech content @ 5:30  ",
+  marqueeText: "🖥️  welcome to mcccc  🍕  pizza & chicken @ 5pm  💺  take a seat anywhere  ⚙️  emerging tech content @ 5:30",
   slides: [
     {
       backgroundImage: "Assets/BackgroundImages/pixelrobot.gif",
