@@ -187,102 +187,110 @@
         <div class="marquee-content"></div>
         <div class="marquee-content"></div>
       </div>
-      <div id="slides">
-        </div>
+      <div id="slides"></div>
     </div>
-    <script src="show.js"></script>
     <script defer>
-      function setSlideShow() {
-        const data = show; // imported from show.js
-        const marqueeElements = document.querySelectorAll(".marquee-content");
-        marqueeElements.forEach((el) => {
-          el.textContent = data.marqueeText;
-        });
+      const urlParams = new URLSearchParams(window.location.search);
+      const myParam = urlParams.get('show');
 
-        for (let i = 0; i < data.slides.length; i++) {
-          const currentSlideData = data.slides[i];
-          const slideElement = document.createElement("div");
-          slideElement.id = `slide-${i}`;
-          slideElement.innerHTML = `
+      const script = document.createElement("script");
+      script.src = `shows/${myParam}.js`;
+      
+      script.onload = () => {
+        function setSlideShow() {
+          const data = show; // imported from shows/htc4726.js
+          const marqueeElements = document.querySelectorAll(".marquee-content");
+          marqueeElements.forEach((el) => {
+            el.textContent = data.marqueeText;
+          });
+
+          for (let i = 0; i < data.slides.length; i++) {
+            const currentSlideData = data.slides[i];
+            const slideElement = document.createElement("div");
+            slideElement.id = `slide-${i}`;
+            slideElement.innerHTML = `
             <h1>${currentSlideData.title || ""}</h1>
             <p style="font-style: italic; letter-spacing: 10px">${currentSlideData.subtitle || ""}</p>
             ${currentSlideData.content}
           `;
 
-          slideElement.style.color = currentSlideData.textColor;
-          slideElement.style.background = currentSlideData.backgroundColor;
+            slideElement.style.color = currentSlideData.textColor;
+            slideElement.style.background = currentSlideData.backgroundColor;
 
-          document.styleSheets[0].addRule(
-            `#slide-${i}::before`,
-            `background-image: url(${currentSlideData.backgroundImage});
+            document.styleSheets[0].addRule(
+              `#slide-${i}::before`,
+              `background-image: url(${currentSlideData.backgroundImage});
              background-size: ${currentSlideData.backgroundSize};
-             opacity: ${currentSlideData.backgroundOpacity};`
-          );
-          
-          document.getElementById("slides").appendChild(slideElement);
-        }
-      }
+             opacity: ${currentSlideData.backgroundOpacity};`,
+            );
 
-      setSlideShow();
-
-      const timePerSlide = 15000;
-      const allSlides = document.querySelectorAll("#slides > div");
-      const numberOfSlides = allSlides.length;
-      let playing = true;
-
-      currentIndex = -1;
-
-      function incIndex() {
-        if (currentIndex >= allSlides.length - 1) {
-          currentIndex = 0;
-        } else {
-          currentIndex = currentIndex + 1;
-        }
-      }
-
-      function setSlide(index) {
-        for (let i = 0; i < allSlides.length; i++) {
-          allSlides[i].style.height = "0%";
+            document.getElementById("slides").appendChild(slideElement);
+          }
         }
 
-        const nextSlideEl = document.querySelector(`#slide-${index}`);
-        nextSlideEl.style.height = "100%";
-      }
+        setSlideShow();
 
-      function nextSlide() {
-        if (!playing) return;
-        incIndex();
-        setSlide(currentIndex);
-      }
+        const timePerSlide = 15000;
+        const allSlides = document.querySelectorAll("#slides > div");
+        const numberOfSlides = allSlides.length;
+        let playing = true;
 
-      function prevSlide() {
-        currentIndex = currentIndex - 1;
-        if (currentIndex < 0) {
-          currentIndex = numberOfSlides - 1;
+        currentIndex = -1;
+
+        function incIndex() {
+          if (currentIndex >= allSlides.length - 1) {
+            currentIndex = 0;
+          } else {
+            currentIndex = currentIndex + 1;
+          }
         }
 
-        setSlide(currentIndex);
-      }
+        function setSlide(index) {
+          for (let i = 0; i < allSlides.length; i++) {
+            allSlides[i].style.height = "0%";
+          }
 
-      nextSlide();
-      setInterval(nextSlide, timePerSlide);
-
-      document.addEventListener("keydown", (e) => {
-        if (e.keyCode === 39) {
-          nextSlide();
-
-          console.log("🌖");
+          const nextSlideEl = document.querySelector(`#slide-${index}`);
+          nextSlideEl.style.height = "100%";
         }
 
-        if (e.keyCode === 37) {
-          prevSlide();
+        function nextSlide() {
+          if (!playing) return;
+          incIndex();
+          setSlide(currentIndex);
         }
 
-        if (e.keyCode === 32) {
-          playing = !playing;
-          nextSlide();
+        function prevSlide() {
+          currentIndex = currentIndex - 1;
+          if (currentIndex < 0) {
+            currentIndex = numberOfSlides - 1;
+          }
+
+          setSlide(currentIndex);
         }
-      });
+
+        nextSlide();
+        setInterval(nextSlide, timePerSlide);
+
+        document.addEventListener("keydown", (e) => {
+          if (e.keyCode === 39) {
+            nextSlide();
+
+            console.log("🌖");
+          }
+
+          if (e.keyCode === 37) {
+            prevSlide();
+          }
+
+          if (e.keyCode === 32) {
+            playing = !playing;
+            nextSlide();
+          }
+        });
+      };
+
+      document.body.appendChild(script);
     </script>
   </body>
 </html>
