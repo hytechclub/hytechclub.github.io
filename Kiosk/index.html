@@ -108,11 +108,15 @@
         text-align: center;
       }
 
-      p {
+      p.more {
         margin-top: 0;
         max-width: 1600px;
         margin-left: auto;
         margin-right: auto;
+        font-size: 1.7em;
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
       }
 
       h1 {
@@ -195,7 +199,7 @@
 
       const script = document.createElement("script");
       script.src = `shows/${myParam}.js`;
-      
+
       script.onload = () => {
         function setSlideShow() {
           const data = show; // imported from shows/htc4726.js

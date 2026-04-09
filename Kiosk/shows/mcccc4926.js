@@ -51,6 +51,16 @@ const show = {
       backgroundOpacity: ".5",
       backgroundColor: "purple",
       content: `<img src="Assets/ForegroundImages/Mission.jpg">`
+    },
+    {
+      title: "🧑‍🍳 NEXT WEEK'S MENU 🧑‍🍳",
+      subtitle: "vote on the mcccc homepage",
+      content: ``,
+      backgroundImage: "Assets/BackgroundImages/eating.gif",
+      backgroundSize: "",
+      backgroundOpacity: ".2",
+      backgroundColor: "pink",
+      textColor: "black"
     }
   ]
 };
