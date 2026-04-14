@@ -1,5 +1,5 @@
 const show = {
-  marqueeText: "welcome to hy-tech club week 6  🖥️  hylandtechclub.com  🍕  take a seat + grab some pizza  💡  activity coming soon  🖥️  hylandtechclub.com  🖥️",
+  marqueeText: "wi-fi-is-back  🖥️  SSID: Hy-Tech Club  🍕  pw: Welcome2Hyland!2026  💡  SSID: Hy-Tech Club  🖥️  pw: Welcome2Hyland!2026  🖥️",
   slides: [
     {
       backgroundImage: "Assets/BackgroundImages/pixelcomputeranime.gif",
@@ -19,14 +19,13 @@ const show = {
       backgroundPosition: "bottom",
     },
     {
-      title: "😔 STILL NO WI-FI 😔",
+      title: "🛜 WI-FI IS BACK 🛜",
       subtitle: "",
-      content: ``,
+      content: `<p class="more">Hy-Tech Club<br><b>Welcome2Hyland!2026</b></p>`,
       backgroundImage: "./Assets/BackgroundImages/internetconnect.gif",
-      backgroundSize: "contain !important",
       backgroundOpacity: ".3",
       backgroundColor: "white",
-      textColor: "red"
+      textColor: "black"
     },
     {
       backgroundImage: "",
