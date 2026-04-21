@@ -2,14 +2,14 @@ const show = {
   marqueeText: "welcome to hy-tech club 🖥️  week 7  🍕  wi-fi: Hy-Tech Club / Welcome2Hyland!2026  🖥️",
   slides: [
     {
-      backgroundImage: "Assets/BackgroundImages/wave.gif",
+      backgroundImage: "Assets/BackgroundImages/Wave.gif",
       backgroundSize: "contain !important",
     },
     {
       title: "💻 HYLANDTECHCLUB.COM 💻",
       subtitle: "",
       content: ``,
-      backgroundImage: "./Assets/BackgroundImages/catcomputer.webp",
+      backgroundImage: "./Assets/BackgroundImages/CatComputer.webp",
       backgroundOpacity: ".3",
       backgroundColor: "white",
       textColor: "black"
