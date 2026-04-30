@@ -41,7 +41,7 @@ const show = {
       textColor: "white",
       backgroundColor: "black",
       backgroundOpacity: ".4",
-      content: `<p>new NEAL.FUN game! explore the world as a cursor!</p><h1 style="color:cyan;font-style:italic;">neal.fun/cursor-camp</h1>`
+      content: `<p>new! new! new!</p><h1 style="color:cyan;font-style:italic;">neal.fun/cursor-camp</h1>`
     },
     {
       backgroundImage: "",
