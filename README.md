@@ -11,9 +11,10 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
-## Courses
-_Content currently under development_
+## END-OF-SEMESTER SURVEY
+[Please click here to take the survey.](https://forms.office.com/r/XzvqQ2X4VX)
 
+## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [Web 102: Introduction to JavaScript](/web-102)
 - [Software Development Capstone](/capstone)
@@ -22,10 +23,6 @@ _Content currently under development_
 - [Rules & Guidelines](/RulesAndGuidelines)
 - [Using Discord](/DiscordUse)
 - [HyTOP Setup](/HyTopSetup.md)
-
-## Hyland HQ Wi-Fi
-**Network**: Hyland-Guest
-**Password**: Learning!
 
 ## Consent Forms
 Before participating in any Hyland Tech Outreach program, it is necessary for each student to have a consent form on file.
