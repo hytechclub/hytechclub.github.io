@@ -1,5 +1,5 @@
 const show = {
-  marqueeText: "mcccccccccccccc  🖥️  week 10  💺  feel free to sit anywhere  🍕  little caesar's @ ~5pm  🎶  music content begins at 5:30pm",
+  marqueeText: "mcccc  🖥️  week 10  💺  feel free to sit anywhere  🍕  little caesar's @ ~5pm  🎶  music content begins at 5:30pm  🖥️",
   slides: [
     {
       backgroundImage: "Assets/BackgroundImages/nightdrive.gif",
