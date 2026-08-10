@@ -11,13 +11,9 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
-## END-OF-SEMESTER SURVEY
-[Please click here to take the survey.](https://forms.office.com/r/XzvqQ2X4VX)
-
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
-- [Web 102: Introduction to JavaScript](/web-102)
-- [Software Development Capstone](/capstone)
+- [CS Sampler: New Topic Every Week](/cs-sampler)
 
 ## Resources
 - [Rules & Guidelines](/RulesAndGuidelines)
