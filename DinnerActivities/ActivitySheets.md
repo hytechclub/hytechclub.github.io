@@ -11,6 +11,13 @@ These are simple word puzzles. There are several sheets, although only some of t
 
 This is classic [Where's Waldo](https://en.wikipedia.org/wiki/Where%27s_Wally%3F). Print out sheets and have students circle Waldo.
 
+## Brain Bashers
+[Click here for the PDF](./Assets/BrainBashers/BrainBashers.docx)
+
+[Answers](./Assets/BrainBashers/BrainBashers%20-%20Answers.docx)
+
+[Click here to go to the actual site which is great and has a lot of other stuff too](https://brainbashers.com/)
+
 ## Nonograms
 [Click here for the PDF](./Assets/NonogramsSheet.pdf)
 
