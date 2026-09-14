@@ -18,6 +18,13 @@ This is classic [Where's Waldo](https://en.wikipedia.org/wiki/Where%27s_Wally%3F
 
 [Click here to go to the actual site which is great and has a lot of other stuff too](https://brainbashers.com/)
 
+## Logic Puzzles from AhaPuzzles
+[How to solve a logic puzzle](https://www.ahapuzzles.com/logic/logic-puzzles/how-to-solve/) (possibly have a QR code pointing to this)
+
+[Click here for the PDF](./Assets/GridLogic/LogicGridPuzzles.pdf)
+
+[Answers](./Assets/GridLogic/LogicGridPuzzleAnswers.pdf)
+
 ## Nonograms
 [Click here for the PDF](./Assets/NonogramsSheet.pdf)
 
