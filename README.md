@@ -16,9 +16,8 @@ Welcome to Hy-Tech Club!
 - [CS Sampler: New Topic Every Week](/cs-sampler)
 
 ## Resources
-- [Rules & Guidelines](/RulesAndGuidelines)
-- [Using Discord](/DiscordUse)
-- [HyTOP Setup](/HyTopSetup.md)
+- [Rules & Guidelines](./RulesAndGuidelines)
+- [HyTOP Setup](./HyTopSetup.md)
 
 ## Consent Forms
 Before participating in any Hyland Tech Outreach program, it is necessary for each student to have a consent form on file.
