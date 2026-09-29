@@ -240,6 +240,53 @@ align-items: center;
 .non-negotiables > div > i {
   display: none;
 }
+
+#ever-box {
+  position: fixed;
+  z-index: 2;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  height: 300px;
+  background: white;
+  border: 5px solid blue;
+}
+
+#ever-box .top {
+  text-align: center;
+  font-size: 2em;
+}
+
+#ever-box .label {
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+}
+
+#ever-box .value {
+  font-weight: bold;
+  font-family: monospace;
+  margin-top: 0;
+  font-size: 2em;
+}
+
+.boxxy {
+    border: 5px solid blue;
+    background: white;
+    padding: 40px;
+    text-align: left;
+    margin: 0 auto;
+    width:  1400px;
+    font-size: 1.2em;
+
+    ol {
+      margin: 0px;
+    }
+
+    b {
+      color: blue;
+      font-size: 1.2em;
+    }
+}
     </style>
   </head>
   <body>
@@ -249,6 +296,7 @@ align-items: center;
         <div class="marquee-content"></div>
       </div>
       <div id="slides"></div>
+      <div id="ever-box"></div>
     </div>
     <script defer>
       const urlParams = new URLSearchParams(window.location.search);
@@ -259,11 +307,16 @@ align-items: center;
 
       script.onload = () => {
         function setSlideShow() {
-          const data = show; // imported from shows/htc4726.js
+          const data = show;
           const marqueeElements = document.querySelectorAll(".marquee-content");
           marqueeElements.forEach((el) => {
             el.textContent = data.marqueeText;
           });
+
+          if (data.everbox) {
+            const everboxEl = document.querySelector("#ever-box");
+            everboxEl.innerHTML = data.everbox;
+          }
 
           for (let i = 0; i < data.slides.length; i++) {
             const currentSlideData = data.slides[i];

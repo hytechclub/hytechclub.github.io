@@ -1,5 +1,6 @@
 const show = {
-  marqueeText: "welcome to hy-tech club!  🛜  wi-fi: Hyland-Event (event name: Hy-Tech Club, password: 684831470056)  🖥️",
+  marqueeText: "🖥️  welcome to hy-tech club  🪑  have a seat anywhere  🍕  grab some pizza  🔴  vote in some polls  🖥️  hylandtechclub.com",
+  everbox: `<p class="label">Wi-Fi Password</p><p class="value">684831470056</p><p class="label">Wi-Fi Network</p><p class="value">Hyland-Event</p><p class="label">Event Name</p><p class="value">Hy-Tech Club</p><p class="top">🛜 🛜 🛜 🛜 🛜</p>`,
   slides: [
     {
       backgroundImage: "Assets/BackgroundImages/Wave.gif",
@@ -19,9 +20,17 @@ const show = {
       backgroundPosition: "top",
     },
     {
-      title: "🛜 WI-FI INFO 🛜",
+      title: "🛜 WI-FI 🛜",
       subtitle: "connecting to wi-fi is really annoying sorry",
-      content: `<div class="boxxy"><p class="more">Wi-Fi Network: <b>Hyland-Event</b></p><p>Event Name: <b>Hy-Tech Club</b></p><p>Password: 684831470056<b></b></p></div>`,
+      content: `<div class="boxxy">
+    <ol>
+      <li>Connect to the <b>Hyland-Event</b> Wi-Fi Network</li>
+      <li>In the browser, click the "Connect to Wi-Fi" button</li>
+      <li>Enter <b>Hy-Tech Club</b> as the Event Name</li>
+      <li>Enter <b>684831470056</b> as the Password</li>
+      <li>Click the "Connect to Wi-Fi" button</li>
+    </ol>
+  </div>`,
       backgroundImage: "./Assets/BackgroundImages/noise.gif",
       backgroundOpacity: ".3",
       backgroundColor: "white",
@@ -53,5 +62,15 @@ const show = {
       backgroundColor: "#ffddaa",
       textColor: "black"
     },
+
+    // voting activity
+
+    // pizza from romeo's
+
+    // fun fact
+
+    // hyland stuff
+
+    // fun pics
   ]
 };
