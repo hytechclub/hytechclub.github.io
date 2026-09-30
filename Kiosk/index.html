@@ -305,7 +305,15 @@ align-items: center;
       const script = document.createElement("script");
       script.src = `shows/${myParam}.js`;
 
-      script.onload = () => {
+      script.onload = async () => {
+        try {
+          const wakeLock = await navigator.wakeLock.request("screen");
+          console.log(wakeLock);
+        } catch (err) {
+          // The wake lock request fails - usually system-related, such as low battery.
+          console.log(`wake lock failed`);
+        }
+
         function setSlideShow() {
           const data = show;
           const marqueeElements = document.querySelectorAll(".marquee-content");
