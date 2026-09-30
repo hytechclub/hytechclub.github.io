@@ -320,10 +320,12 @@ align-items: center;
           marqueeElements.forEach((el) => {
             el.textContent = data.marqueeText;
           });
-
+          
+          const everboxEl = document.querySelector("#ever-box");
           if (data.everbox) {
-            const everboxEl = document.querySelector("#ever-box");
             everboxEl.innerHTML = data.everbox;
+          } else {
+            everboxEl.style.display = "none";
           }
 
           for (let i = 0; i < data.slides.length; i++) {

@@ -1,5 +1,5 @@
 const show = {
-  marqueeText: "🖥️  welcome to Hyland's Midtown Tech Club!  ",
+  marqueeText: "🖥️  welcome to Hyland's Midtown Tech Club!  🍕  dinner @ 5pm  🤖  a.i. content @ 5:30",
   slides: [
     {
       title: "🎫 TICKETS 🎫",
@@ -92,16 +92,6 @@ const show = {
     {
       backgroundImage: "Assets/SymFiles/Love.gif",
       backgroundPosition: "bottom",
-    },
-    {      
-      title: "🤯 BRAIN BASHERS 🤯",
-      subtitle: "complete the puzzles to earn a ticket",
-      backgroundImage: "Assets/BackgroundImages/Wave.gif",
-      backgroundSize: "contain !important",
-      backgroundOpacity: ".3",
-      backgroundColor: "#004",
-      textColor: "white",
-      content: `<div style="background: white; color: black;font-size: 2em; width: 1200px; margin: 0 auto; padding: 50px;">There are four total puzzles! <p style="margin-top:70px;">Be the first to complete them to get a ticket!</p></div>`
     },
   ]
 };
