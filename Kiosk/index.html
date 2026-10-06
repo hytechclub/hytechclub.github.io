@@ -269,6 +269,32 @@ align-items: center;
   font-size: 2em;
 }
 
+.boxxy2 {
+    border: 5px solid black;
+    background: rgba(255, 255, 255, .8);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: left;
+    margin: 0 auto;
+    height:  500px;
+    width: 1400px;
+    font-size: 1.2em;
+
+    ol {
+      margin: 0px;
+    }
+
+    b {
+      color: black;
+      font-size: 1.2em;
+    }
+
+    img {
+      height: 100%;
+    }
+}
+
 .boxxy {
     border: 5px solid blue;
     background: white;
@@ -286,6 +312,12 @@ align-items: center;
       color: blue;
       font-size: 1.2em;
     }
+}
+
+.main-img {
+  margin-top: 50px;
+  height: 800px;
+  max-width: 1200px;
 }
     </style>
   </head>
@@ -330,6 +362,8 @@ align-items: center;
 
           for (let i = 0; i < data.slides.length; i++) {
             const currentSlideData = data.slides[i];
+            
+
             const slideElement = document.createElement("div");
             slideElement.id = `slide-${i}`;
             slideElement.innerHTML = `
@@ -337,6 +371,16 @@ align-items: center;
             <p style="font-style: italic; letter-spacing: 10px">${currentSlideData.subtitle || ""}</p>
             ${currentSlideData.content}
           `;
+
+            if (currentSlideData.mainImage) {
+              document.styleSheets[0].addRule(
+                `#slide-${i}::before`,
+                `background-image: url(Assets/BackgroundImages/beachsunset.webp);
+              opacity: .5;`,
+              );
+
+              slideElement.innerHTML = `<img class="main-img" src="${currentSlideData.mainImage}">`;
+            } else {
 
             slideElement.style.color = currentSlideData.textColor;
             slideElement.style.background = currentSlideData.backgroundColor;
@@ -348,6 +392,7 @@ align-items: center;
              background-position: ${currentSlideData.backgroundPosition};
              opacity: ${currentSlideData.backgroundOpacity};`,
             );
+            }
 
             document.getElementById("slides").appendChild(slideElement);
           }

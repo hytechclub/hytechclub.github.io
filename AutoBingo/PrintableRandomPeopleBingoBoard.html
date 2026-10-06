@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            div.container {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: start;
+                -ms-flex-pack: start;
+                justify-content: flex-start;
+                -webkit-box-align: stretch;
+                -ms-flex-align: stretch;
+                align-items: stretch;
+                -ms-flex-line-pack: start;
+                align-content: flex-start;
+                margin: 0 auto;
+                text-align: center;
+            }
+
+            h1 {
+              font-family: "Director";
+              font-size: 50px;
+            }
+
+            td, p {
+              font-family: "Inter";
+            }
+
+            div.table-container {
+                height: 700px;
+                width: 700px;
+                padding-bottom: 25px;
+                -webkit-box-flex: 1;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+            }
+
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                height: 700px;
+                width: 700px;
+            }
+            
+            td {
+                border: 1px solid black;
+                text-align: center;
+                font-size: 15px;
+                cursor: pointer;
+                transition: .5s;
+                width: 100px;
+                height: 100px;
+                padding: 10px;
+            }
+
+            
+            .container { break-after: page; }
+            
+        </style>
+    </head>
+    <body>
+        <h1>PEOPLE BINGO</h1>
+        <p>Circulate the room and ask your fellow classmates if they meet any of the below options. Have them SIGN THEIR NAME in the box and move on to the next person. One signature needed per box, one person cannot sign multiple boxes. The goal is to complete the entire Bingo board!</p>
+        <div id="board"></div>
+        <script>
+            const items = ["Name starts with the letter D",
+"Has traveled outside the country",
+"Wears glasses",
+"Has a pet that is not a dog or cat",
+"Has their driver's license",
+"Has seen the new Spider-Man movie",
+"Likes to draw",
+"Has been on TV",
+"Has a birthday in October",
+"Has lived in a different state or country",
+"Is an instructor",
+"Favorite season is Fall",
+"Someone you've never met before",
+"Is wearing blue",
+"Has met a celebrity",
+"Speaks more than 1 language",
+"Is in 10th grade",
+"Was born in Cleveland",
+"Has one sibling",
+"Has been a Hy-Tech Club student before",
+"Is the same height as you",
+"Plays an instrument",
+"Plays a sport",
+"Has an android phone",
+"Has made a YouTube Video"];
+
+
+                const page = document.createElement("div");
+                page.innerHTML = `
+<div class="container">
+            <div class="table-container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+
+        </div>
+`;
+
+                document.querySelector("#board").appendChild(page);
+const unusedItems = [...items];
+
+const allSquares = [...document.querySelectorAll("td")];
+for (let i = 0; i < allSquares.length; i++) {
+    allSquares[i].innerText = unusedItems.splice(Math.floor(Math.random() * unusedItems.length), 1)
+}
+
+
+
+
+        </script>
+    </body>
+</html>
