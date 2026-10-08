@@ -1,6 +1,4 @@
 AiPapyrus.jpg
-beautify.webp
-broom1.webp
 broom2.webp
 catd.jpg
 cp.webp
@@ -22,6 +20,5 @@ sea.gif
 stars.gif
 unders.webp
 wac.jpg
-wash.gif
 wea.webp
 gamr.jpg
