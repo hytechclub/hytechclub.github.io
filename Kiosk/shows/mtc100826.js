@@ -1,6 +1,12 @@
 const show = {
-  marqueeText: "🖥️  welcome to Hyland's Midtown Tech Club!  🍕  dinner @ 5pm  🤖  a.i. content @ 5:30",
+  marqueeText: "🖥️  welcome to midtown tech club  🍕  little caesars @ 5pm  🖼️  creative coding @ 5:30pm",
+  everbox: ``,
+  // everbox: `<p style="font-size: 2em">the wi-fi is having issues but hopefully it will be fixed later or next week!</p>`,
   slides: [
+    {
+      backgroundImage: "Assets/SymFiles/wash.gif",
+      backgroundPosition: "center"
+    },
     {
       title: "🎫 TICKETS 🎫",
       subtitle: "earn tickets to get candy, toys, etc",
@@ -52,46 +58,53 @@ const show = {
         </div>
       </div>`,
       backgroundOpacity: ".2",
-      backgroundColor: "red",
-      textColor: "white"
-    },
-    {
-      backgroundImage: "Assets/SymFiles/ComputerBeach.gif",
-      backgroundSize: "contain !important",
+      backgroundColor: "#002255",
+      textColor: "yellow"
     },
     {
       title: "🛜 WI-FI: MCC-PUBLIC 🛜",
       subtitle: "open browser to connect",
       content: ``,
-      backgroundImage: "./Assets/SymFiles/pcf.webp",
-      backgroundSize: "contain !important",
-      backgroundOpacity: ".4",
-      backgroundColor: "#3d3419",
-      textColor: "white"
-    },
-    {
-      backgroundImage: "Assets/SymFiles/app.jpg",
-      backgroundPosition: "center"
-    },
-    {
-      backgroundColor: "pink",
+      backgroundImage: "./Assets/BackgroundImages/animeatcomputer.gif",
       backgroundOpacity: ".3",
-      backgroundImage: "Assets/SymFiles/wash.gif",
-      content: `<img src="Assets/SymFiles/Sonic.jpg" style="margin-top: 50px;height: 800px;">`
+      backgroundColor: "white",
+      textColor: "black"
     },
-        {
-      title: "💻 PC CREDENTIALS 💻",
-      subtitle: "MidtownUser / Midtown12345",
-      content: ``,
-      backgroundImage: "./Assets/SymFiles/sea.gif",
-      backgroundPosition: "bottom",
+    
+    {
+      mainImage: "Assets/SymFiles/beautify.webp",
+      backgroundColor: "purple"
+    },
+    {
+      backgroundImage: "Assets/BackgroundImages/zoomyshapes.gif",
+      backgroundPosition: "top",
+    },
+    {
+      title: "🗝️ PC CREDENTIALS 🗝️",
+      subtitle: "log into the classroom machines",
+      content: `<div class="boxxy">
+    <ol>
+      <li>username: <b>MidtownUser</b></li>
+      <li>password: <b>Midtown12345</b></li>
+    </ol>
+  </div>`,
+      backgroundImage: "./Assets/BackgroundImages/noise.gif",
       backgroundOpacity: ".3",
       backgroundColor: "white",
       textColor: "black"
     },
     {
-      backgroundImage: "Assets/SymFiles/Love.gif",
-      backgroundPosition: "bottom",
+      backgroundImage: "Assets/SymFiles/broom1.webp",
+      backgroundPosition: "center",
     },
+    {
+      title: "🎮 2K TOURNAMENT 🏀",
+      subtitle: "Saturday, October 17th @ CPL -  Win a PS5!!",
+      backgroundImage: "./Assets/ForegroundImages/CplPlayOct17.jfif",
+      content: `<div><div></div><img src="Assets/ForegroundImages/cpl2ktournamentoct172026qr.png" style="position: fixed; right: 50px; margin-top: 20px; width:400px; border: 5px solid white"></div>`,
+      textColor: "#FFC555",
+      backgroundColor: "blue",
+      backgroundOpacity: ".5"
+    }
   ]
 };
