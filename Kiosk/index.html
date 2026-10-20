@@ -217,7 +217,7 @@ margin: 15px;
 padding: 40px;
 width: 25%;
 color: black;
-background: white;
+background: #ffccfb;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -295,6 +295,19 @@ align-items: center;
     }
 }
 
+.boxish {
+  background: #FFFD;
+  color: black;
+  margin: 0 auto;
+  width: 1400px;
+  font-size: 1.2em;
+  padding: 20px;
+
+  i {
+    font-size: .8em;
+  }
+}
+
 .boxxy {
     border: 5px solid blue;
     background: white;
@@ -318,6 +331,80 @@ align-items: center;
   margin-top: 50px;
   height: 800px;
   max-width: 1200px;
+}
+
+h1.small {
+  font-size: 1em;
+  position: absolute !important;
+  bottom: 20%;
+  font-style: italic;
+  background: red;
+  z-index: 20;
+  right: 30%;
+}
+
+div.qotd {
+  display: flex;
+  flex-direction: column;
+}
+
+.q-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.q-bx-t {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid #148;
+  background: #148;
+}
+
+.q-bx-b {
+  display: flex;
+  flex-direction: row;
+}
+
+.q-auth {
+  font-style: italic;
+  font-size: .9em;
+  text-align: right;
+  width: 100%;
+}
+
+.q-bio {
+  font-size: .9em;
+}
+
+div.q-text {
+  background: white;
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
+  font-family: "Garamond", 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.q-sym {
+  font-size: 5em;
+  font-family: "Garamond", 'Times New Roman', Times, serif;
+  height: 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.q-img {
+  width: 30%
+}
+
+.q-img > img {
+  width: 100%;
+}
+
+.q-img .cap {
+  font-size: .5em;
+  margin-top: 0px;
 }
     </style>
   </head>
@@ -363,21 +450,46 @@ align-items: center;
           for (let i = 0; i < data.slides.length; i++) {
             const currentSlideData = data.slides[i];
             
+            const { qotd, quotePic, quoteAuthor, picCaption, quoteAuthorBio } = currentSlideData;
+
+            if (qotd) {
+              currentSlideData.content = `
+              <div class="qotd">
+                <div class="q-box">
+                  <div class="q-bx-t">
+                    <div class="q-sym">“</div>
+                    <div class="q-text">${qotd}</div>
+                  </div>
+                  <div class="q-bx-b">
+                    <div class="q-img">
+                      <img src="${quotePic}">
+                      <p class="cap">${picCaption}</p>
+                    </div>
+                    <p class="q-auth">${quoteAuthor}</p>
+                  </div>
+                </div>
+              </div>
+              `
+            }
 
             const slideElement = document.createElement("div");
             slideElement.id = `slide-${i}`;
             slideElement.innerHTML = `
-            <h1>${currentSlideData.title || ""}</h1>
+            <h1 class="${qotd ? "small" : ""}">${currentSlideData.title || ""}</h1>
             <p style="font-style: italic; letter-spacing: 10px">${currentSlideData.subtitle || ""}</p>
             ${currentSlideData.content}
           `;
 
             if (currentSlideData.mainImage) {
-              document.styleSheets[0].addRule(
-                `#slide-${i}::before`,
-                `background-image: url(Assets/BackgroundImages/beachsunset.webp);
-              opacity: .5;`,
-              );
+              if (currentSlideData.backgroundColor) {
+                slideElement.style.background = currentSlideData.backgroundColor;
+              } else {
+                document.styleSheets[0].addRule(
+                  `#slide-${i}::before`,
+                  `background-image: url(Assets/BackgroundImages/beachsunset.webp);
+                opacity: .5;`,
+                );
+              }
 
               slideElement.innerHTML = `<img class="main-img" src="${currentSlideData.mainImage}">`;
             } else {
