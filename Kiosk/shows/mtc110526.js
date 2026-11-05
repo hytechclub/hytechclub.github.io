@@ -1,5 +1,5 @@
 const show = {
-  marqueeText: "🖥️  welcome to hyland's midtown tech club  ✅  week 7  🗳️  november 5, 2026  🍂",
+  marqueeText: "🖥️  welcome to hyland's midtown tech club  ✅  penultimate week  🗳️  november 5, 2026  🍂",
   everbox: ``,
   slides: [
     {
@@ -21,7 +21,7 @@ const show = {
     {
       title: "🗳️ CAST YOUR VOTE 🗳️",
       subtitle: "do your civic duty",
-      content: `<div class="lefty" style="display: flex; justify-content: space-between; align-items: center"><ol><li>Grab a sheet and a pen</li><li>Select your choices</li><li>Turn them in</li><li>Make your voice heard</li></ol><img src="./Assets/ForegroundImages/VoteSheet.png" style="width: 400px;"></div>`,
+      content: `<div class="lefty" style="display: flex; justify-content: space-between; align-items: center"><ol><li>Grab a sheet and a pen</li><li>Select your choices</li><li>Turn them in</li><li>Make your voice heard</li></ol><img src="./Assets/ForegroundImages/VoteSheet2.png" style="width: 400px;"></div>`,
       backgroundPosition: "center",
       backgroundImage: "./Assets/BackgroundImages/Voting.gif",
       backgroundOpacity: ".4",
