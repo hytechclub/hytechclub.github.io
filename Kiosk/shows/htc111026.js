@@ -17,7 +17,7 @@ const show = {
       textColor: "black"
     },
     {
-      mainImage: "Assets/SymFiles/Noww.jpg",
+      mainImage: "Assets/SymFiles/nowww.jpg",
     },
     {
       title: "🗑️ SESAME STREET TURNS 57 🗑️",
@@ -52,7 +52,7 @@ const show = {
       textColor: "black"
     },
     {
-      mainImage: "Assets/SymFiles/point.webp",
+      mainImage: "Assets/SymFiles/pointy.webp",
       backgroundColor: "#e9e0e0"
     },
     {
