@@ -1,5 +1,5 @@
 const show = {
-  marqueeText: "🖥️  mtc  😭  final session of 2026  🌮  tacos tonite  📅  november 12, 2026  🔒  unlock puzzle boxes",
+  marqueeText: "🖥️  mtc  😭  final session of 2026  🌮  tacos tonite  📅  november 12, 2026  🔒  unlock puzzle boxes starting @ 4:30pm",
   everbox: ``,
   slides: [
     {
@@ -20,7 +20,7 @@ const show = {
     },
     {
       title: "🔒 UNLOCK PUZZLE BOXES 🔒",
-      subtitle: "solve the paper puzzles to reveal the combinations",
+      subtitle: "solve the paper puzzles to reveal the combinations (4:30pm)",
       content: ``,
       backgroundPosition: "center",
       backgroundImage: "./Assets/BackgroundImages/AnimeMathgif.gif",
