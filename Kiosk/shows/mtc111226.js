@@ -16,7 +16,7 @@ const show = {
       textColor: "black"
     },
     {
-      mainImage: "Assets/SymFiles/Noww.jpg",
+      mainImage: "Assets/SymFiles/nowww.jpg",
     },
     {
       title: "🔒 UNLOCK PUZZLE BOXES 🔒",
@@ -53,7 +53,7 @@ const show = {
       textColor: "rgb(255, 226, 200)"
     },
     {
-      mainImage: "Assets/SymFiles/point.webp",
+      mainImage: "Assets/SymFiles/pointy.webp",
       backgroundColor: "#e9e0e0"
     },
     {
