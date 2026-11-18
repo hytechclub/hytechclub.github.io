@@ -456,10 +456,10 @@ div.q-text {
     background: rgba(255, 255, 255, 0.932);
     padding: 40px;
     text-align: left;
-    width:  1200px;
-    margin-left: 50px;
+    width:  1000px;
+    margin-left: 150px;
     margin-top: 50px;
-    font-size: 1.2em;
+    font-size: 1em;
     color: black;
 
     ol {
@@ -468,7 +468,7 @@ div.q-text {
 
     b {
       color: cornflowerblue;
-      font-size: 1.2em;
+      font-size: 1em;
       text-shadow: -2px 2px 2px black, 2px 2px 2px black, -2px -2px 2px black, 2px -2px 2px black;
     }
 }
@@ -622,6 +622,7 @@ div.q-text {
             document.styleSheets[0].addRule(
               `#slide-${i}::before`,
               `background-image: url(${currentSlideData.backgroundImage});
+              backdrop-filter: ${currentSlideData.backgroundFilter};
              background-size: ${currentSlideData.backgroundSize};
              background-position: ${currentSlideData.backgroundPosition};
              opacity: ${currentSlideData.backgroundOpacity};`,
