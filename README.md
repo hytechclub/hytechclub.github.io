@@ -11,6 +11,9 @@
 # Hy-Tech Club
 Welcome to Hy-Tech Club!
 
+## FINAL PROJECT SUBMISSION
+[Click here to submit your final project!](https://forms.cloud.microsoft/r/wyRZtD0FJ7)
+
 ## Courses
 - [Web 101: Introduction to HTML & CSS](/web-101)
 - [CS Sampler: New Topic Every Week](/cs-sampler)
